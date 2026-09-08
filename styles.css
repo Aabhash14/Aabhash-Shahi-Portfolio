@@ -265,9 +265,22 @@ html[data-theme="dark"] .i-sun{ display:none; }
 @media (prefers-reduced-motion:reduce){ .reveal{ opacity:1; transform:none; } }
 
 /* ── hero ─────────────────────────────────────────────────── */
-.hero{ padding-block:clamp(var(--s-8),9vw,var(--s-10)) var(--s-9); }
-.hero-grid{ display:grid; gap:var(--s-8); align-items:center; }
-@media (min-width:940px){ .hero-grid{ grid-template-columns:1fr .78fr; gap:var(--s-9); } }
+.hero{
+  padding-block:clamp(40px,6vw,72px) var(--s-8);
+}
+
+.hero-grid{
+  display:grid;
+  gap:var(--s-7);
+  align-items:center;
+}
+
+@media (min-width:940px){
+  .hero-grid{
+    grid-template-columns:1fr .78fr;
+    gap:var(--s-8);
+  }
+}
 
 .status{
   display:inline-flex; align-items:center; gap:var(--s-2);
