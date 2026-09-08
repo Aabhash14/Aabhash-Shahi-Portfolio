@@ -67,8 +67,13 @@
   }
 
   /* ── nav: active section on the current page ──────────── */
-  var links = [].slice.call(document.querySelectorAll('.nav-links a[href^="#"]'));
-  var targets = links.map(function (a) { return document.querySelector(a.hash); }).filter(Boolean);
+  var links = [].slice.call(document.querySelectorAll('.nav-links a[href^="#"], .nav-panel a[href^="#"], .rail a[href^="#"]'));
+  var seen = {};
+  var targets = [];
+  links.forEach(function (a) {
+    var el = document.querySelector(a.hash);
+    if (el && !seen[a.hash]) { seen[a.hash] = 1; targets.push(el); }
+  });
   if ("IntersectionObserver" in window && targets.length) {
     var spy = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
@@ -78,7 +83,7 @@
           else a.removeAttribute("aria-current");
         });
       });
-    }, { rootMargin: "-48% 0px -50% 0px" });
+    }, { rootMargin: "-45% 0px -50% 0px" });
     targets.forEach(function (t) { spy.observe(t); });
   }
 
@@ -151,6 +156,7 @@
         "<strong>[N] defects</strong> found and filed through the flow.",
         "Manual copy-paste transfer removed from the cycle entirely."
       ],
+      flow: ["Feature", "Test cases", "Scripts", "Execution", "Bug report", "ADO ticket"],
       stack: ["Agentic AI", "Model Context Protocol", "Playwright", "TypeScript", "Azure DevOps API", "Page Object Model"]
     },
 
@@ -177,6 +183,7 @@
         "Turnaround per document down from <strong>[X] to [Y]</strong>.",
         "Docs now refreshed on change instead of going stale between releases."
       ],
+      flow: ["Codebase", "Agent pass", "Technical docs", "Functional docs", "Wiki"],
       stack: ["Agentic AI", "Azure DevOps Wiki", "Prompt design", "Documentation templates"]
     },
 
@@ -203,6 +210,7 @@
         "Release-risk questions answerable from one screen.",
         "Test data and documentation consolidated from <strong>[N] separate places</strong> into one."
       ],
+      flow: ["Test runs", "Ingest", "History store", "Trends", "Client view"],
       stack: ["Node.js", "SQLite", "Azure DevOps API", "Playwright reporter", "Power BI"]
     },
 
@@ -229,6 +237,7 @@
         "Regression now runs on <strong>every commit</strong> instead of on request.",
         "Coverage across <strong>[N] products</strong> from one pipeline definition."
       ],
+      flow: ["Commit", "Azure Pipeline", "Playwright", "JUnit + HTML", "Sign-off"],
       stack: ["Playwright", "TypeScript", "Azure Pipelines", "JUnit", "Azure AD", "Page Object Model"]
     },
 
@@ -255,6 +264,7 @@
         "API regression now runs automatically rather than on demand.",
         "Contract and validation defects caught before reaching the interface."
       ],
+      flow: ["Request", "Status + schema", "Payload", "SQL check", "Report"],
       stack: ["Postman", "REST APIs", "SQL", "Azure Pipelines", "Newman"]
     },
 
@@ -281,15 +291,53 @@
         "First traceable test case library at the company, now <strong>[N] cases</strong>.",
         "Entry and exit criteria and a defect workflow the whole team works to."
       ],
+      flow: ["Requirements", "Test plan", "Case library", "Execution", "Exit criteria"],
       stack: ["Azure DevOps Test Plans", "Test strategy", "Risk-based prioritisation", "Traceability"]
     }
   };
+
+  /* ── testing labs: reveal the rest on demand ──────────── */
+  var labsBtn = document.getElementById("labs-more");
+  if (labsBtn) {
+    labsBtn.addEventListener("click", function () {
+      var open = labsBtn.getAttribute("aria-expanded") === "true";
+      [].slice.call(document.querySelectorAll("#labs-grid .lab")).forEach(function (el, i) {
+        if (i > 5) el.classList.toggle("is-hidden", open);
+      });
+      labsBtn.setAttribute("aria-expanded", String(!open));
+      labsBtn.textContent = open ? "Show all 11 labs" : "Show fewer";
+    });
+  }
+
+  /* ── section rail mirrors the nav's active state ───────── */
+  var rail = [].slice.call(document.querySelectorAll(".rail a"));
 
   var dlg = document.getElementById("case");
   if (!dlg) return;
   var body = document.getElementById("case-body");
   var kindEl = document.getElementById("case-kind");
   var opener = null;
+
+  /* horizontal test-flow diagram, generated from the flow array */
+  function flowSvg(steps) {
+    var w = 132, gap = 26, h = 44, pad = 8;
+    var total = steps.length * w + (steps.length - 1) * gap;
+    var vb = total + pad * 2;
+    var parts = ['<svg viewBox="0 0 ' + vb + ' ' + (h + 16) + '" role="img" aria-label="Flow: ' + steps.join(" to ") + '">'];
+    steps.forEach(function (s, i) {
+      var x = pad + i * (w + gap);
+      var cls = (i === 0 || i === steps.length - 1) ? "flow-box-accent" : "flow-box";
+      parts.push('<rect class="' + cls + '" x="' + x + '" y="8" width="' + w + '" height="' + h + '" rx="6"/>');
+      parts.push('<text class="flow-label" x="' + (x + w / 2) + '" y="' + (8 + h / 2 + 4) + '">' + s + '</text>');
+      if (i < steps.length - 1) {
+        var ax = x + w + 5, ax2 = x + w + gap - 6;
+        parts.push('<path class="flow-arrow" d="M' + ax + ' ' + (8 + h / 2) + 'H' + ax2 + '"/>');
+        parts.push('<path class="flow-arrow-head" d="M' + ax2 + ' ' + (8 + h / 2 - 3.2) + 'l4 3.2-4 3.2z"/>');
+      }
+    });
+    parts.push("</svg>");
+    return parts.join("");
+  }
 
   function block(label, html) {
     return '<div class="case-block"><span class="label">' + label + "</span>" + html + "</div>";
@@ -306,6 +354,8 @@
     body.innerHTML =
       '<h2 id="case-title">' + c.title + "</h2>" +
       '<p class="case-lead">' + c.lead + "</p>" +
+      (c.flow ? '<figure class="flow">' + flowSvg(c.flow) +
+        '<figcaption class="small flow-cap">End-to-end flow</figcaption></figure>' : "") +
       block("Problem", "<p>" + c.problem + "</p>") +
       block("My role", "<p>" + c.role + "</p>") +
       block("Testing strategy", list(c.strategy)) +
