@@ -1,235 +1,340 @@
-﻿const nav = document.querySelector(".nav");
-const toggle = document.querySelector(".nav-toggle");
-const navLinks = document.querySelectorAll(".nav a[href^=\"#\"]");
+/* ============================================================
+   Aabhash Shahi — portfolio behaviour
+   Theme, navigation, reveals, email, case studies.
+   No dependencies.
+   ============================================================ */
+(function () {
+  "use strict";
+  var reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var root = document.documentElement;
 
-toggle.addEventListener("click", () => {
-  const isOpen = nav.classList.toggle("open");
-  toggle.setAttribute("aria-expanded", isOpen);
-});
+  /* ── theme ────────────────────────────────────────────── */
+  var tbtn = document.getElementById("theme-btn");
+  function applyTheme(mode) {
+    root.setAttribute("data-theme", mode);
+    if (tbtn) tbtn.setAttribute("aria-pressed", String(mode === "dark"));
+  }
+  var saved = null;
+  try { saved = localStorage.getItem("theme"); } catch (e) {}
+  applyTheme(saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"));
 
-navLinks.forEach((link) => {
-  link.addEventListener("click", (event) => {
-    const targetId = link.getAttribute("href");
-    const target = document.querySelector(targetId);
-    if (!target) {
-      return;
-    }
-    event.preventDefault();
-    target.scrollIntoView({ behavior: "smooth", block: "start" });
-    if (nav.classList.contains("open")) {
-      nav.classList.remove("open");
-      toggle.setAttribute("aria-expanded", "false");
-    }
+  if (tbtn) {
+    tbtn.addEventListener("click", function () {
+      var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      applyTheme(next);
+      try { localStorage.setItem("theme", next); } catch (e) {}
+    });
+  }
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function (e) {
+    var stored = null;
+    try { stored = localStorage.getItem("theme"); } catch (err) {}
+    if (!stored) applyTheme(e.matches ? "dark" : "light");
   });
-});
 
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("is-visible");
-        observer.unobserve(entry.target);
+  /* ── nav: scrolled state ──────────────────────────────── */
+  var nav = document.querySelector(".nav");
+  var queued = false;
+  function onScroll() {
+    if (nav) nav.classList.toggle("is-scrolled", window.scrollY > 8);
+    queued = false;
+  }
+  addEventListener("scroll", function () {
+    if (!queued) { queued = true; requestAnimationFrame(onScroll); }
+  }, { passive: true });
+  onScroll();
+
+  /* ── nav: mobile panel ────────────────────────────────── */
+  var toggle = document.querySelector(".nav-toggle");
+  var panel = document.getElementById("nav-panel");
+  if (toggle && panel) {
+    toggle.addEventListener("click", function () {
+      var open = panel.classList.toggle("is-open");
+      toggle.setAttribute("aria-expanded", String(open));
+    });
+    panel.addEventListener("click", function (e) {
+      if (e.target.tagName === "A") {
+        panel.classList.remove("is-open");
+        toggle.setAttribute("aria-expanded", "false");
       }
     });
-  },
-  { threshold: 0.12 }
-);
-
-document.querySelectorAll(".section, .card, .timeline-item, .hero-card").forEach((el) => {
-  el.classList.add("reveal");
-  observer.observe(el);
-});
-
-const backToTop = document.querySelector(".back-to-top");
-if (backToTop) {
-  const toggleBackToTop = () => {
-    if (window.scrollY > 300) {
-      backToTop.classList.add("is-visible");
-    } else {
-      backToTop.classList.remove("is-visible");
-    }
-  };
-  window.addEventListener("scroll", toggleBackToTop);
-  toggleBackToTop();
-  backToTop.addEventListener("click", (event) => {
-    event.preventDefault();
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
-}
-
-const typewriterEl = document.querySelector("#typewriter");
-if (typewriterEl) {
-  const phrases = ["Aabhash Shahi", "an aspiring QA"];
-  const typingSpeed = 95;
-  const pauseAfter = 2200;
-  let phraseIndex = 0;
-  let charIndex = 0;
-
-  const type = () => {
-    typewriterEl.classList.add("is-typing");
-    const current = phrases[phraseIndex];
-    if (charIndex <= current.length) {
-      typewriterEl.textContent = current.slice(0, charIndex);
-      charIndex += 1;
-      setTimeout(type, typingSpeed);
-    } else {
-      setTimeout(() => {
-        charIndex = 0;
-        phraseIndex = (phraseIndex + 1) % phrases.length;
-        typewriterEl.textContent = "";
-        type();
-      }, pauseAfter);
-    }
-  };
-
-  type();
-}
-
-const feedbackForm = document.querySelector(".feedback-form");
-if (feedbackForm) {
-  const statusEl = feedbackForm.querySelector(".feedback-status");
-  feedbackForm.addEventListener("submit", async (event) => {
-    event.preventDefault();
-    if (statusEl) {
-      statusEl.textContent = "Sending...";
-    }
-    try {
-      const formData = new FormData(feedbackForm);
-      await fetch(feedbackForm.action, {
-        method: "POST",
-        mode: "no-cors",
-        body: formData,
-      });
-      if (statusEl) {
-        statusEl.textContent = "Thanks! Your feedback was sent.";
+    addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && panel.classList.contains("is-open")) {
+        panel.classList.remove("is-open");
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.focus();
       }
-      feedbackForm.reset();
-    } catch (error) {
-      if (statusEl) {
-        statusEl.textContent = "Sorry, something went wrong. Please try again.";
-      }
-    }
-  });
-}
+    });
+  }
 
-const modal = document.querySelector("#project-modal");
-const modalTitle = document.querySelector("#modal-title");
-const modalDesc = document.querySelector("#modal-desc");
-const modalHighlights = document.querySelector("#modal-highlights");
-const modalLearn = document.querySelector("#modal-learn");
-const modalLink = document.querySelector("#modal-link");
-const modalVideoLink = document.querySelector("#modal-video-link");
-const modalEmbed = document.querySelector("#modal-embed");
-const modalVideoSection = document.querySelector("#modal-video-section");
-const modalVideo = document.querySelector("#modal-video");
-const modalHighlightsSection = document.querySelector("#modal-highlights-section");
-const modalLearnSection = document.querySelector("#modal-learn-section");
-const modalLinkSection = document.querySelector("#modal-link-section");
-let modalIframe = document.querySelector("#modal-iframe");
-const modalClose = document.querySelector(".modal-close");
-
-document.querySelectorAll(".link-button").forEach((button) => {
-  button.addEventListener("click", () => {
-    const title = button.getAttribute("data-title");
-    const desc = button.getAttribute("data-desc");
-    const highlights = button.getAttribute("data-highlights");
-    const learn = button.getAttribute("data-learn");
-    const link = button.getAttribute("data-link");
-    const embed = button.getAttribute("data-embed");
-    const video = button.getAttribute("data-video");
-    const simple = button.getAttribute("data-simple") === "true";
-
-    modalTitle.textContent = title || "";
-    modalDesc.textContent = desc || "";
-    modalLearn.textContent = learn || "";
-    modalHighlights.innerHTML = "";
-    if (highlights) {
-      highlights.split(";").forEach((item) => {
-        const li = document.createElement("li");
-        li.textContent = item.trim();
-        modalHighlights.appendChild(li);
+  /* ── nav: active section on the current page ──────────── */
+  var links = [].slice.call(document.querySelectorAll('.nav-links a[href^="#"]'));
+  var targets = links.map(function (a) { return document.querySelector(a.hash); }).filter(Boolean);
+  if ("IntersectionObserver" in window && targets.length) {
+    var spy = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        links.forEach(function (a) {
+          if (a.hash === "#" + en.target.id) a.setAttribute("aria-current", "true");
+          else a.removeAttribute("aria-current");
+        });
       });
-    }
-    modalLink.setAttribute("href", link || "#");
+    }, { rootMargin: "-48% 0px -50% 0px" });
+    targets.forEach(function (t) { spy.observe(t); });
+  }
 
-    if (simple) {
-      if (modalDesc) modalDesc.style.display = "none";
-      if (modalHighlightsSection) modalHighlightsSection.style.display = "none";
-      if (modalLearnSection) modalLearnSection.style.display = "none";
-      if (modalLinkSection) modalLinkSection.style.display = "none";
-    } else {
-      if (modalDesc) modalDesc.style.display = "";
-      if (modalHighlightsSection) modalHighlightsSection.style.display = "";
-      if (modalLearnSection) modalLearnSection.style.display = "";
-      if (modalLinkSection) modalLinkSection.style.display = "";
-    }
+  /* ── reveals ──────────────────────────────────────────── */
+  var reveals = [].slice.call(document.querySelectorAll(".reveal"));
+  if (reduced || !("IntersectionObserver" in window)) {
+    reveals.forEach(function (el) { el.classList.add("in"); });
+  } else {
+    var ro = new IntersectionObserver(function (entries, obs) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add("in"); obs.unobserve(en.target); }
+      });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.06 });
+    reveals.forEach(function (el) { ro.observe(el); });
+  }
 
-    if (embed && modalEmbed && modalIframe) {
-      const isImage = /\.(png|jpe?g|gif|webp)$/i.test(embed);
-      if (isImage) {
-        if (modalIframe.tagName.toLowerCase() !== "img") {
-          modalIframe.outerHTML = '<img id="modal-iframe" alt="Certificate preview" />';
-          modalIframe = document.querySelector("#modal-iframe");
-        }
-        modalIframe.setAttribute("src", embed);
+  /* ── email, assembled at runtime so scrapers miss it ──── */
+  var addr = ["aabhash", "shahi", "214"].join("") + String.fromCharCode(64) + "gmail.com";
+  var printEmail = document.querySelector("#print-email .val");
+  if (printEmail) printEmail.textContent = addr;
+  var note = document.getElementById("copied");
+
+  [].slice.call(document.querySelectorAll("[data-copy-email]")).forEach(function (btn) {
+    var original = btn.innerHTML;
+    var isContact = btn.closest(".contact-actions") !== null;
+    btn.addEventListener("click", function () {
+      function done() {
+        btn.textContent = "Copied \u2014 " + addr;
+        if (isContact && note) { note.textContent = addr + " copied to clipboard"; note.classList.add("show"); }
+        setTimeout(function () {
+          btn.innerHTML = original;
+          if (note) note.classList.remove("show");
+        }, 2800);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(addr).then(done, function () { location.href = "mailto:" + addr; });
       } else {
-        if (modalIframe.tagName.toLowerCase() !== "iframe") {
-          modalIframe.outerHTML = '<iframe id="modal-iframe" title="Project preview" loading="lazy"></iframe>';
-          modalIframe = document.querySelector("#modal-iframe");
-        }
-        modalIframe.setAttribute("src", embed);
+        location.href = "mailto:" + addr;
       }
-      modalEmbed.classList.add("is-visible");
-    } else if (modalEmbed && modalIframe) {
-      modalIframe.removeAttribute("src");
-      modalEmbed.classList.remove("is-visible");
-    }
-
-    if (video && modalVideoSection && modalVideo && modalVideoLink) {
-      modalVideo.setAttribute("src", video);
-      modalVideoSection.classList.add("is-visible");
-      modalVideoLink.setAttribute("href", video);
-      modalVideoLink.style.display = "inline-flex";
-    } else if (modalVideoSection && modalVideo && modalVideoLink) {
-      modalVideo.removeAttribute("src");
-      modalVideoSection.classList.remove("is-visible");
-      modalVideoLink.style.display = "none";
-    }
-
-    modal.classList.add("is-open");
-    modal.setAttribute("aria-hidden", "false");
+    });
   });
-});
 
-const closeModal = () => {
-  modal.classList.remove("is-open");
-  modal.setAttribute("aria-hidden", "true");
-  if (modalDesc) modalDesc.style.display = "";
-  if (modalHighlightsSection) modalHighlightsSection.style.display = "";
-  if (modalLearnSection) modalLearnSection.style.display = "";
-  if (modalLinkSection) modalLinkSection.style.display = "";
-  if (modalEmbed && modalIframe) {
-    modalIframe.removeAttribute("src");
-    modalEmbed.classList.remove("is-visible");
-  }
-  if (modalVideoSection && modalVideo) {
-    modalVideo.pause();
-    modalVideo.removeAttribute("src");
-    modalVideoSection.classList.remove("is-visible");
-  }
-  if (modalVideoLink) {
-    modalVideoLink.style.display = "none";
-  }
-};
+  /* ══════════════════════════════════════════════════════
+     CASE STUDIES
+     One object per project. Edit the text here — the markup
+     is generated. [brackets] are placeholders for real numbers.
+     ══════════════════════════════════════════════════════ */
+  var CASES = {
+    agentic: {
+      kind: "Agentic AI workflow",
+      title: "One-flow QA: cases, scripts, run, ticket",
+      lead: "A workflow that takes a feature and returns a filed bug ticket, with no manual handoff between steps.",
+      problem: "As the only QA engineer across four products, every step of the cycle was a separate manual job: write the cases, write the scripts, run them, read the failures, write the bug report, raise the ticket. Each handoff cost time and each one was a place work stalled when I was pulled onto something else.",
+      role: "Sole designer and implementer, alongside my regular QA responsibilities.",
+      strategy: [
+        "Treat the QA cycle as one pipeline rather than six tasks.",
+        "Keep a human approval gate before anything reaches Azure DevOps.",
+        "Generate into the team's existing system of record so nothing lives in a side channel."
+      ],
+      automation: [
+        "Test cases generated from the application under test rather than written by hand.",
+        "Executable scripts generated from those cases, structured on the Page Object Model so they stay maintainable.",
+        "Execution, then failure triage on the results.",
+        "Bug report drafted from the failure, and the ticket raised in Azure DevOps \u2014 in the same flow."
+      ],
+      challenges: "A wrong generated case is worse than no case, because it creates false confidence. Constraining generation to observed application state, and reviewing every batch before it lands, is what made the output trustworthy. Duplicate tickets were the other risk \u2014 an automated reporter that files the same bug twice loses the team's trust immediately.",
+      results: [
+        "Authoring time per module fell from <strong>[X] hours to [Y] minutes</strong>.",
+        "<strong>[N] test cases</strong> generated and reviewed into the Azure DevOps library.",
+        "<strong>[N] defects</strong> found and filed through the flow.",
+        "Manual copy-paste transfer removed from the cycle entirely."
+      ],
+      stack: ["Agentic AI", "Model Context Protocol", "Playwright", "TypeScript", "Azure DevOps API", "Page Object Model"]
+    },
 
-if (modalClose) {
-  modalClose.addEventListener("click", closeModal);
-}
+    docs: {
+      kind: "AI documentation agent",
+      title: "Technical and functional docs, generated",
+      lead: "Documentation that used to be written by hand for every project, produced from the codebase instead.",
+      problem: "Four products meant four sets of documentation, technical and functional, and documentation is the first thing to fall behind when one person covers everything. Out-of-date docs are worse than none, because people still trust them.",
+      role: "Built and maintain the agent.",
+      strategy: [
+        "Generate from the source of truth \u2014 the codebase and the application itself \u2014 not from memory.",
+        "Produce both registers: technical detail for developers, functional description for the client.",
+        "Make regeneration cheap so docs can be refreshed rather than rewritten."
+      ],
+      automation: [
+        "Agent reads the codebase and produces structured technical documentation.",
+        "Functional documentation generated for client-facing use from the same pass.",
+        "Output published to the project wiki alongside the rest of the project record.",
+        "Templates keep structure consistent across all four products."
+      ],
+      challenges: "Generated documentation drifts toward describing code rather than explaining behaviour. Getting the functional register right \u2014 written for someone who does not read the repository \u2014 took more iteration than the technical one.",
+      results: [
+        "Documentation for <strong>[N] applications</strong> generated rather than hand-written.",
+        "Turnaround per document down from <strong>[X] to [Y]</strong>.",
+        "Docs now refreshed on change instead of going stale between releases."
+      ],
+      stack: ["Agentic AI", "Azure DevOps Wiki", "Prompt design", "Documentation templates"]
+    },
 
-if (modal) {
-  modal.addEventListener("click", (event) => {
-    if (event.target === modal) {
-      closeModal();
+    dashboard: {
+      kind: "QA platform",
+      title: "Client QA dashboard",
+      lead: "One place holding all test data and documentation, instead of results scattered across pipeline logs.",
+      problem: "Test results lived in pipeline logs, cases lived in Azure DevOps, and documentation lived somewhere else again. The client could not answer \u201cis this release safer than the last one?\u201d without someone assembling the answer by hand.",
+      role: "Designed and built the dashboard; sole maintainer.",
+      strategy: [
+        "One place to answer questions about quality, rather than one place per data source.",
+        "Store history, because a single run says almost nothing about stability.",
+        "Built for the client to read, not just for me."
+      ],
+      automation: [
+        "Test run output ingested and stored, building run-over-run history.",
+        "Test cases, results and documentation held together per product.",
+        "Pass rate, coverage movement and flaky specs surfaced as trends rather than single runs.",
+        "Azure DevOps sync keeps the dashboard and the case library aligned."
+      ],
+      challenges: "Choosing what not to show. The first version exposed too much detail and stakeholders ignored it; the useful version answers one question \u2014 is this release safe \u2014 and links to detail for anyone who wants it.",
+      results: [
+        "Run history retained across <strong>[N] sprints</strong>.",
+        "Release-risk questions answerable from one screen.",
+        "Test data and documentation consolidated from <strong>[N] separate places</strong> into one."
+      ],
+      stack: ["Node.js", "SQLite", "Azure DevOps API", "Playwright reporter", "Power BI"]
+    },
+
+    pipeline: {
+      kind: "Automation framework",
+      title: "Playwright suite in continuous regression",
+      lead: "Introduced Playwright in 2023 and wired it into Azure Pipelines, so regression runs after every release rather than on request.",
+      problem: "Regression was manual and therefore rationed \u2014 it happened when there was time, which meant it happened late. With four products and one tester, a manual full pass was never going to fit inside a sprint.",
+      role: "Proposed, built and own the framework.",
+      strategy: [
+        "Automate the paths that get run every release first, not the ones that are easiest to automate.",
+        "Structure for maintenance from the start; a suite nobody can edit is a suite that gets deleted.",
+        "Run on every commit so failures surface next to the change that caused them."
+      ],
+      automation: [
+        "Playwright suite built on the Page Object Model with reusable authentication state.",
+        "Cross-browser execution across the products in scope.",
+        "Azure Pipelines integration publishing JUnit and HTML results per run.",
+        "Shared login module so an authentication change is one edit, not one per product."
+      ],
+      challenges: "Flaky specs undermine an automated suite faster than missing coverage does. Stabilising waits and authentication state, and triaging flake as its own class of defect, was most of the real work after the first version shipped.",
+      results: [
+        "Full regression from <strong>[X] hours manual to [Y] minutes automated</strong>.",
+        "Regression now runs on <strong>every commit</strong> instead of on request.",
+        "Coverage across <strong>[N] products</strong> from one pipeline definition."
+      ],
+      stack: ["Playwright", "TypeScript", "Azure Pipelines", "JUnit", "Azure AD", "Page Object Model"]
+    },
+
+    api: {
+      kind: "API automation",
+      title: "API test automation in Postman",
+      lead: "Moving API testing from manual request checks to an automated suite that runs with the rest of the pipeline.",
+      problem: "API coverage existed as a folder of saved requests that someone had to click through. It only got exercised when a person remembered to do it, which meant contract and validation regressions reached the UI before anyone noticed.",
+      role: "Built the automated API coverage across the products in scope.",
+      strategy: [
+        "Assert on contract, not just on status codes \u2014 shape and payload as well as 200.",
+        "Cover the error paths, since that is where API behaviour actually diverges.",
+        "Automate execution so coverage does not depend on someone remembering."
+      ],
+      automation: [
+        "Postman collections built out across CRUD, status-code and error-path coverage.",
+        "Response schema and payload assertions rather than status checks alone.",
+        "Database verification in SQL behind the API, confirming what was written matched what was returned.",
+        "Automated execution so API regression runs alongside UI regression."
+      ],
+      challenges: "Test data. API assertions are only as good as the state they run against, so building repeatable data setup mattered more than the assertions themselves.",
+      results: [
+        "<strong>[N] endpoints</strong> under automated coverage.",
+        "API regression now runs automatically rather than on demand.",
+        "Contract and validation defects caught before reaching the interface."
+      ],
+      stack: ["Postman", "REST APIs", "SQL", "Azure Pipelines", "Newman"]
+    },
+
+    standards: {
+      kind: "Quality process",
+      title: "QA standards and test strategy from zero",
+      lead: "There was no QA process to inherit. I wrote the one the team still works to.",
+      problem: "When I moved from intern to trainee, testing at Proshore was ad hoc: no test plans, no case repository, no entry or exit criteria, no defect workflow. There was also a backlog of applications that had never been systematically tested at all.",
+      role: "Authored the standards and worked the backlog down application by application.",
+      strategy: [
+        "Write the standard first, then apply it \u2014 otherwise every project invents its own.",
+        "Work the untested backlog application by application rather than sampling across all of them.",
+        "Prioritise by risk: pricing, contracts and access control before anything cosmetic."
+      ],
+      automation: [
+        "Test case library established in Azure DevOps, giving the first traceable record of coverage.",
+        "Test plans, entry and exit criteria, and severity definitions documented as team standards.",
+        "Defect workflow defined from report through to verified closure.",
+        "Automation introduced against the standard, so generated and hand-written cases follow the same structure."
+      ],
+      challenges: "Standards only work if the team uses them, and a process written by one person is easy to ignore. Keeping it light enough to follow \u2014 and applying it visibly to my own work first \u2014 was what got it adopted.",
+      results: [
+        "<strong>Every</strong> backlog application brought under documented coverage.",
+        "First traceable test case library at the company, now <strong>[N] cases</strong>.",
+        "Entry and exit criteria and a defect workflow the whole team works to."
+      ],
+      stack: ["Azure DevOps Test Plans", "Test strategy", "Risk-based prioritisation", "Traceability"]
     }
+  };
+
+  var dlg = document.getElementById("case");
+  if (!dlg) return;
+  var body = document.getElementById("case-body");
+  var kindEl = document.getElementById("case-kind");
+  var opener = null;
+
+  function block(label, html) {
+    return '<div class="case-block"><span class="label">' + label + "</span>" + html + "</div>";
+  }
+  function list(items) {
+    return "<ul>" + items.map(function (i) { return "<li>" + i + "</li>"; }).join("") + "</ul>";
+  }
+
+  function openCase(key, trigger) {
+    var c = CASES[key];
+    if (!c) return;
+    opener = trigger || null;
+    kindEl.textContent = c.kind;
+    body.innerHTML =
+      '<h2 id="case-title">' + c.title + "</h2>" +
+      '<p class="case-lead">' + c.lead + "</p>" +
+      block("Problem", "<p>" + c.problem + "</p>") +
+      block("My role", "<p>" + c.role + "</p>") +
+      block("Testing strategy", list(c.strategy)) +
+      block("Automation", list(c.automation)) +
+      block("Challenges", "<p>" + c.challenges + "</p>") +
+      block("Results", list(c.results)) +
+      block("Tech stack", '<div class="chips">' + c.stack.map(function (t) {
+        return '<span class="chip">' + t + "</span>";
+      }).join("") + "</div>");
+
+    if (typeof dlg.showModal === "function") {
+      dlg.showModal();
+      dlg.querySelector(".case-scroll").scrollTop = 0;
+      document.body.style.overflow = "hidden";
+    }
+  }
+
+  [].slice.call(document.querySelectorAll("[data-case]")).forEach(function (btn) {
+    btn.addEventListener("click", function () { openCase(btn.getAttribute("data-case"), btn); });
   });
-}
+
+  var closeBtn = document.getElementById("case-close");
+  if (closeBtn) closeBtn.addEventListener("click", function () { dlg.close(); });
+
+  /* backdrop only — a keyboard-fired click reports 0,0 and must not close */
+  dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
+
+  dlg.addEventListener("close", function () {
+    document.body.style.overflow = "";
+    if (opener) { opener.focus(); opener = null; }
+  });
+})();
