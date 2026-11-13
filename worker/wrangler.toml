@@ -1,0 +1,21 @@
+name = "ask-aabhash"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Only these origins may call the Worker.
+ALLOWED_ORIGINS = "https://www.aabhashshahi.com.np,https://aabhashshahi.com.np"
+# Change to "claude-haiku-5-5" for a much cheaper bot.
+MODEL = "claude-opus-5-5"
+
+# 15 questions per minute per visitor IP.
+[[ratelimits]]
+name = "RATE_LIMITER"
+namespace_id = "1001"
+  [ratelimits.simple]
+  limit = 15
+  period = 60
+
+# The API key is a secret, never put it here:
+#   npx wrangler secret put ANTHROPIC_API_KEY

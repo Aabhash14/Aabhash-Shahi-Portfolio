@@ -1,0 +1,116 @@
+/* ============================================================
+   Ask Aabhash: portfolio chat assistant
+   Uses the site tokens (styles.css / index.html :root), light + dark.
+   ============================================================ */
+
+.ask-launch{
+  position:fixed; right:clamp(16px,2.4vw,32px); bottom:clamp(16px,2.4vw,32px); z-index:80;
+  display:inline-flex; align-items:center; gap:.5rem;
+  height:2.75rem; padding:0 1.125rem 0 .875rem;
+  border:1px solid var(--border-strong); border-radius:var(--r-pill);
+  background:var(--surface); color:var(--text);
+  font:500 .9375rem/1 var(--font); letter-spacing:-.01em;
+  box-shadow:var(--shadow-2); cursor:pointer;
+  transition:border-color var(--dur-2) var(--ease), box-shadow var(--dur-2) var(--ease), transform var(--dur-2) var(--ease);
+}
+.ask-launch:hover{ border-color:var(--accent); box-shadow:var(--shadow-3); }
+.ask-launch:focus-visible{ outline:2px solid var(--accent); outline-offset:3px; }
+.ask-launch svg{ width:18px; height:18px; color:var(--accent); flex:none; }
+.ask-launch[aria-expanded="true"]{ opacity:0; pointer-events:none; transform:translateY(6px); }
+
+.ask-panel{
+  position:fixed; right:clamp(16px,2.4vw,32px); bottom:clamp(16px,2.4vw,32px); z-index:80;
+  width:min(400px, calc(100vw - 32px)); height:min(600px, calc(100dvh - 32px));
+  display:flex; flex-direction:column; overflow:hidden;
+  background:var(--surface); color:var(--text);
+  border:1px solid var(--border-strong); border-radius:var(--r-4);
+  box-shadow:var(--shadow-3); font-family:var(--font);
+  opacity:0; transform:translateY(12px) scale(.985); transform-origin:bottom right;
+  visibility:hidden; pointer-events:none;
+  transition:opacity var(--dur-3) var(--ease-out), transform var(--dur-3) var(--ease-out), visibility 0s linear var(--dur-3);
+}
+.ask-panel.is-open{
+  opacity:1; transform:none; visibility:visible; pointer-events:auto;
+  transition:opacity var(--dur-3) var(--ease-out), transform var(--dur-3) var(--ease-out), visibility 0s;
+}
+
+.ask-head{
+  display:flex; align-items:center; gap:.75rem;
+  padding:.875rem 1rem; border-bottom:1px solid var(--border);
+}
+.ask-mono{
+  width:2rem; height:2rem; flex:none; display:grid; place-items:center;
+  border-radius:var(--r-2); background:var(--text); color:var(--bg);
+  font-size:.8125rem; font-weight:600; letter-spacing:-.02em;
+}
+.ask-title{ font-size:.9375rem; font-weight:600; letter-spacing:-.015em; line-height:1.25; }
+.ask-sub{ font-size:.75rem; color:var(--text-3); line-height:1.3; }
+.ask-close{
+  margin-left:auto; width:2rem; height:2rem; display:grid; place-items:center;
+  border:0; border-radius:var(--r-1); background:transparent; color:var(--text-2); cursor:pointer;
+}
+.ask-close:hover{ background:var(--surface-2); color:var(--text); }
+.ask-close:focus-visible{ outline:2px solid var(--accent); outline-offset:1px; }
+.ask-close svg{ width:16px; height:16px; }
+
+.ask-log{
+  flex:1; overflow-y:auto; overscroll-behavior:contain;
+  padding:1rem; display:flex; flex-direction:column; gap:.75rem;
+  scrollbar-width:thin;
+}
+.ask-msg{
+  max-width:88%; padding:.625rem .875rem; border-radius:var(--r-3);
+  font-size:.9375rem; line-height:1.55; overflow-wrap:anywhere;
+}
+.ask-msg p + p, .ask-msg p + ul, .ask-msg ul + p{ margin-top:.5rem; }
+.ask-msg ul{ margin:.375rem 0 0; padding-left:1.1rem; list-style:disc; }
+.ask-msg li + li{ margin-top:.2rem; }
+.ask-msg a{ color:var(--accent); text-decoration:underline; text-underline-offset:2px; }
+.ask-msg strong{ font-weight:600; }
+.ask-bot{ align-self:flex-start; background:var(--surface-2); border:1px solid var(--border); border-bottom-left-radius:var(--r-1); }
+.ask-user{ align-self:flex-end; background:var(--accent); color:var(--accent-on); border-bottom-right-radius:var(--r-1); }
+
+.ask-typing{ display:inline-flex; gap:4px; padding:.25rem 0; }
+.ask-typing span{ width:6px; height:6px; border-radius:50%; background:var(--text-3); animation:ask-dot 1s infinite ease-in-out; }
+.ask-typing span:nth-child(2){ animation-delay:.15s; }
+.ask-typing span:nth-child(3){ animation-delay:.3s; }
+@keyframes ask-dot{ 0%,80%,100%{ opacity:.3; transform:none; } 40%{ opacity:1; transform:translateY(-2px); } }
+
+.ask-chips{ display:flex; flex-wrap:wrap; gap:.375rem; padding:0 1rem .75rem; }
+.ask-chip{
+  border:1px solid var(--border-strong); border-radius:var(--r-pill);
+  background:var(--surface); color:var(--text-2);
+  padding:.375rem .75rem; font:500 .8125rem/1.2 var(--font); cursor:pointer;
+  transition:border-color var(--dur-1) var(--ease), color var(--dur-1) var(--ease);
+}
+.ask-chip:hover{ border-color:var(--accent); color:var(--text); }
+.ask-chip:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+
+.ask-form{ display:flex; gap:.5rem; padding:.75rem; border-top:1px solid var(--border); }
+.ask-input{
+  flex:1; min-width:0; height:2.5rem; padding:0 .875rem;
+  border:1px solid var(--border-strong); border-radius:var(--r-2);
+  background:var(--bg); color:var(--text); font:400 .9375rem var(--font);
+}
+.ask-input::placeholder{ color:var(--text-3); }
+.ask-input:focus{ outline:none; border-color:var(--accent); box-shadow:0 0 0 3px var(--accent-soft); }
+.ask-send{
+  width:2.5rem; height:2.5rem; flex:none; display:grid; place-items:center;
+  border:0; border-radius:var(--r-2); background:var(--accent); color:var(--accent-on); cursor:pointer;
+}
+.ask-send:hover{ background:var(--accent-hover); }
+.ask-send:disabled{ opacity:.45; cursor:default; }
+.ask-send:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+.ask-send svg{ width:16px; height:16px; }
+.ask-note{ padding:0 1rem .625rem; font-size:.6875rem; color:var(--text-3); }
+
+@media (max-width:520px){
+  .ask-launch .ask-launch-label{ display:none; }
+  .ask-launch{ width:3rem; height:3rem; padding:0; justify-content:center; }
+  .ask-panel{ right:0; bottom:0; width:100vw; height:min(100dvh, 640px); border-radius:var(--r-4) var(--r-4) 0 0; border-bottom:0; }
+}
+@media (prefers-reduced-motion:reduce){
+  .ask-panel, .ask-panel.is-open, .ask-launch{ transition:none; transform:none; }
+  .ask-typing span{ animation:none; opacity:.6; }
+}
+@media print{ .ask-launch, .ask-panel{ display:none !important; } }

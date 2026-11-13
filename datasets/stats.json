@@ -1,0 +1,208 @@
+{
+  "total": {
+    "train": 11001,
+    "dev": 1606,
+    "test": 1545,
+    "browser": 1709
+  },
+  "intents": {
+    "hello": {
+      "seeds": 30,
+      "train": 61,
+      "dev": 12,
+      "test": 7
+    },
+    "summary": {
+      "seeds": 55,
+      "train": 635,
+      "dev": 92,
+      "test": 94
+    },
+    "role": {
+      "seeds": 62,
+      "train": 769,
+      "dev": 118,
+      "test": 114
+    },
+    "experience": {
+      "seeds": 52,
+      "train": 648,
+      "dev": 89,
+      "test": 87
+    },
+    "numbers": {
+      "seeds": 35,
+      "train": 348,
+      "dev": 53,
+      "test": 51
+    },
+    "ai-agent": {
+      "seeds": 32,
+      "train": 313,
+      "dev": 50,
+      "test": 50
+    },
+    "ai-reliability": {
+      "seeds": 40,
+      "train": 336,
+      "dev": 64,
+      "test": 68
+    },
+    "docs-agent": {
+      "seeds": 20,
+      "train": 219,
+      "dev": 34,
+      "test": 24
+    },
+    "hub": {
+      "seeds": 21,
+      "train": 209,
+      "dev": 29,
+      "test": 35
+    },
+    "playwright": {
+      "seeds": 29,
+      "train": 319,
+      "dev": 48,
+      "test": 45
+    },
+    "api": {
+      "seeds": 44,
+      "train": 522,
+      "dev": 74,
+      "test": 74
+    },
+    "process": {
+      "seeds": 48,
+      "train": 618,
+      "dev": 88,
+      "test": 82
+    },
+    "apps": {
+      "seeds": 35,
+      "train": 331,
+      "dev": 55,
+      "test": 47
+    },
+    "skills": {
+      "seeds": 54,
+      "train": 671,
+      "dev": 103,
+      "test": 90
+    },
+    "learning": {
+      "seeds": 35,
+      "train": 427,
+      "dev": 70,
+      "test": 65
+    },
+    "education": {
+      "seeds": 20,
+      "train": 236,
+      "dev": 25,
+      "test": 24
+    },
+    "certs": {
+      "seeds": 16,
+      "train": 182,
+      "dev": 25,
+      "test": 20
+    },
+    "labs": {
+      "seeds": 42,
+      "train": 446,
+      "dev": 64,
+      "test": 69
+    },
+    "games": {
+      "seeds": 33,
+      "train": 342,
+      "dev": 40,
+      "test": 45
+    },
+    "before": {
+      "seeds": 17,
+      "train": 204,
+      "dev": 29,
+      "test": 20
+    },
+    "philosophy": {
+      "seeds": 15,
+      "train": 151,
+      "dev": 29,
+      "test": 30
+    },
+    "challenges": {
+      "seeds": 28,
+      "train": 292,
+      "dev": 49,
+      "test": 44
+    },
+    "communication": {
+      "seeds": 18,
+      "train": 235,
+      "dev": 27,
+      "test": 29
+    },
+    "mobile": {
+      "seeds": 11,
+      "train": 128,
+      "dev": 10,
+      "test": 10
+    },
+    "performance": {
+      "seeds": 10,
+      "train": 118,
+      "dev": 15,
+      "test": 9
+    },
+    "security": {
+      "seeds": 12,
+      "train": 127,
+      "dev": 19,
+      "test": 14
+    },
+    "location": {
+      "seeds": 38,
+      "train": 497,
+      "dev": 63,
+      "test": 69
+    },
+    "hiring": {
+      "seeds": 42,
+      "train": 482,
+      "dev": 74,
+      "test": 74
+    },
+    "contact": {
+      "seeds": 37,
+      "train": 417,
+      "dev": 58,
+      "test": 57
+    },
+    "resume": {
+      "seeds": 12,
+      "train": 159,
+      "dev": 19,
+      "test": 20
+    },
+    "bot": {
+      "seeds": 24,
+      "train": 162,
+      "dev": 23,
+      "test": 20
+    },
+    "thanks": {
+      "seeds": 18,
+      "train": 46,
+      "dev": 3,
+      "test": 3
+    },
+    "out_of_scope": {
+      "seeds": 55,
+      "train": 351,
+      "dev": 55,
+      "test": 55
+    }
+  }
+}

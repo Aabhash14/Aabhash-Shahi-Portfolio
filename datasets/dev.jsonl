@@ -1,0 +1,1606 @@
+{"text":"hey, what are your achievements...","intent":"numbers","source":"seed+aug"}
+{"text":"so does aabhash program in python??","intent":"skills","source":"third_person+aug"}
+{"text":"what's Aabhash's location","intent":"location","source":"third_person"}
+{"text":"what is Aabhash's most impressive project","intent":"ai-agent","source":"third_person"}
+{"text":"one more thing: does aabhash write functional documentation in short","intent":"docs-agent","source":"third_person+aug"}
+{"text":"Hi! give me a quick summary of you in short","intent":"summary","source":"seed+aug"}
+{"text":"i'd like to know do you program in python please","intent":"skills","source":"seed+aug"}
+{"text":"hey, can you trust ai witten test cases :)","intent":"ai-reliability","source":"seed+aug"}
+{"text":"Please tell me what's the toughest thing Aabhash has faced","intent":"challenges","source":"third_person+aug"}
+{"text":"ok, does aabhash have a testing portfolio?","intent":"labs","source":"third_person+aug"}
+{"text":"as a recruiter i want to know do you write functional documentation :)","intent":"docs-agent","source":"seed+aug"}
+{"text":"is Aabhash certified","intent":"certs","source":"third_person"}
+{"text":"AS A RCRUITER I WANT TO KNOW WHAT CITY ARE YOU IN PLEASE","intent":"location","source":"seed+aug"}
+{"text":"what testing types does Aabhash do","intent":"skills","source":"third_person"}
+{"text":"Quick question: are you certified in short","intent":"certs","source":"seed+aug"}
+{"text":"how is your English","intent":"communication","source":"seed"}
+{"text":"who built you in short","intent":"bot","source":"seed+aug"}
+{"text":"what's your career history","intent":"experience","source":"seed"}
+{"text":"i'd like to know are you looking for a job...","intent":"hiring","source":"seed+aug"}
+{"text":"hey, what software does aabhash use for testing in short","intent":"skills","source":"third_person+aug"}
+{"text":"I'd like to know who does Aabhash reort to","intent":"role","source":"third_person+aug"}
+{"text":"i'm hiring for a qa role, shema validation experience...","intent":"api","source":"seed+aug"}
+{"text":"ONE MORE THING: CAN YOU WRTE JOINS","intent":"api","source":"seed+aug"}
+{"text":"could you explain how were you made please","intent":"bot","source":"seed+aug"}
+{"text":"i was wondering how many labs does aabhash have?","intent":"labs","source":"third_person+aug"}
+{"text":"mobile automation experience...","intent":"mobile","source":"seed+aug"}
+{"text":"QUICK QUESTION: DOES AABHASH DO API TESTING?","intent":"api","source":"third_person+aug"}
+{"text":"did you do any apprenticeship","intent":"education","source":"seed"}
+{"text":"i'm hiring for a qa role, we have an opening","intent":"hiring","source":"seed+aug"}
+{"text":"What level are you?","intent":"role","source":"seed+aug"}
+{"text":"So how is Abhash's English please","intent":"communication","source":"third_person+aug"}
+{"text":"as a recruter i want to know is aabhash willing to relocate?","intent":"location","source":"third_person+aug"}
+{"text":"hi! how does aabhash handle authentication in tsts please","intent":"playwright","source":"third_person+aug"}
+{"text":"Can you tell me what's your hurly rate?","intent":"hiring","source":"seed+aug"}
+{"text":"Wat's your day job in short","intent":"role","source":"seed+aug"}
+{"text":"Can you tell me side projects in QA","intent":"labs","source":"seed+aug"}
+{"text":"I'm hiring for a QA role, does Aabhash know k6 for load tests thanks","intent":"performance","source":"third_person+aug"}
+{"text":"Ok, how does Aabhash manage test cases!","intent":"process","source":"third_person+aug"}
+{"text":"Please tell me did Aabhash label AI training data :)","intent":"before","source":"third_person+aug"}
+{"text":"ok, what skills is aabhash still building","intent":"learning","source":"third_person+aug"}
+{"text":"just curious, how accurate is the ai agent!","intent":"ai-reliability","source":"seed+aug"}
+{"text":"i'd like to know what do you do at proshore thanks","intent":"role","source":"seed+aug"}
+{"text":"I was wondering how many produucts do you cover?","intent":"apps","source":"seed+aug"}
+{"text":"so how do you write documentation please","intent":"docs-agent","source":"seed+aug"}
+{"text":"Hey, tell me about the client applications...","intent":"apps","source":"seed+aug"}
+{"text":"ok, honest about your limits briefly","intent":"learning","source":"seed+aug"}
+{"text":"SO CROSS DEVICE TESTING","intent":"mobile","source":"seed+aug"}
+{"text":"What is Aabhash's most impressive project thanks","intent":"ai-agent","source":"third_person+aug"}
+{"text":"hey, where can i message you in short","intent":"contact","source":"seed+aug"}
+{"text":"what's your biggest strength","intent":"summary","source":"seed"}
+{"text":"quick questoin: can aabhash work on site...","intent":"location","source":"third_person+aug"}
+{"text":"quick question: how do i message aabhash please","intent":"contact","source":"third_person+aug"}
+{"text":"TELL ME, WHAT DOES THE TIMESHEEET APP DO...","intent":"apps","source":"seed+aug"}
+{"text":"ok, show me your postman collection...","intent":"labs","source":"seed+aug"}
+{"text":"i'm hiring for a qa role, does aabhash know k6 for load tests in short","intent":"performance","source":"third_person+aug"}
+{"text":"i'm hiring for a qa role, what are your achievements?","intent":"numbers","source":"seed+aug"}
+{"text":"can you tell me what software does aabhash use for testing :)","intent":"skills","source":"third_person+aug"}
+{"text":"could you explain what's aabhash about","intent":"summary","source":"seed+aug"}
+{"text":"so what's the news today :)","intent":"out_of_scope","source":"seed+aug"}
+{"text":"hi! how do you hadle too much work","intent":"challenges","source":"seed+aug"}
+{"text":"DO YOU WITE FUNCTIONAL DOCUMENTATION","intent":"docs-agent","source":"seed+aug"}
+{"text":"as a recruiter i want to know are you certifeid in short","intent":"certs","source":"seed+aug"}
+{"text":"did aabhash do data annotation :)","intent":"before","source":"third_person+aug"}
+{"text":"Hey, do you buid AI agents :)","intent":"ai-agent","source":"seed+aug"}
+{"text":"Years in the industry!","intent":"experience","source":"seed+aug"}
+{"text":"test automation experience thanks","intent":"playwright","source":"seed+aug"}
+{"text":"give me a quick summary of you","intent":"summary","source":"seed"}
+{"text":"I'm hiring for a QA role, what are you working on learning","intent":"learning","source":"seed+aug"}
+{"text":"tell me, does aabhash automate api tests?","intent":"api","source":"third_person+aug"}
+{"text":"One more thing: can you send me your email...","intent":"contact","source":"seed+aug"}
+{"text":"how do you organise test cases","intent":"process","source":"seed"}
+{"text":"i'd like to know what software do you use for testing brieffly","intent":"skills","source":"seed+aug"}
+{"text":"what is Aabhash developing","intent":"learning","source":"third_person"}
+{"text":"as a recruiter i want to know educational background","intent":"education","source":"seed+aug"}
+{"text":"I'D LIKE TO KNOW WHAT ARE AABHASH'S ACHIEVEMENTS :)","intent":"numbers","source":"third_person+aug"}
+{"text":"what problems did you run into","intent":"challenges","source":"seed"}
+{"text":"Hi! how many products does Aabhash coover","intent":"apps","source":"third_person+aug"}
+{"text":"so describe aabhash's responsibilities in short","intent":"role","source":"third_person+aug"}
+{"text":"stress testing experience","intent":"performance","source":"seed"}
+{"text":"Tell me, does Aabhash buuild AI agents!","intent":"ai-agent","source":"third_person+aug"}
+{"text":"hello there frend","intent":"hello","source":"seed+aug"}
+{"text":"I WAS WONDERING HOW MUCH OF AABHASH'S TESTING IS AUTOMATED...","intent":"playwright","source":"third_person+aug"}
+{"text":"TELL ME, HOW DOES AABHASH MAKE AI TESTING SAFFE?","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"As a recruiter I want to know cotnact information","intent":"contact","source":"seed+aug"}
+{"text":"so where can i message you","intent":"contact","source":"seed+aug"}
+{"text":"Just curious, what's Aabhash's curretn workplace :)","intent":"role","source":"third_person+aug"}
+{"text":"I'd like to know how does Aabhash check data integrity thanks","intent":"api","source":"third_person+aug"}
+{"text":"quick question: does aabhash bulid ai agents","intent":"ai-agent","source":"third_person+aug"}
+{"text":"hey, is aabhash the sole teter please","intent":"role","source":"third_person+aug"}
+{"text":"how does Aabhash avoid false positives from the agent","intent":"ai-reliability","source":"third_person"}
+{"text":"how do you make ai testing safe?","intent":"ai-reliability","source":"seed+aug"}
+{"text":"One more thing: tell me about Aabhash's Playwright framework?","intent":"playwright","source":"third_person+aug"}
+{"text":"do you have a test case library","intent":"process","source":"seed"}
+{"text":"Tell me, how does Aabhash handle authentication in tests please","intent":"playwright","source":"third_person+aug"}
+{"text":"One more thing: are you learning performance testing briefly","intent":"learning","source":"seed+aug"}
+{"text":"do you automate the supplier portal","intent":"playwright","source":"seed"}
+{"text":"what projects has aabhash worked on :)","intent":"apps","source":"third_person+aug"}
+{"text":"Quick qusetion: is Aabhash open to offers :)","intent":"hiring","source":"third_person+aug"}
+{"text":"backend testing experience","intent":"api","source":"seed"}
+{"text":"i was wondering is aabhash learning performance testing in short","intent":"learning","source":"third_person+aug"}
+{"text":"hi! what is the meaning of life :)","intent":"out_of_scope","source":"seed+aug"}
+{"text":"give me your bio","intent":"summary","source":"seed"}
+{"text":"hi! is this an automated reply thnaks","intent":"bot","source":"seed+aug"}
+{"text":"I'd like to know time overlap with Europe brieffly","intent":"location","source":"seed+aug"}
+{"text":"COULD YOU EXPLAIN TELL ME A BIT ABOUT AABHASH :)","intent":"summary","source":"third_person+aug"}
+{"text":"Hi! does Aabhassh have a test case library","intent":"process","source":"third_person+aug"}
+{"text":"So does Aabash attend scrum ceremonies","intent":"communication","source":"third_person+aug"}
+{"text":"I was wondering what were Aabhsh's previous titles?","intent":"experience","source":"third_person+aug"}
+{"text":"could you explain can you overlap with uk hours in short","intent":"location","source":"seed+aug"}
+{"text":"ok, how do you make qa scale??","intent":"process","source":"seed+aug"}
+{"text":"can you tell me where can i message aabhash please","intent":"contact","source":"third_person+aug"}
+{"text":"What is your testing processs!","intent":"process","source":"seed+aug"}
+{"text":"how do you define severity","intent":"process","source":"seed"}
+{"text":"List Aabhash's credentials?","intent":"certs","source":"third_person+aug"}
+{"text":"do you write functional documentation","intent":"docs-agent","source":"seed"}
+{"text":"do you know Docker","intent":"learning","source":"seed"}
+{"text":"quick question: do you know docker...","intent":"learning","source":"seed+aug"}
+{"text":"AS A RECRUITER I WANT TO KNOW WHAT VALUE DOES AABHASH ADD","intent":"summary","source":"third_person+aug"}
+{"text":"could you explain what is your most impressive project!","intent":"ai-agent","source":"seed+aug"}
+{"text":"does Aabhash test permissions","intent":"security","source":"third_person"}
+{"text":"tell me, where can i message you...","intent":"contact","source":"seed+aug"}
+{"text":"i'm hiring for a qa role, can aabhash send me aabhash's email?","intent":"contact","source":"third_person+aug"}
+{"text":"i'm hiring for a qa role, how accurate is the ai agent briefly","intent":"ai-reliability","source":"seed+aug"}
+{"text":"does Aabhash build AI agents","intent":"ai-agent","source":"third_person"}
+{"text":"could you explain give me a quick summary of aabhash","intent":"summary","source":"third_person+aug"}
+{"text":"are your games in Nepali","intent":"games","source":"seed"}
+{"text":"I was wondering write an essay on climate change?","intent":"out_of_scope","source":"seed+aug"}
+{"text":"what city is Aabhash in","intent":"location","source":"third_person"}
+{"text":"please tell me does aabhash do database testinng?","intent":"api","source":"third_person+aug"}
+{"text":"what's aabhash's mindset on quality birefly","intent":"philosophy","source":"third_person+aug"}
+{"text":"how does aabhash handle bad ai output?","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"do you know k6 for load tests?","intent":"performance","source":"seed+aug"}
+{"text":"hey, what frameworks do you know??","intent":"skills","source":"seed+aug"}
+{"text":"what is Aabhash's testing philosophy","intent":"philosophy","source":"third_person"}
+{"text":"so can you work on site!","intent":"location","source":"seed+aug"}
+{"text":"as a recruiter i want to know is aabhash looking for a job??","intent":"hiring","source":"third_person+aug"}
+{"text":"ok, how many products is aabhash responsible for please","intent":"role","source":"third_person+aug"}
+{"text":"hello hello","intent":"hello","source":"seed"}
+{"text":"I'D LIKE TO KNOW WHAT WAS HARD AOBUT GENERATING DOCS :)","intent":"docs-agent","source":"seed+aug"}
+{"text":"I WAS WONDERING DOES AABHASH HAVE A TESTING PORTFOLIO THANKS","intent":"labs","source":"third_person+aug"}
+{"text":"what's your tech stack","intent":"skills","source":"seed"}
+{"text":"what checks the AI's work","intent":"ai-reliability","source":"seed"}
+{"text":"what did you learn the hard way","intent":"challenges","source":"seed"}
+{"text":"quick questiion: tribhuvan university :)","intent":"education","source":"seed+aug"}
+{"text":"Can you tell me can Aabhash's agent write Playwright scripts","intent":"ai-agent","source":"third_person+aug"}
+{"text":"what is khel...","intent":"games","source":"seed+aug"}
+{"text":"So what is the meaning of life :)","intent":"out_of_scope","source":"seed+aug"}
+{"text":"Quick question: how does Aabhash handle streess","intent":"challenges","source":"third_person+aug"}
+{"text":"Ok, what does Aabhash do at Proshore","intent":"role","source":"third_person+aug"}
+{"text":"CAN YOU TELL ME WHAT PROBLEMS DID AABHASH RUN INTO!","intent":"challenges","source":"third_person+aug"}
+{"text":"i was wondering projects outside of work :)","intent":"labs","source":"seed+aug"}
+{"text":"i'm hiring for a qa roole, what are your achievements!","intent":"numbers","source":"seed+aug"}
+{"text":"As a recruietr I want to know do you test permissions briefly","intent":"security","source":"seed+aug"}
+{"text":"tell me a joke","intent":"out_of_scope","source":"seed"}
+{"text":"how do you validate AI output","intent":"ai-reliability","source":"seed"}
+{"text":"I'd like to know has Aabhash woorked on Upwork?","intent":"before","source":"third_person+aug"}
+{"text":"Tell me, how is geneation constrained??","intent":"ai-reliability","source":"seed+aug"}
+{"text":"hi! what do you believe abut qa?","intent":"philosophy","source":"seed+aug"}
+{"text":"Ok, how does Aabhsh handle stress?","intent":"challenges","source":"third_person+aug"}
+{"text":"ok, do tests run on every commit please","intent":"playwright","source":"seed+aug"}
+{"text":"what are aabhash's achievements brielfy","intent":"numbers","source":"third_person+aug"}
+{"text":"quick question: are aabhash's games in nepali thanks","intent":"games","source":"third_person+aug"}
+{"text":"i'd like to know what is your most impressive prooject in short","intent":"ai-agent","source":"seed+aug"}
+{"text":"what kind of engineer is Aabhash","intent":"summary","source":"third_person"}
+{"text":"hi! what's aabhash's strongest skill!","intent":"skills","source":"third_person+aug"}
+{"text":"i'd like to know do you automate api tests please","intent":"api","source":"seed+aug"}
+{"text":"quick question: schema validation experience thanks","intent":"api","source":"seed+aug"}
+{"text":"can i message aabhash in short","intent":"contact","source":"third_person+aug"}
+{"text":"Can you tell me do you autoate API tests :)","intent":"api","source":"seed+aug"}
+{"text":"I'd like to know what is Omnia?","intent":"apps","source":"seed+aug"}
+{"text":"Is Aabhash the sole tester please","intent":"role","source":"third_person+aug"}
+{"text":"i was wondering how do you manage test cases briefly","intent":"process","source":"seed+aug"}
+{"text":"can you tell me what's aabhash's qa to developer ratio thanks","intent":"numbers","source":"third_person+aug"}
+{"text":"i'd like to know how much time does the agent save","intent":"ai-agent","source":"seed+aug"}
+{"text":"just curious, give me aabhash's bio??","intent":"summary","source":"third_person+aug"}
+{"text":"how many test cases in total!","intent":"numbers","source":"seed+aug"}
+{"text":"one more thing: are aabhash's games in nepali thanks","intent":"games","source":"third_person+aug"}
+{"text":"I'm hiring for a QA role, can I reach you by phone in short","intent":"contact","source":"seed+aug"}
+{"text":"can you tell me how did aabhash get promoted!","intent":"experience","source":"third_person+aug"}
+{"text":"i was wondreing what kind of work do you do now","intent":"role","source":"seed+aug"}
+{"text":"could you explain can aabhash code??","intent":"skills","source":"third_person+aug"}
+{"text":"tell me, how many bugs has aabhash found!","intent":"numbers","source":"third_person+aug"}
+{"text":"Ok, is Aabhash the sole tester?","intent":"role","source":"third_person+aug"}
+{"text":"hi! what were aabhash's previous titles","intent":"experience","source":"third_person+aug"}
+{"text":"Tell me, can we hire Aabhash!","intent":"hiring","source":"third_person+aug"}
+{"text":"Are you open to offers??","intent":"hiring","source":"seed+aug"}
+{"text":"what's your career history briefly","intent":"experience","source":"seed+aug"}
+{"text":"Quick question: is Aabhash willing to relocate?","intent":"location","source":"third_person+aug"}
+{"text":"hey, does aabhash auotmate api tests briefly","intent":"api","source":"third_person+aug"}
+{"text":"could you explain academic qualifications thanks","intent":"education","source":"seed+aug"}
+{"text":"i'd like to know did aabhash do any apprenticeship in short","intent":"education","source":"third_person+aug"}
+{"text":"i'm hiring for a qa roel, how does aabhash make qa scale!","intent":"process","source":"third_person+aug"}
+{"text":"quick question: list your credentials","intent":"certs","source":"seed+aug"}
+{"text":"tell me, is aabhash a mid-level engineer?","intent":"role","source":"third_person+aug"}
+{"text":"please tell me what's next for aabhash's skills...","intent":"learning","source":"third_person+aug"}
+{"text":"please tell me schema validation experienec?","intent":"api","source":"seed+aug"}
+{"text":"Just curious, what's your mindset on quality thanks","intent":"philosophy","source":"seed+aug"}
+{"text":"So tell me a joke tanks","intent":"out_of_scope","source":"seed+aug"}
+{"text":"how does Aabhash handle authentication in tests","intent":"playwright","source":"third_person"}
+{"text":"are you a mid-level engineer","intent":"role","source":"seed"}
+{"text":"are you a bot","intent":"bot","source":"seed"}
+{"text":"can you tell me honest about aabhash's limits?","intent":"learning","source":"third_person+aug"}
+{"text":"So are you looking for a job thanks","intent":"hiring","source":"seed+aug"}
+{"text":"what do you do for fun","intent":"games","source":"seed"}
+{"text":"Tell me, who do you repotr to please","intent":"role","source":"seed+aug"}
+{"text":"can you tell me do you talk to clients...","intent":"communication","source":"seed+aug"}
+{"text":"How do you handle an untested backlog thanks","intent":"process","source":"seed+aug"}
+{"text":"What skills is Aabhash still building briefly","intent":"learning","source":"third_person+aug"}
+{"text":"does Aabhash do freelance work","intent":"hiring","source":"third_person"}
+{"text":"just curious, what's aabhash's qa to developer ratio!","intent":"numbers","source":"third_person+aug"}
+{"text":"AS A RECRUITER I WANT TO KNOW WHAT IS AABHASH'S TETING PHILOSOPHY...","intent":"philosophy","source":"third_person+aug"}
+{"text":"WHO DO YOU REPORT TO...","intent":"role","source":"seed+aug"}
+{"text":"Hey, does Aabhash do localisation testing...","intent":"skills","source":"third_person+aug"}
+{"text":"I'D LIKE TO KNOW WHAT PROBLEMS DID YOU RUN INTO PLEASE","intent":"challenges","source":"seed+aug"}
+{"text":"What's your strongest skill thanks","intent":"skills","source":"seed+aug"}
+{"text":"I'd like to know who won the wordl cup??","intent":"out_of_scope","source":"seed+aug"}
+{"text":"ok, can i reach aabhash by phone :)","intent":"contact","source":"third_person+aug"}
+{"text":"could you explain what's your designation","intent":"role","source":"seed+aug"}
+{"text":"just curious, can i reach aabhash by phone please","intent":"contact","source":"third_person+aug"}
+{"text":"What's your headline?","intent":"summary","source":"seed+aug"}
+{"text":"how do I message you","intent":"contact","source":"seed"}
+{"text":"Hey, how does Aabhash handle too much work please","intent":"challenges","source":"third_person+aug"}
+{"text":"is this really aabhash...","intent":"bot","source":"seed+aug"}
+{"text":"as a recruiter i want to know give me your bio?","intent":"summary","source":"seed+aug"}
+{"text":"as a recruiter i want to know what's your strongest skill please","intent":"skills","source":"seed+aug"}
+{"text":"just curious, show me aabhash's postman collection?","intent":"labs","source":"third_person+aug"}
+{"text":"can you tell me who won the world cup?","intent":"out_of_scope","source":"seed+aug"}
+{"text":"Ok, what does Aabhash do at Prsohore?","intent":"role","source":"third_person+aug"}
+{"text":"What are your proudest accomplishments brieffly","intent":"numbers","source":"seed+aug"}
+{"text":"I was wondering what's Aabhash's QA to devveloper ratio in short","intent":"numbers","source":"third_person+aug"}
+{"text":"hey, how does the agent create azure devops tickets","intent":"ai-agent","source":"seed+aug"}
+{"text":"hi! how do you make qa scale","intent":"process","source":"seed+aug"}
+{"text":"what software do you use for testing","intent":"skills","source":"seed"}
+{"text":"what kind of work does Aabhash do now","intent":"role","source":"third_person"}
+{"text":"So how do you handel stress!","intent":"challenges","source":"seed+aug"}
+{"text":"Please tell me what level are you briefly","intent":"role","source":"seed+aug"}
+{"text":"how does aabhash manage bugs briefly","intent":"process","source":"third_person+aug"}
+{"text":"so how many products does aabhash cover :)","intent":"apps","source":"third_person+aug"}
+{"text":"can you work on site","intent":"location","source":"seed"}
+{"text":"I'm hiring for a QA role, what are you working on learning thanks","intent":"learning","source":"seed+aug"}
+{"text":"can you tell me what's aabhash's tech stack thanks","intent":"skills","source":"third_person+aug"}
+{"text":"Hey, how does Aabhash manage bugs","intent":"process","source":"third_person+aug"}
+{"text":"Could you explian how does Aabhash use LLMs for QA!","intent":"ai-agent","source":"third_person+aug"}
+{"text":"I'm hiring for a QA role, how does Aabhash handle too much work?","intent":"challenges","source":"third_person+aug"}
+{"text":"how did you get promoted","intent":"experience","source":"seed"}
+{"text":"can aabhash overlap with uk hours!","intent":"location","source":"third_person+aug"}
+{"text":"Can you tell me how does Aahbash manage bugs...","intent":"process","source":"third_person+aug"}
+{"text":"hi! what is omnia???","intent":"apps","source":"seed+aug"}
+{"text":"can you tell me does aabhash talk to cliients?","intent":"communication","source":"third_person+aug"}
+{"text":"did aabbhash do any apprenticeship please","intent":"education","source":"third_person+aug"}
+{"text":"So do you do database testing?","intent":"api","source":"seed+aug"}
+{"text":"Could you explain can Aabhash join immediately?","intent":"hiring","source":"third_person+aug"}
+{"text":"i'm hiring for a qa role, does aabhash do freelance work","intent":"hiring","source":"third_person+aug"}
+{"text":"as a recruiter i want to know is aabhsh the sole tester?","intent":"role","source":"third_person+aug"}
+{"text":"one more thing: what's your home base...","intent":"location","source":"seed+aug"}
+{"text":"could you explain are you looking for a job in short","intent":"hiring","source":"seed+aug"}
+{"text":"how were you made","intent":"bot","source":"seed"}
+{"text":"how many products are you responsible for","intent":"role","source":"seed"}
+{"text":"how accurate is the AI agent","intent":"ai-reliability","source":"seed"}
+{"text":"Plase tell me are you a mid-level engineer?","intent":"role","source":"seed+aug"}
+{"text":"I'd like to know who do you test for plaese","intent":"role","source":"seed+aug"}
+{"text":"what city are you in","intent":"location","source":"seed"}
+{"text":"list your credentials","intent":"certs","source":"seed"}
+{"text":"One more thing: do tests run on every commt briefly","intent":"playwright","source":"seed+aug"}
+{"text":"could you explain what's your mindset on quality?","intent":"philosophy","source":"seed+aug"}
+{"text":"ok, what is khel?","intent":"games","source":"seed+aug"}
+{"text":"can your agent write Playwright scripts","intent":"ai-agent","source":"seed"}
+{"text":"I'd like to know how did Aabhash get the team to adopt standards??","intent":"process","source":"third_person+aug"}
+{"text":"just curous, how do you measure coverage","intent":"hub","source":"seed+aug"}
+{"text":"so what framewoorks do you know","intent":"skills","source":"seed+aug"}
+{"text":"how do you handle stress","intent":"challenges","source":"seed"}
+{"text":"i'd like to know trihuvan university??","intent":"education","source":"seed+aug"}
+{"text":"i was wondering what's your qa to developer ratio?","intent":"numbers","source":"seed+aug"}
+{"text":"who does aabhash test for briefly","intent":"role","source":"third_person+aug"}
+{"text":"ok, portfolio projects :)","intent":"labs","source":"seed+aug"}
+{"text":"write me a poem","intent":"out_of_scope","source":"seed"}
+{"text":"just curious, what software do you test at work in short","intent":"apps","source":"seed+aug"}
+{"text":"i'd like to know can aabhash trust ai written test cases thanks","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"coould you explain can i reach aabhash by phone?","intent":"contact","source":"third_person+aug"}
+{"text":"do you test business unit access","intent":"security","source":"seed"}
+{"text":"One more thing: what's your hedline?","intent":"summary","source":"seed+aug"}
+{"text":"can aabhash ovrelap with uk hours","intent":"location","source":"third_person+aug"}
+{"text":"can Aabhash send me Aabhash's email","intent":"contact","source":"third_person"}
+{"text":"do you test buiness unit access :)","intent":"security","source":"seed+aug"}
+{"text":"I'd like to know how much of your testing is automated","intent":"playwright","source":"seed+aug"}
+{"text":"One more thing: how do you handle authentication in tests briefly","intent":"playwright","source":"seed+aug"}
+{"text":"Do you want to switch jobs??","intent":"hiring","source":"seed+aug"}
+{"text":"I'm hiring for a QA role, what testing types do you do thanks","intent":"skills","source":"seed+aug"}
+{"text":"Can you tell me what is your testing philosophy thanks","intent":"philosophy","source":"seed+aug"}
+{"text":"As a recruier I want to know how long were you an associate","intent":"experience","source":"seed+aug"}
+{"text":"can you write joins","intent":"api","source":"seed"}
+{"text":"write an essay on cliate change","intent":"out_of_scope","source":"seed+aug"}
+{"text":"I'd like to know where can I message Aabhash :)","intent":"contact","source":"third_person+aug"}
+{"text":"hey, have you worked on upwork...","intent":"before","source":"seed+aug"}
+{"text":"tell me, do you do database testing :)","intent":"api","source":"seed+aug"}
+{"text":"i was wondering does aabhash test business unit access briefly","intent":"security","source":"third_person+aug"}
+{"text":"JUST CURIOUS, HOW FAST WAS AABHASH PROMOTED :)","intent":"experience","source":"third_person+aug"}
+{"text":"so examples of aabhash's automation code thaks","intent":"labs","source":"third_person+aug"}
+{"text":"what's aabhas'hs location?","intent":"location","source":"third_person+aug"}
+{"text":"how does Aabhash manage bugs","intent":"process","source":"third_person"}
+{"text":"Can I reeach you by phone?","intent":"contact","source":"seed+aug"}
+{"text":"Just curiious, are you certified?","intent":"certs","source":"seed+aug"}
+{"text":"how much time does the agent save","intent":"ai-agent","source":"seed"}
+{"text":"please tell me what skills is aabhash still building...","intent":"learning","source":"third_person+aug"}
+{"text":"does Aabhash want to switch jobs","intent":"hiring","source":"third_person"}
+{"text":"So how do you validate AI output in short","intent":"ai-reliability","source":"seed+aug"}
+{"text":"Tell me, what does Aabhash believe abut QA...","intent":"philosophy","source":"third_person+aug"}
+{"text":"so how do you manage test cases?","intent":"process","source":"seed+aug"}
+{"text":"how is Aabhash's English","intent":"communication","source":"third_person"}
+{"text":"what testing types do you do pleease","intent":"skills","source":"seed+aug"}
+{"text":"i'm hiring for a qa role, show me aabhash's postman collection?","intent":"labs","source":"third_person+aug"}
+{"text":"are you willing to relocate","intent":"location","source":"seed"}
+{"text":"So write me a poem??","intent":"out_of_scope","source":"seed+aug"}
+{"text":"I'd like to know do you talk to clients briefly","intent":"communication","source":"seed+aug"}
+{"text":"how did Aabhash get the team to adopt standards","intent":"process","source":"third_person"}
+{"text":"how do I message Aabhash","intent":"contact","source":"third_person"}
+{"text":"one more thing: what is a requirement traceability matrix :)","intent":"hub","source":"seed+aug"}
+{"text":"can you tell me what kind of engineer are you thanks","intent":"summary","source":"seed+aug"}
+{"text":"do you use power bi?","intent":"hub","source":"seed+aug"}
+{"text":"Coudl you explain did Aabhash do any apprenticeship??","intent":"education","source":"third_person+aug"}
+{"text":"Ok, does Aabhash know Docker :)","intent":"learning","source":"third_person+aug"}
+{"text":"what's Aabhash's biggest strength","intent":"summary","source":"third_person"}
+{"text":"Just curious, how much time does the agent save","intent":"ai-agent","source":"seed+aug"}
+{"text":"One more thing: what checks the AI's work","intent":"ai-reliability","source":"seed+aug"}
+{"text":"can we hire Aabhash","intent":"hiring","source":"third_person"}
+{"text":"how does Aabhash make AI testing safe","intent":"ai-reliability","source":"third_person"}
+{"text":"i'd like to know how many test cases in total...","intent":"numbers","source":"seed+aug"}
+{"text":"Ok, can we hire Aabhash briefly","intent":"hiring","source":"third_person+aug"}
+{"text":"i'm hiring for a qa role, what's the toughest thing you've faced :)","intent":"challenges","source":"seed+aug"}
+{"text":"how does Aabhash manage test cases","intent":"process","source":"third_person"}
+{"text":"So what are you developing in short","intent":"learning","source":"seed+aug"}
+{"text":"OK, WHAT'S AABHASH'S HEADLINE","intent":"summary","source":"third_person+aug"}
+{"text":"So did Aabhash label AI training data","intent":"before","source":"third_person+aug"}
+{"text":"Ok, who does Aabhsah test for","intent":"role","source":"third_person+aug"}
+{"text":"how do you make AI testing safe","intent":"ai-reliability","source":"seed"}
+{"text":"I was wondering does Aabhash test permissions!","intent":"security","source":"third_person+aug"}
+{"text":"Quick question: how does Aabash handle too much work!","intent":"challenges","source":"third_person+aug"}
+{"text":"is aabhash willing to relocate?","intent":"location","source":"third_person+aug"}
+{"text":"So what do you do at Proshore","intent":"role","source":"seed+aug"}
+{"text":"i'd like to know what is aabhash working on learning :)","intent":"learning","source":"third_person+aug"}
+{"text":"time overlap with Europe","intent":"location","source":"seed"}
+{"text":"I'D LIKE TO KNOW WHAT'S YOUR CURRENT WORKPLACE!","intent":"role","source":"seed+aug"}
+{"text":"Ok, whatt's your home base","intent":"location","source":"seed+aug"}
+{"text":"API regression","intent":"api","source":"seed"}
+{"text":"does aabhash talk to clients...","intent":"communication","source":"third_person+aug"}
+{"text":"Does Aabhash want to swithc jobs!","intent":"hiring","source":"third_person+aug"}
+{"text":"What does Aabhash bring to a team in shhort","intent":"summary","source":"third_person+aug"}
+{"text":"Hey, is this an automaated reply","intent":"bot","source":"seed+aug"}
+{"text":"hi! email addess please","intent":"contact","source":"seed+aug"}
+{"text":"Proof of training??","intent":"certs","source":"seed+aug"}
+{"text":"how does aabhash make qa scale?","intent":"process","source":"third_person+aug"}
+{"text":"are you certified :)","intent":"certs","source":"seed+aug"}
+{"text":"Hey, what were your previous tites","intent":"experience","source":"seed+aug"}
+{"text":"please tell me what valeu do you add!","intent":"summary","source":"seed+aug"}
+{"text":"So whta's your designation :)","intent":"role","source":"seed+aug"}
+{"text":"i'm hiring for a qa role, projects outside of work","intent":"labs","source":"seed+aug"}
+{"text":"hello there friend","intent":"hello","source":"seed"}
+{"text":"quick question: what's aabhash's headline in short","intent":"summary","source":"third_person+aug"}
+{"text":"how many labs do you have","intent":"labs","source":"seed"}
+{"text":"how does the agent create Azure DevOps tickets","intent":"ai-agent","source":"seed"}
+{"text":"I was wondering academic qualifications :)","intent":"education","source":"seed+aug"}
+{"text":"how long was Aabhash an associate","intent":"experience","source":"third_person"}
+{"text":"QUIICK QUESTION: CAN YOU JOIN IMMEDIATELY?","intent":"hiring","source":"seed+aug"}
+{"text":"what testing types do you do","intent":"skills","source":"seed"}
+{"text":"just curious, what skills are you stlil building...","intent":"learning","source":"seed+aug"}
+{"text":"can you tell me give me aabhash's bio please","intent":"summary","source":"third_person+aug"}
+{"text":"One more thing: what value does Aabhash add?","intent":"summary","source":"third_person+aug"}
+{"text":"hey, what are aabhash's proudest accomplishments","intent":"numbers","source":"third_person+aug"}
+{"text":"hey, what's aabhash's career history!","intent":"experience","source":"third_person+aug"}
+{"text":"tell me about the client applications","intent":"apps","source":"seed"}
+{"text":"quick question: what do you do for fun?","intent":"games","source":"seed+aug"}
+{"text":"can you tell me what practice testing have you done thanks","intent":"labs","source":"seed+aug"}
+{"text":"hey, what's next for your skills in short","intent":"learning","source":"seed+aug"}
+{"text":"just curious, what's your qa journey :)","intent":"experience","source":"seed+aug"}
+{"text":"how do you handle an untested backlog","intent":"process","source":"seed"}
+{"text":"I was wondering how do you define severity :)","intent":"process","source":"seed+aug"}
+{"text":"i'd like to know what level are you briefly","intent":"role","source":"seed+aug"}
+{"text":"tell me, is aabhash loooking for a job...","intent":"hiring","source":"third_person+aug"}
+{"text":"tell me about your Playwright framework","intent":"playwright","source":"seed"}
+{"text":"hi! does aabhash do database testing!","intent":"api","source":"third_person+aug"}
+{"text":"Tell me, coss device testing","intent":"mobile","source":"seed+aug"}
+{"text":"did you label AI training data","intent":"before","source":"seed"}
+{"text":"does Aabhash test pricing systems","intent":"apps","source":"third_person"}
+{"text":"I'm hiring for a QA role, did Aabhash do any apprenticeship?","intent":"education","source":"third_person+aug"}
+{"text":"Please tell me tell me a bit about Aabhash thnks","intent":"summary","source":"third_person+aug"}
+{"text":"how does Aabhash validate AI output","intent":"ai-reliability","source":"third_person"}
+{"text":"who won the world cup","intent":"out_of_scope","source":"seed"}
+{"text":"Hey, what does Aabhash do for fu.n..","intent":"games","source":"third_person+aug"}
+{"text":"is aabhash junior or senior...","intent":"experience","source":"third_person+aug"}
+{"text":"just curious, whats' your qa journey??","intent":"experience","source":"seed+aug"}
+{"text":"I'm hiring for a QA role, what kind of engineer is Aabhash please","intent":"summary","source":"third_person+aug"}
+{"text":"Please tell me does Aabhash know Docker in short","intent":"learning","source":"third_person+aug"}
+{"text":"hey, what softare do you use for testing :)","intent":"skills","source":"seed+aug"}
+{"text":"tell me, what testing types do you do!","intent":"skills","source":"seed+aug"}
+{"text":"Can you tell me how does Aabhash wite documentation...","intent":"docs-agent","source":"third_person+aug"}
+{"text":"how does Aabhash handle too much work","intent":"challenges","source":"third_person"}
+{"text":"I'M HIRING FOR A QA ROLE, WHERE CAN I MESSAGE AABHASH","intent":"contact","source":"third_person+aug"}
+{"text":"tell me, does aaabhash know docker?","intent":"learning","source":"third_person+aug"}
+{"text":"Just curious, what's your QA journey!","intent":"experience","source":"seed+aug"}
+{"text":"can Aabhash's agent write Playwright scripts","intent":"ai-agent","source":"third_person"}
+{"text":"I'm hiring for a QA role, can Aabhash send me Aabhash's emmail thanks","intent":"contact","source":"third_person+aug"}
+{"text":"one more thing: api regression in short","intent":"api","source":"seed+aug"}
+{"text":"as a recruiter i want to know tribhuvan university!","intent":"education","source":"seed+aug"}
+{"text":"as a recruiter i want to know what's aabhash's designation","intent":"role","source":"third_person+aug"}
+{"text":"list your credentials thanks","intent":"certs","source":"seed+aug"}
+{"text":"can Aabhash write joins","intent":"api","source":"third_person"}
+{"text":"Hey, how do you handle an untested backlog thanks","intent":"process","source":"seed+aug"}
+{"text":"one more thing: can we hire you?","intent":"hiring","source":"seed+aug"}
+{"text":"have you worked on Upwork","intent":"before","source":"seed"}
+{"text":"how does Aabhash write documentation","intent":"docs-agent","source":"third_person"}
+{"text":"Tell me, list your credentials...","intent":"certs","source":"seed+aug"}
+{"text":"Can you tell me did Aabhash do data annotation brifly","intent":"before","source":"third_person+aug"}
+{"text":"Quick question: does Aabhahs automate the supplier portal??","intent":"playwright","source":"third_person+aug"}
+{"text":"could you explain i need your cv...","intent":"resume","source":"seed+aug"}
+{"text":"I'm hiring for a QA role, what is your testing process tahnks","intent":"process","source":"seed+aug"}
+{"text":"COULD YOU EXPLAIN WHAT ARE YOU WORKINNG ON LEARNING...","intent":"learning","source":"seed+aug"}
+{"text":"Ok, how do you write documentation?","intent":"docs-agent","source":"seed+aug"}
+{"text":"I'm hiring for a QA rolee, what's your hourly rate","intent":"hiring","source":"seed+aug"}
+{"text":"one more thing: what's aabhash's location","intent":"location","source":"third_person+aug"}
+{"text":"i was wondering time overlap with europe!","intent":"location","source":"seed+aug"}
+{"text":"please tell me is aabhash learning perfformance testing","intent":"learning","source":"third_person+aug"}
+{"text":"what level is Aabhash","intent":"role","source":"third_person"}
+{"text":"EXAMPLES OF YOUR AUTOMATIION CODE?","intent":"labs","source":"seed+aug"}
+{"text":"ok, can aabhash send me aabhash's email plesae","intent":"contact","source":"third_person+aug"}
+{"text":"HI! EXAMPLES OF YOUR AUTOMATION CODE??","intent":"labs","source":"seed+aug"}
+{"text":"so examples of your automation code...","intent":"labs","source":"seed+aug"}
+{"text":"ok, what projects has aabhash worked on briefly","intent":"apps","source":"third_person+aug"}
+{"text":"Does Aabhash do exploratory testing thanks","intent":"skills","source":"third_person+aug"}
+{"text":"as a recruiter i want to know what is aabhash developing please","intent":"learning","source":"third_person+aug"}
+{"text":"how does Aabhash handle stress","intent":"challenges","source":"third_person"}
+{"text":"did Aabhash do any apprenticeship","intent":"education","source":"third_person"}
+{"text":"So what value do you add!","intent":"summary","source":"seed+aug"}
+{"text":"what's Aabhash's career history","intent":"experience","source":"third_person"}
+{"text":"Please tell me what is Aabhash's most impressive project briefly","intent":"ai-agent","source":"third_person+aug"}
+{"text":"how many products is aabhash responsible for??","intent":"role","source":"third_person+aug"}
+{"text":"as a recruiter i want to know does aabhash know k6 for load tests","intent":"performance","source":"third_person+aug"}
+{"text":"how long were you an associate","intent":"experience","source":"seed"}
+{"text":"COULD YOU EXPLAIN TELL ME ABOUT YOUR PLAYWRIGHT FRAMEWORK?","intent":"playwright","source":"seed+aug"}
+{"text":"as a recruiter i want to know how long was aabhash an associate brieflly","intent":"experience","source":"third_person+aug"}
+{"text":"hi! what kind of work do you do now in short","intent":"role","source":"seed+aug"}
+{"text":"Could you explain how do you make AI testing safe!","intent":"ai-reliability","source":"seed+aug"}
+{"text":"just curiious, how does aabhash test apis :)","intent":"api","source":"third_person+aug"}
+{"text":"Please tell me can you send me your email pleaase","intent":"contact","source":"seed+aug"}
+{"text":"how do you handle too much work","intent":"challenges","source":"seed"}
+{"text":"CAN YOU TELL ME WHAT DID AABHASH LEARN THE HARD WAY :)","intent":"challenges","source":"third_person+aug"}
+{"text":"do you do exploratory testing","intent":"skills","source":"seed"}
+{"text":"hi! can you join immediately :)","intent":"hiring","source":"seed+aug"}
+{"text":"one more thing: how do you manage test cases in short","intent":"process","source":"seed+aug"}
+{"text":"as a recruiter i want to know tell me a bit about you??","intent":"summary","source":"seed+aug"}
+{"text":"hey, honest about your limits in shhort","intent":"learning","source":"seed+aug"}
+{"text":"I'm hiring for a QA role, what's your location!","intent":"location","source":"seed+aug"}
+{"text":"as a recruiter i want to know show me aabhash's postman collection??","intent":"labs","source":"third_person+aug"}
+{"text":"Hey, what softwaer do you use for testing","intent":"skills","source":"seed+aug"}
+{"text":"Please tell me how do you handle authentication in tests?","intent":"playwright","source":"seed+aug"}
+{"text":"How did you get promoteed","intent":"experience","source":"seed+aug"}
+{"text":"what is this portfolio about","intent":"summary","source":"seed"}
+{"text":"so impact metrics...","intent":"numbers","source":"seed+aug"}
+{"text":"as a recruiter i want to know share aabhash's résumé??","intent":"resume","source":"third_person+aug"}
+{"text":"ok, stress testing experience??","intent":"performance","source":"seed+aug"}
+{"text":"what do you do at proshore?","intent":"role","source":"seed+aug"}
+{"text":"do you do freelance work!","intent":"hiring","source":"seed+aug"}
+{"text":"I was wondering what's your biggest strength","intent":"summary","source":"seed+aug"}
+{"text":"quick question: what do you do for fun thanks","intent":"games","source":"seed+aug"}
+{"text":"i'm hiring for a qa role, how much of your testing is automated","intent":"playwright","source":"seed+aug"}
+{"text":"does Aabhash automate API tests","intent":"api","source":"third_person"}
+{"text":"Can you tell me how do you use LLMs for QA :)","intent":"ai-agent","source":"seed+aug"}
+{"text":"one more thing: what city is aabhash in","intent":"location","source":"third_person+aug"}
+{"text":"Ok, what kind of engineer is Aabhash??","intent":"summary","source":"third_person+aug"}
+{"text":"As a recruiter I want to know what's your designation briefly","intent":"role","source":"seed+aug"}
+{"text":"Can you tell me what's Aabash's QA journey :)","intent":"experience","source":"third_person+aug"}
+{"text":"what's your home base","intent":"location","source":"seed"}
+{"text":"i'm hirring for a qa role, how do you check data integrity!","intent":"api","source":"seed+aug"}
+{"text":"who does Aabhash report to","intent":"role","source":"third_person"}
+{"text":"tell me a bit about Aabhash","intent":"summary","source":"third_person"}
+{"text":"what's your opinion on politics","intent":"out_of_scope","source":"seed"}
+{"text":"is this an automated reply","intent":"bot","source":"seed"}
+{"text":"So how do I message you :)","intent":"contact","source":"seed+aug"}
+{"text":"I'd like to know what do you do at Proshorre","intent":"role","source":"seed+aug"}
+{"text":"what is Omnia","intent":"apps","source":"seed"}
+{"text":"One more thing: how does Aabhash manage test cases?","intent":"process","source":"third_person+aug"}
+{"text":"give me a quick summary of aabhash :)","intent":"summary","source":"third_person+aug"}
+{"text":"impact metrics","intent":"numbers","source":"seed"}
+{"text":"coud you explain side projects in qa?","intent":"labs","source":"seed+aug"}
+{"text":"Tell me, years in the industry?","intent":"experience","source":"seed+aug"}
+{"text":"tell me, what software do you test at work","intent":"apps","source":"seed+aug"}
+{"text":"could you explain tell me a joke...","intent":"out_of_scope","source":"seed+aug"}
+{"text":"so do you do freeelance work??","intent":"hiring","source":"seed+aug"}
+{"text":"So what's your headlin??","intent":"summary","source":"seed+aug"}
+{"text":"I'd like to know are the games free briefly","intent":"games","source":"seed+aug"}
+{"text":"Please tell me what's the toughest thing Aabhash has faced?","intent":"challenges","source":"third_person+aug"}
+{"text":"just curious, share your résuumé","intent":"resume","source":"seed+aug"}
+{"text":"TELL ME, WHT'S YOUR MINDSET ON QUALITY!","intent":"philosophy","source":"seed+aug"}
+{"text":"QUICK QUESTION: WHAT'S THE TOUGHEST THING YOU'VE FACED?","intent":"challenges","source":"seed+aug"}
+{"text":"can you tell me what value does aabhash add!","intent":"summary","source":"third_person+aug"}
+{"text":"quick question: what testing types does aabhash do :)","intent":"skills","source":"third_person+aug"}
+{"text":"so do you build ai agents??","intent":"ai-agent","source":"seed+aug"}
+{"text":"ok, tell me a bit abbout you in short","intent":"summary","source":"seed+aug"}
+{"text":"i'm hiring for a qa role, what's your qa to developer ratio?","intent":"numbers","source":"seed+aug"}
+{"text":"As a recruiter I want to know describe your responsibilities??","intent":"role","source":"seed+aug"}
+{"text":"how does Aabhash measure coverage","intent":"hub","source":"third_person"}
+{"text":"just curious, what frameworks does aabhash know??","intent":"skills","source":"third_person+aug"}
+{"text":"COULD YOU EXPLAIN WHAT ARE AABHASH'S PROUDEST ACCOMPLISHMENTS","intent":"numbers","source":"third_person+aug"}
+{"text":"where can I message Aabhash","intent":"contact","source":"third_person"}
+{"text":"as a recruiter i want to know can aabbhash code thanks","intent":"skills","source":"third_person+aug"}
+{"text":"i'm hiring for a qa role, did you do data annoattion please","intent":"before","source":"seed+aug"}
+{"text":"I'd like to know what's your opinion on politics please","intent":"out_of_scope","source":"seed+aug"}
+{"text":"Could you explain is Aabhash a mid-level engiineer please","intent":"role","source":"third_person+aug"}
+{"text":"wheer can i message you in short","intent":"contact","source":"seed+aug"}
+{"text":"how many products do you cover","intent":"apps","source":"seed"}
+{"text":"hey, what is a requirement traceability matrix please","intent":"hub","source":"seed+aug"}
+{"text":"Plaese tell me what was hard about generating docs thanks","intent":"docs-agent","source":"seed+aug"}
+{"text":"Could you explain how do you handle too much work :)","intent":"challenges","source":"seed+aug"}
+{"text":"can aaabhash code","intent":"skills","source":"third_person+aug"}
+{"text":"Hey, are you a bot briefly","intent":"bot","source":"seed+aug"}
+{"text":"does Aabhash do API testing","intent":"api","source":"third_person"}
+{"text":"quick question: how much of your testing is automated","intent":"playwright","source":"seed+aug"}
+{"text":"hi! show me your postman collection :)","intent":"labs","source":"seed+aug"}
+{"text":"Hi! how many bugs has Aabhash found??","intent":"numbers","source":"third_person+aug"}
+{"text":"Tell me, are you a bot??","intent":"bot","source":"seed+aug"}
+{"text":"So what's your hourly rate!","intent":"hiring","source":"seed+aug"}
+{"text":"hey, how does aabhash defien severity?","intent":"process","source":"third_person+aug"}
+{"text":"what's your strongest skill?","intent":"skills","source":"seed+aug"}
+{"text":"Just curious, share your résumé??","intent":"resume","source":"seed+aug"}
+{"text":"Are Aabhash's games in Nepali!","intent":"games","source":"third_person+aug"}
+{"text":"have you worked on uwork","intent":"before","source":"seed+aug"}
+{"text":"could you explain are you the sole tester?","intent":"role","source":"seed+aug"}
+{"text":"Who do you test for in short","intent":"role","source":"seed+aug"}
+{"text":"Tell me, have you worked on Upwork??","intent":"before","source":"seed+aug"}
+{"text":"so what skills are you still building please","intent":"learning","source":"seed+aug"}
+{"text":"I need your CV","intent":"resume","source":"seed"}
+{"text":"one more thing: how does aabhash make qa scale??","intent":"process","source":"third_person+aug"}
+{"text":"what are your achievements","intent":"numbers","source":"seed"}
+{"text":"Ok, what kind of work do you do now","intent":"role","source":"seed+aug"}
+{"text":"i was wondering are you willing to relocate thanks","intent":"location","source":"seed+aug"}
+{"text":"what projects has Aabhash worked on","intent":"apps","source":"third_person"}
+{"text":"Hey, email address","intent":"contact","source":"seed+aug"}
+{"text":"hey, what is your most impressive projct?","intent":"ai-agent","source":"seed+aug"}
+{"text":"One more thing: mobile automation experience...","intent":"mobile","source":"seed+aug"}
+{"text":"tell me, we have an opening??","intent":"hiring","source":"seed+aug"}
+{"text":"Hey, Tribhuvan University thanks","intent":"education","source":"seed+aug"}
+{"text":"Just curious, how long was Aabhash an associate","intent":"experience","source":"third_person+aug"}
+{"text":"I'd like to know does Aabhash automate API tests?","intent":"api","source":"third_person+aug"}
+{"text":"i'm hirig for a qa role, do you know k6 for load tests briefly","intent":"performance","source":"seed+aug"}
+{"text":"Ok, what were your previous titles...","intent":"experience","source":"seed+aug"}
+{"text":"just curious, does aabhash want to switch jobs","intent":"hiring","source":"third_person+aug"}
+{"text":"as a recruiter i want to know how many bugs have you found","intent":"numbers","source":"seed+aug"}
+{"text":"can you tell me can you write joins...","intent":"api","source":"seed+aug"}
+{"text":"Ok, portfolio projects...","intent":"labs","source":"seed+aug"}
+{"text":"how do you write documentation","intent":"docs-agent","source":"seed"}
+{"text":"pllease tell me any hobby projects please","intent":"games","source":"seed+aug"}
+{"text":"How much of Aabhash's testing is automated...","intent":"playwright","source":"third_person+aug"}
+{"text":"do you want to switch jobs","intent":"hiring","source":"seed"}
+{"text":"how does aabhash handle an untested backlog in short","intent":"process","source":"third_person+aug"}
+{"text":"ok, what's the weather toda?","intent":"out_of_scope","source":"seed+aug"}
+{"text":"Hey, what's Aabhash's healdine briefly","intent":"summary","source":"third_person+aug"}
+{"text":"what's your current workplace","intent":"role","source":"seed"}
+{"text":"how many labs does Aabhash have","intent":"labs","source":"third_person"}
+{"text":"what do you believe abot qa please","intent":"philosophy","source":"seed+aug"}
+{"text":"does abahash know k6 for load tests??","intent":"performance","source":"third_person+aug"}
+{"text":"Hey, does Aabhash automate API tests","intent":"api","source":"third_person+aug"}
+{"text":"what's your tech stack please","intent":"skills","source":"seed+aug"}
+{"text":"i'd like to know what is the gdp of india :)","intent":"out_of_scope","source":"seed+aug"}
+{"text":"what software does Aabhash use for testing","intent":"skills","source":"third_person"}
+{"text":"So do you want to switch jobs thanks","intent":"hiring","source":"seed+aug"}
+{"text":"i'd like to know describe aabhash's career progression...","intent":"experience","source":"third_person+aug"}
+{"text":"tell me, do you want to siwtch jobs thanks","intent":"hiring","source":"seed+aug"}
+{"text":"i'm hiring for a qa role, can i message you please","intent":"contact","source":"seed+aug"}
+{"text":"Hi! what is Aabhash's testing process please","intent":"process","source":"third_person+aug"}
+{"text":"Hey, what's Aabhash's career history??","intent":"experience","source":"third_person+aug"}
+{"text":"could you explain describe aabhash's responsibilities!","intent":"role","source":"third_person+aug"}
+{"text":"one more thing: how fast were you promoted...","intent":"experience","source":"seed+aug"}
+{"text":"are the gamees free :)","intent":"games","source":"seed+aug"}
+{"text":"hi! how is your english!","intent":"communication","source":"seed+aug"}
+{"text":"how does Aabhash test APIs","intent":"api","source":"third_person"}
+{"text":"Cuold you explain are your games in Nepali?","intent":"games","source":"seed+aug"}
+{"text":"please tell me how does aabhash measure coverage please","intent":"hub","source":"third_person+aug"}
+{"text":"Please tell me how do you organise test cases in short","intent":"process","source":"seed+aug"}
+{"text":"I'm hiring for a QA role, what's Aabhash's QA journey in short","intent":"experience","source":"third_person+aug"}
+{"text":"Could you explain share your résumé...","intent":"resume","source":"seed+aug"}
+{"text":"I'M HIRING FOR A QA ROLE, WHAT'S AABHASH'S DAY JOB?","intent":"role","source":"third_person+aug"}
+{"text":"is Aabhash open to offers","intent":"hiring","source":"third_person"}
+{"text":"hey, examples of aabhash's automation code!","intent":"labs","source":"third_person+aug"}
+{"text":"who do you test for","intent":"role","source":"seed"}
+{"text":"Hey, I need your CV!","intent":"resume","source":"seed+aug"}
+{"text":"has aabhash worked on upowrk thanks","intent":"before","source":"third_person+aug"}
+{"text":"I was wondering can we hire Aabhash in short","intent":"hiring","source":"third_person+aug"}
+{"text":"do you do localisation testing","intent":"skills","source":"seed"}
+{"text":"how do you make QA scale","intent":"process","source":"seed"}
+{"text":"hey, how does aabhash test apis?","intent":"api","source":"third_person+aug"}
+{"text":"So do you test pricing systems thanks","intent":"apps","source":"seed+aug"}
+{"text":"quick question: what's aabhash's career history please","intent":"experience","source":"third_person+aug"}
+{"text":"Do you program in Python...","intent":"skills","source":"seed+aug"}
+{"text":"what value does Aabhash add","intent":"summary","source":"third_person"}
+{"text":"as a recruiter i want to know are you a mid-level enngineer thanks","intent":"role","source":"seed+aug"}
+{"text":"I was wondering how does Aabhash check data integrity?","intent":"api","source":"third_person+aug"}
+{"text":"honest about Aabhash's limits?","intent":"learning","source":"third_person"}
+{"text":"Does Aabhash build AI agents...","intent":"ai-agent","source":"third_person+aug"}
+{"text":"what did you learn the hard way briefly","intent":"challenges","source":"seed+aug"}
+{"text":"describe your career progression...","intent":"experience","source":"seed+aug"}
+{"text":"can I message Aabhash","intent":"contact","source":"third_person"}
+{"text":"Can you tell me which programming languaages do you know","intent":"skills","source":"seed+aug"}
+{"text":"as a recruiter i want to know can your agent write playwright scripts...","intent":"ai-agent","source":"seed+aug"}
+{"text":"What is the GDP of Inndia??","intent":"out_of_scope","source":"seed+aug"}
+{"text":"One more thing: describe your responsibilities...","intent":"role","source":"seed+aug"}
+{"text":"Please tell me bcakend testing experience please","intent":"api","source":"seed+aug"}
+{"text":"One more thing: what software do you test at work :)","intent":"apps","source":"seed+aug"}
+{"text":"does Aabhash know Docker","intent":"learning","source":"third_person"}
+{"text":"one more thing: how does aabhash handle bad ai output thanks","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"could you explain how does aabhash handle bad ai output?","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"educational background please","intent":"education","source":"seed+aug"}
+{"text":"Hey, do you test priicing systems","intent":"apps","source":"seed+aug"}
+{"text":"i was wonndering what is aabhash's testing philosophy?","intent":"philosophy","source":"third_person+aug"}
+{"text":"i'm hiring for a qa role, what is this portfolio about","intent":"summary","source":"seed+aug"}
+{"text":"Hi! what frameworks does Aabhash kow??","intent":"skills","source":"third_person+aug"}
+{"text":"As a recruiter I want to know how does Aabhash define severity??","intent":"process","source":"third_person+aug"}
+{"text":"i'd like to know how does aahash organise test cases??","intent":"process","source":"third_person+aug"}
+{"text":"hi! how many products do you cover!","intent":"apps","source":"seed+aug"}
+{"text":"Could you explain give me a quick summary of you :)","intent":"summary","source":"seed+aug"}
+{"text":"how do you measure coverage please","intent":"hub","source":"seed+aug"}
+{"text":"who built you","intent":"bot","source":"seed"}
+{"text":"is Aabhash willing to relocate","intent":"location","source":"third_person"}
+{"text":"OK, HOW DO YOU HANDLE STRESS IN SHORT","intent":"challenges","source":"seed+aug"}
+{"text":"Hey, did you do data annotation plese","intent":"before","source":"seed+aug"}
+{"text":"can you tell me do you automate the supplier portal??","intent":"playwright","source":"seed+aug"}
+{"text":"Hey, what's Imposter briefly","intent":"games","source":"seed+aug"}
+{"text":"I'm hiring for a QA rol, give me Aabhash's bio","intent":"summary","source":"third_person+aug"}
+{"text":"As a recruiter I want to know what did you learn the hard way??","intent":"challenges","source":"seed+aug"}
+{"text":"contact information","intent":"contact","source":"seed"}
+{"text":"how fast were you promoted","intent":"experience","source":"seed"}
+{"text":"one more thing: side projects in qa??","intent":"labs","source":"seed+aug"}
+{"text":"i'd like to know how many products are you responsible for :)","intent":"role","source":"seed+aug"}
+{"text":"TELL ME, WHAT VALUE DOES AABHASH ADD BRIEFLY","intent":"summary","source":"third_person+aug"}
+{"text":"could you explain how do you define severity","intent":"process","source":"seed+aug"}
+{"text":"JUST CURIOUS, HOW DOES AABHASH ORGANISE TEST CASES IN SHORT","intent":"process","source":"third_person+aug"}
+{"text":"what projects has aabhash worked on??","intent":"apps","source":"third_person+aug"}
+{"text":"as a recruiter i want to know write me a poem...","intent":"out_of_scope","source":"seed+aug"}
+{"text":"does Aabhash do exploratory testing","intent":"skills","source":"third_person"}
+{"text":"do you know k6 for load tests","intent":"performance","source":"seed"}
+{"text":"does Aabhash have a testing portfolio","intent":"labs","source":"third_person"}
+{"text":"just currious, what is omnia?","intent":"apps","source":"seed+aug"}
+{"text":"tell me, what is your testing process","intent":"process","source":"seed+aug"}
+{"text":"i was wondering email address!","intent":"contact","source":"seed+aug"}
+{"text":"what frameworks does Aabhash know","intent":"skills","source":"third_person"}
+{"text":"Can you tell me examples of Aabhash's automation code?","intent":"labs","source":"third_person+aug"}
+{"text":"hey, can we hire you briefly","intent":"hiring","source":"seed+aug"}
+{"text":"Can you tell me do you do exploratory testing briefly","intent":"skills","source":"seed+aug"}
+{"text":"so do you test permisssions :)","intent":"security","source":"seed+aug"}
+{"text":"show me Aabhash's Postman collection","intent":"labs","source":"third_person"}
+{"text":"Please tell me what's Aabhash's mindset on quality birefly","intent":"philosophy","source":"third_person+aug"}
+{"text":"any measurable results","intent":"numbers","source":"seed"}
+{"text":"quick question: can aabhash send me aabhash's email...","intent":"contact","source":"third_person+aug"}
+{"text":"could you explain do you porgram in python","intent":"skills","source":"seed+aug"}
+{"text":"does Aabhash program in Python","intent":"skills","source":"third_person"}
+{"text":"tell me, what's your qa to develpoer ratio...","intent":"numbers","source":"seed+aug"}
+{"text":"could you explain how many products do you cover :)","intent":"apps","source":"seed+aug"}
+{"text":"honest about your limits?","intent":"learning","source":"seed"}
+{"text":"what skills are you still building pleease","intent":"learning","source":"seed+aug"}
+{"text":"Ok, describe your career progression in short","intent":"experience","source":"seed+aug"}
+{"text":"so can we hire you??","intent":"hiring","source":"seed+aug"}
+{"text":"I'm hiring for a QA role, how much of Aabhash's testing is automated","intent":"playwright","source":"third_person+aug"}
+{"text":"tell me, do you use the azure devops wiki?","intent":"docs-agent","source":"seed+aug"}
+{"text":"tell me, what do you do for fun...","intent":"games","source":"seed+aug"}
+{"text":"quick question: what are you working on learning?","intent":"learning","source":"seed+aug"}
+{"text":"Where can I message Aabahsh??","intent":"contact","source":"third_person+aug"}
+{"text":"Hey, honest about Aabhash's limits...","intent":"learning","source":"third_person+aug"}
+{"text":"Eail address?","intent":"contact","source":"seed+aug"}
+{"text":"Just curious, any measurable resuls please","intent":"numbers","source":"seed+aug"}
+{"text":"how do you avoid false positives from the agent","intent":"ai-reliability","source":"seed"}
+{"text":"do tests run on every commit??","intent":"playwright","source":"seed+aug"}
+{"text":"is this really Aabhash","intent":"bot","source":"seed"}
+{"text":"Hey, how do you avoid false positives from the agent please","intent":"ai-reliability","source":"seed+aug"}
+{"text":"please tell me what level are you","intent":"role","source":"seed+aug"}
+{"text":"tell me, how does the agent create azure devops tickets","intent":"ai-agent","source":"seed+aug"}
+{"text":"how do you measure coverage","intent":"hub","source":"seed"}
+{"text":"Hey, how do you check data integrity?","intent":"api","source":"seed+aug"}
+{"text":"tell me, what does aabhash believe about qa","intent":"philosophy","source":"third_person+aug"}
+{"text":"quick question: can i message aabhash...","intent":"contact","source":"third_person+aug"}
+{"text":"just curious, contact information please","intent":"contact","source":"seed+aug"}
+{"text":"Please tell me how many products is Aabhash responsible for...","intent":"role","source":"third_person+aug"}
+{"text":"could you explain what's aabhash's hourly rate","intent":"hiring","source":"third_person+aug"}
+{"text":"Can you tell me what were Aabhas'hs previous titles??","intent":"experience","source":"third_person+aug"}
+{"text":"Ok, do you do localisation testing?","intent":"skills","source":"seed+aug"}
+{"text":"hey, describe aabhash's responsibilities?","intent":"role","source":"third_person+aug"}
+{"text":"one more thing: test automation experience thanks","intent":"playwright","source":"seed+aug"}
+{"text":"is Aabhash the sole tester","intent":"role","source":"third_person"}
+{"text":"so are you junior or senior??","intent":"experience","source":"seed+aug"}
+{"text":"what's your career histoory briefly","intent":"experience","source":"seed+aug"}
+{"text":"just curious, what is aabhash developing :)","intent":"learning","source":"third_person+aug"}
+{"text":"do you use Power BI","intent":"hub","source":"seed"}
+{"text":"How much of Aabhash's testing is automated thanks","intent":"playwright","source":"third_person+aug"}
+{"text":"can you tell me describe aabhash's responsibilities thanks","intent":"role","source":"third_person+aug"}
+{"text":"can you tell me how does aaabhash validate ai output","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"Could you explain how do you make QA scale!","intent":"process","source":"seed+aug"}
+{"text":"tell me, what software does aabhash use for testing","intent":"skills","source":"third_person+aug"}
+{"text":"what software does Aabhash test at work","intent":"apps","source":"third_person"}
+{"text":"what's your location","intent":"location","source":"seed"}
+{"text":"pease tell me how do you make ai testing safe","intent":"ai-reliability","source":"seed+aug"}
+{"text":"good afternoon","intent":"hello","source":"seed"}
+{"text":"are you open to offers","intent":"hiring","source":"seed"}
+{"text":"Can you tell me do you attend scrum ceremonies??","intent":"communication","source":"seed+aug"}
+{"text":"TELL ME, HOW MANY PRODUCTTS DO YOU COVER?","intent":"apps","source":"seed+aug"}
+{"text":"So honest about Aabhash's limits please","intent":"learning","source":"third_person+aug"}
+{"text":"Can Aabhash trust AI written test cases :)","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"what kind of engineer are you","intent":"summary","source":"seed"}
+{"text":"as a recruiter i want to know does aabhash test permissions?","intent":"security","source":"third_person+aug"}
+{"text":"hey, give me a quick summary of aabhash!","intent":"summary","source":"third_person+aug"}
+{"text":"what is Khel","intent":"games","source":"seed"}
+{"text":"does Aabhash have a test case library","intent":"process","source":"third_person"}
+{"text":"hey, how is your english","intent":"communication","source":"seed+aug"}
+{"text":"can i reach you by phone??","intent":"contact","source":"seed+aug"}
+{"text":"i was wondering who won the world cup","intent":"out_of_scope","source":"seed+aug"}
+{"text":"does Aabhash do database testing","intent":"api","source":"third_person"}
+{"text":"COULD YOU EXPLAIN DOES AABHASH DO API TESTING THANKS","intent":"api","source":"third_person+aug"}
+{"text":"which programming langauges do you know thanks","intent":"skills","source":"seed+aug"}
+{"text":"Quick question: has Aabhash worked on Upwork :)","intent":"before","source":"third_person+aug"}
+{"text":"so is aabhash open to ofefrs :)","intent":"hiring","source":"third_person+aug"}
+{"text":"i'm hiring for a qa role, who built you...","intent":"bot","source":"seed+aug"}
+{"text":"which programming languages do you know?","intent":"skills","source":"seed+aug"}
+{"text":"could you explain do you test permissions","intent":"security","source":"seed+aug"}
+{"text":"do you do database testing","intent":"api","source":"seed"}
+{"text":"academic qualifications","intent":"education","source":"seed"}
+{"text":"AS A RECRUITER I WANT TO KNOW WHAT'S AABHASH'S DAY JOB?","intent":"role","source":"third_person+aug"}
+{"text":"i'm hirng for a qa role, can you code","intent":"skills","source":"seed+aug"}
+{"text":"nice","intent":"thanks","source":"seed"}
+{"text":"hey, what's your biggest strenth thanks","intent":"summary","source":"seed+aug"}
+{"text":"Hey, what is the traceability hub","intent":"hub","source":"seed+aug"}
+{"text":"Ok, how did you get the team to adopt standards in short","intent":"process","source":"seed+aug"}
+{"text":"could you explain i need aabhash's cv!","intent":"resume","source":"third_person+aug"}
+{"text":"how did you get the team to adopt standards","intent":"process","source":"seed"}
+{"text":"please tell me what city are you in","intent":"location","source":"seed+aug"}
+{"text":"One more thing: how does Aabhash validate AI output!","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"can you tell me can you code thanks","intent":"skills","source":"seed+aug"}
+{"text":"hi! mobile automation experience?","intent":"mobile","source":"seed+aug"}
+{"text":"I was wondering describe your career progression","intent":"experience","source":"seed+aug"}
+{"text":"give me a quick summary of Aabhash","intent":"summary","source":"third_person"}
+{"text":"can you tell me how do you maage bugs?","intent":"process","source":"seed+aug"}
+{"text":"one more thing: did you label ai training data...","intent":"before","source":"seed+aug"}
+{"text":"can Aabhash code","intent":"skills","source":"third_person"}
+{"text":"just curious, what's a good name for a dog!","intent":"out_of_scope","source":"seed+aug"}
+{"text":"PLEASE TELL ME HOW DID YOU GET THE TEAM TO ADOPPT STANDARDS","intent":"process","source":"seed+aug"}
+{"text":"what levle is aabhash","intent":"role","source":"third_person+aug"}
+{"text":"portfolio projects","intent":"labs","source":"seed"}
+{"text":"Hey, is Aabhash willing to relocate?","intent":"location","source":"third_person+aug"}
+{"text":"GIVE ME AABHASH'S BIO...","intent":"summary","source":"third_person+aug"}
+{"text":"so what level is aabhash in short","intent":"role","source":"third_person+aug"}
+{"text":"Hey, how do you avoid false positives from the agent...","intent":"ai-reliability","source":"seed+aug"}
+{"text":"quick question: whch test management tools in short","intent":"skills","source":"seed+aug"}
+{"text":"can Aabhash work on site","intent":"location","source":"third_person"}
+{"text":"what's your mindset on quality","intent":"philosophy","source":"seed"}
+{"text":"I'd like to know years of professional experience?","intent":"experience","source":"seed+aug"}
+{"text":"Ok, what practiec testing has Aabhash done","intent":"labs","source":"third_person+aug"}
+{"text":"Just curious, does Aabhash use Pwoer BI...","intent":"hub","source":"third_person+aug"}
+{"text":"I'm hiring for a QA role, what's next for your skills?","intent":"learning","source":"seed+aug"}
+{"text":"Does Aabhash use Pwer BI!","intent":"hub","source":"third_person+aug"}
+{"text":"Hi! what's next for your skills :)","intent":"learning","source":"seed+aug"}
+{"text":"how many bugs have you found","intent":"numbers","source":"seed"}
+{"text":"could you explain did aabhash labbel ai training data","intent":"before","source":"third_person+aug"}
+{"text":"can I reach Aabhash by phone","intent":"contact","source":"third_person"}
+{"text":"how many bugs have you found??","intent":"numbers","source":"seed+aug"}
+{"text":"share Aabhash's résumé","intent":"resume","source":"third_person"}
+{"text":"Hey, how did Aabhash get prommoted?","intent":"experience","source":"third_person+aug"}
+{"text":"Hi! does Aabhash do exploratory testing thanks","intent":"skills","source":"third_person+aug"}
+{"text":"Hey, how did you get the team to adoppt standards?","intent":"process","source":"seed+aug"}
+{"text":"Hey, list Aabhash's credentials thanks","intent":"certs","source":"third_person+aug"}
+{"text":"how does aabhash write documentation?","intent":"docs-agent","source":"third_person+aug"}
+{"text":"please tell me what software does aabhash test at work :)","intent":"apps","source":"third_person+aug"}
+{"text":"hey, how many products are you rseponsible for??","intent":"role","source":"seed+aug"}
+{"text":"Good afterrnoon","intent":"hello","source":"seed+aug"}
+{"text":"I'm hiring for a QA role, what's your strongest skill","intent":"skills","source":"seed+aug"}
+{"text":"how does aabhash avoid false positives from the agent??","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"So how does Aabhassh check data integrity!","intent":"api","source":"third_person+aug"}
+{"text":"I'm hiring for a QA role, what does the Timesheet app do?","intent":"apps","source":"seed+aug"}
+{"text":"can you tell me how does aabhash make ai testing safe??","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"Culd you explain share Aabhash's résumé!","intent":"resume","source":"third_person+aug"}
+{"text":"how do you use LLMs for QA","intent":"ai-agent","source":"seed"}
+{"text":"so does aabhash attend scrum ceremonies?","intent":"communication","source":"third_person+aug"}
+{"text":"I'd like to know how do you avoid false positives from the agent?","intent":"ai-reliability","source":"seed+aug"}
+{"text":"Tell me, how much time does the aegnt save in short","intent":"ai-agent","source":"seed+aug"}
+{"text":"give me your bio please","intent":"summary","source":"seed+aug"}
+{"text":"Hi! what's Aabhash's hourly rate??","intent":"hiring","source":"third_person+aug"}
+{"text":"i'd like to know what was hard about generating docs","intent":"docs-agent","source":"seed+aug"}
+{"text":"years in the industry?","intent":"experience","source":"seed+aug"}
+{"text":"Does Aabhash have a test case library...","intent":"process","source":"third_person+aug"}
+{"text":"As a recruiter I want to know projects outside of work :)","intent":"labs","source":"seed+aug"}
+{"text":"Can you work on site in sort","intent":"location","source":"seed+aug"}
+{"text":"can you tell me years of professional experience?","intent":"experience","source":"seed+aug"}
+{"text":"one more thing: how do you handle bad ai ouutput...","intent":"ai-reliability","source":"seed+aug"}
+{"text":"what's Aabhash's mindset on quality","intent":"philosophy","source":"third_person"}
+{"text":"Couuld you explain do you attend scrum ceremonies?","intent":"communication","source":"seed+aug"}
+{"text":"ok, what checks the ai's work briefly","intent":"ai-reliability","source":"seed+aug"}
+{"text":"Ok, how does Abhash handle bad AI output!","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"Please tell me does Aabhash test business unit access briefly","intent":"security","source":"third_person+aug"}
+{"text":"I WAS WONDERING TELL ME ABOUT YOUR PLAYWRIGHT FRAMEWORK IN SHORT","intent":"playwright","source":"seed+aug"}
+{"text":"i'd like to know do you do database testing :)","intent":"api","source":"seed+aug"}
+{"text":"as a recruitter i want to know what's aabhash's current workplace","intent":"role","source":"third_person+aug"}
+{"text":"Hey, what's your opinion on politics?","intent":"out_of_scope","source":"seed+aug"}
+{"text":"Could you exlpain how did Aabhash get promoted?","intent":"experience","source":"third_person+aug"}
+{"text":"just curious, what's the weeather today??","intent":"out_of_scope","source":"seed+aug"}
+{"text":"i was wondering are your games in nepali briefly","intent":"games","source":"seed+aug"}
+{"text":"ok, api regression","intent":"api","source":"seed+aug"}
+{"text":"what level are you","intent":"role","source":"seed"}
+{"text":"quick quesstion: what is your most impressive project please","intent":"ai-agent","source":"seed+aug"}
+{"text":"can you tell me what's imposter!","intent":"games","source":"seed+aug"}
+{"text":"could you explain how fast were you promoted :)","intent":"experience","source":"seed+aug"}
+{"text":"Can you tell me are your games in Nepali?","intent":"games","source":"seed+aug"}
+{"text":"could you explain are you a bot?","intent":"bot","source":"seed+aug"}
+{"text":"just curious, did you do any apprenticeship!","intent":"education","source":"seed+aug"}
+{"text":"are you looking for a job","intent":"hiring","source":"seed"}
+{"text":"what are you developing","intent":"learning","source":"seed"}
+{"text":"one more thing: how do you handle too much work in short","intent":"challenges","source":"seed+aug"}
+{"text":"Ok, does Aabhash test business unit acces?","intent":"security","source":"third_person+aug"}
+{"text":"ok, how does aabhash avoid false positives from the agent in short","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"i was wondering what's aabhash's headline please","intent":"summary","source":"third_person+aug"}
+{"text":"Hey, write an essay on climate change biefly","intent":"out_of_scope","source":"seed+aug"}
+{"text":"quick question: schema validation experience :)","intent":"api","source":"seed+aug"}
+{"text":"can you tell me what's next for aabhash's skills in short","intent":"learning","source":"third_person+aug"}
+{"text":"hey, api regression","intent":"api","source":"seed+aug"}
+{"text":"are you junior or senior","intent":"experience","source":"seed"}
+{"text":"mobile automation experience","intent":"mobile","source":"seed"}
+{"text":"how do I invest in crypto","intent":"out_of_scope","source":"seed"}
+{"text":"quick question: are you junior or senior please","intent":"experience","source":"seed+aug"}
+{"text":"Hey, any measurable results briefly","intent":"numbers","source":"seed+aug"}
+{"text":"as a recruiter i want to know do you automate the supplier portal!","intent":"playwright","source":"seed+aug"}
+{"text":"i'm hiring for a qa role, can aabhash join immediately??","intent":"hiring","source":"third_person+aug"}
+{"text":"Do you do localisation testing briefly","intent":"skills","source":"seed+aug"}
+{"text":"JUST CURIOUS, WHT'S YOUR HEADLINE??","intent":"summary","source":"seed+aug"}
+{"text":"CAN YOU TELL ME WHAT IS YOUR TESTING PHILOSOPHY PLEASE","intent":"philosophy","source":"seed+aug"}
+{"text":"I need your CV??","intent":"resume","source":"seed+aug"}
+{"text":"Tell me, can you overlap with UK hours","intent":"location","source":"seed+aug"}
+{"text":"does aabhash do localisation testing!","intent":"skills","source":"third_person+aug"}
+{"text":"Hey, how do I message Aabhash?","intent":"contact","source":"third_person+aug"}
+{"text":"please tell me what software does aabhash use for testing??","intent":"skills","source":"third_person+aug"}
+{"text":"hi! what's your deisgnation","intent":"role","source":"seed+aug"}
+{"text":"how did aabhash get promoted briiefly","intent":"experience","source":"third_person+aug"}
+{"text":"Ok, how do I message Aabhash thanks","intent":"contact","source":"third_person+aug"}
+{"text":"what's aabhash's biggest strength...","intent":"summary","source":"third_person+aug"}
+{"text":"I was wondering did Aabhash do data annnotation!","intent":"before","source":"third_person+aug"}
+{"text":"Just curious, any hobby projects...","intent":"games","source":"seed+aug"}
+{"text":"So what's the toughest thing you''ve faced :)","intent":"challenges","source":"seed+aug"}
+{"text":"quiick question: do you have a testing portfolio :)","intent":"labs","source":"seed+aug"}
+{"text":"please tell me what's aabhash's qa to developer ratio please","intent":"numbers","source":"third_person+aug"}
+{"text":"cool","intent":"thanks","source":"seed"}
+{"text":"can you tell me what does the timesheet app do in short","intent":"apps","source":"seed+aug"}
+{"text":"As a recruiter I want to know how did Aabhash get the team to adopt standards :)","intent":"process","source":"third_person+aug"}
+{"text":"As a recruiter I want to know can I raech Aabhash by phone??","intent":"contact","source":"third_person+aug"}
+{"text":"Quick question: what's Aabhash's QA journey briefly","intent":"experience","source":"third_person+aug"}
+{"text":"Does Aabhash use the Azre DevOps wiki!","intent":"docs-agent","source":"third_person+aug"}
+{"text":"how many products does Aabhash cover","intent":"apps","source":"third_person"}
+{"text":"quick question: how is generation consttrained","intent":"ai-reliability","source":"seed+aug"}
+{"text":"what's your career history??","intent":"experience","source":"seed+aug"}
+{"text":"I was wondering what's Aabhash's current workplace","intent":"role","source":"third_person+aug"}
+{"text":"So what's the weather today...","intent":"out_of_scope","source":"seed+aug"}
+{"text":"does Aabhash attend scrum ceremonies","intent":"communication","source":"third_person"}
+{"text":"I'd like to know what are your achievements","intent":"numbers","source":"seed+aug"}
+{"text":"AS A RECRUITER I WANT TO KNOW HOW IS AABASH'S ENGLISH BRIEFLY","intent":"communication","source":"third_person+aug"}
+{"text":"one more thing: what is aabhash's most impressive project...","intent":"ai-agent","source":"third_person+aug"}
+{"text":"what projects have you worked on briefly","intent":"apps","source":"seed+aug"}
+{"text":"which test management tools","intent":"skills","source":"seed"}
+{"text":"could you explain list aabhash's credentials :)","intent":"certs","source":"third_person+aug"}
+{"text":"quick question: any measurable reuslts thanks","intent":"numbers","source":"seed+aug"}
+{"text":"I'm hiring for a QA role, what software does Aabhash test at work in short","intent":"apps","source":"third_person+aug"}
+{"text":"Quick question: what projects have you worked on?","intent":"apps","source":"seed+aug"}
+{"text":"please tell me are aabhash's games in nepali!","intent":"games","source":"third_person+aug"}
+{"text":"how does Aabhash handle an untested backlog","intent":"process","source":"third_person"}
+{"text":"can you code","intent":"skills","source":"seed"}
+{"text":"what's your qa journey....","intent":"experience","source":"seed+aug"}
+{"text":"Can I message you?","intent":"contact","source":"seed+aug"}
+{"text":"as a recruiter i want to know what are aabhash's proudest accomplishments","intent":"numbers","source":"third_person+aug"}
+{"text":"what is Aabhash's testing process","intent":"process","source":"third_person"}
+{"text":"hey, does aabhash automate the supplier portal?","intent":"playwright","source":"third_person+aug"}
+{"text":"Ok, does Aabhash want to switch jobs?","intent":"hiring","source":"third_person+aug"}
+{"text":"i need aaabhash's cv?","intent":"resume","source":"third_person+aug"}
+{"text":"hey, what is aabhash working on learning","intent":"learning","source":"third_person+aug"}
+{"text":"i'd like to know how many labs do you have!","intent":"labs","source":"seed+aug"}
+{"text":"does Aabhash test business unit access","intent":"security","source":"third_person"}
+{"text":"So projects outside of work","intent":"labs","source":"seed+aug"}
+{"text":"HOW DOES AABHASH USE LLMS FOR QA?","intent":"ai-agent","source":"third_person+aug"}
+{"text":"we have an opening","intent":"hiring","source":"seed"}
+{"text":"what's Aabhash's designation","intent":"role","source":"third_person"}
+{"text":"list Aabhash's credentials","intent":"certs","source":"third_person"}
+{"text":"could you explain how many products are you responsible for?","intent":"role","source":"seed+aug"}
+{"text":"One more thing: do you have a test case library??","intent":"process","source":"seed+aug"}
+{"text":"I'd like to know which programming languages does Aabhash know thanks","intent":"skills","source":"third_person+aug"}
+{"text":"ok, how does aabhash handle an untested backlog","intent":"process","source":"third_person+aug"}
+{"text":"tell me, tell me abotu the client applications please","intent":"apps","source":"seed+aug"}
+{"text":"do you test pricing systems","intent":"apps","source":"seed"}
+{"text":"Hey, is Aabhash certified?","intent":"certs","source":"third_person+aug"}
+{"text":"perfect thank you","intent":"thanks","source":"seed"}
+{"text":"any hobby projects","intent":"games","source":"seed"}
+{"text":"what's your QA journey","intent":"experience","source":"seed"}
+{"text":"So is Aabhash junior or senior?","intent":"experience","source":"third_person+aug"}
+{"text":"what's your hourly rate","intent":"hiring","source":"seed"}
+{"text":"could you explain does aabhash do api testing please","intent":"api","source":"third_person+aug"}
+{"text":"hey, what's aabhash's home base thanks","intent":"location","source":"third_person+aug"}
+{"text":"i'd like to know examples of your automation code :)","intent":"labs","source":"seed+aug"}
+{"text":"describe Aabhash's career progression","intent":"experience","source":"third_person"}
+{"text":"as a recruiter i want to know does aabhash test pricing systems briefly","intent":"apps","source":"third_person+aug"}
+{"text":"I'd like to know cross device testing","intent":"mobile","source":"seed+aug"}
+{"text":"Hi! what city is Aabhash in briefly","intent":"location","source":"third_person+aug"}
+{"text":"I was wondering I need your CV","intent":"resume","source":"seed+aug"}
+{"text":"i was wondreing what is aabhash working on learning in short","intent":"learning","source":"third_person+aug"}
+{"text":"can you tell me is aabhash looking for a job thanks","intent":"hiring","source":"third_person+aug"}
+{"text":"Just curiouss, are you learning performance testing","intent":"learning","source":"seed+aug"}
+{"text":"please tell me how do you handle too much work","intent":"challenges","source":"seed+aug"}
+{"text":"hi! is aabhash learning performance testing??","intent":"learning","source":"third_person+aug"}
+{"text":"As a recruiter I want to know how does Aabhash make AI testing safe?","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"Quick question: what's the news today?","intent":"out_of_scope","source":"seed+aug"}
+{"text":"I'm hiring for a QA role, how do you manage bugs thanks","intent":"process","source":"seed+aug"}
+{"text":"Hi! what's a good name for a dog?","intent":"out_of_scope","source":"seed+aug"}
+{"text":"what do you bring to a team","intent":"summary","source":"seed"}
+{"text":"one more thing: share your résumé","intent":"resume","source":"seed+aug"}
+{"text":"Hey, does Aabhash use the Azure DevOps wiki","intent":"docs-agent","source":"third_person+aug"}
+{"text":"describe aabhash's career progression :)","intent":"experience","source":"third_person+aug"}
+{"text":"hey, how many bugs has aabhash found","intent":"numbers","source":"third_person+aug"}
+{"text":"Please tell me what's your tech stack?","intent":"skills","source":"seed+aug"}
+{"text":"so what are aabhash's achievements...","intent":"numbers","source":"third_person+aug"}
+{"text":"i'm hirnig for a qa role, do you talk to clients","intent":"communication","source":"seed+aug"}
+{"text":"what's your day job in short","intent":"role","source":"seed+aug"}
+{"text":"What is Omnia!","intent":"apps","source":"seed+aug"}
+{"text":"Could you explain how fast was Aabhash promoted briefly","intent":"experience","source":"third_person+aug"}
+{"text":"as a recruiter i want to know what is the gdp of india?","intent":"out_of_scope","source":"seed+aug"}
+{"text":"Hi! which test management tools??","intent":"skills","source":"seed+aug"}
+{"text":"i was wondering how do you handle bad ai output thanks","intent":"ai-reliability","source":"seed+aug"}
+{"text":"i was wondering how do i invest in crypo please","intent":"out_of_scope","source":"seed+aug"}
+{"text":"as a recruiter i want to know can you write joins...","intent":"api","source":"seed+aug"}
+{"text":"quick question: how does aabhash test apis??","intent":"api","source":"third_person+aug"}
+{"text":"do you do API testing","intent":"api","source":"seed"}
+{"text":"do you do freelance work","intent":"hiring","source":"seed"}
+{"text":"I'm hiring for a QA rolle, describe your responsibilities?","intent":"role","source":"seed+aug"}
+{"text":"I'd like to know what's your hourly rate :)","intent":"hiring","source":"seed+aug"}
+{"text":"Please tell me professional summary :)","intent":"summary","source":"seed+aug"}
+{"text":"PLEASE TELL ME HOW MANY BUGS HAS AABHASH FOUND IN SHORT","intent":"numbers","source":"third_person+aug"}
+{"text":"I'm hiring for a QA role, do you do API tsting","intent":"api","source":"seed+aug"}
+{"text":"schema validation experience","intent":"api","source":"seed"}
+{"text":"hi! what did aabhash learn the hard way thanks","intent":"challenges","source":"third_person+aug"}
+{"text":"as a recruiter i want to know do you write functional documentation!","intent":"docs-agent","source":"seed+aug"}
+{"text":"As a recruiter I want to know what frameworks does Aabhash know...","intent":"skills","source":"third_person+aug"}
+{"text":"just curious, what does aabhash believe aboout qa??","intent":"philosophy","source":"third_person+aug"}
+{"text":"what is your testing process","intent":"process","source":"seed"}
+{"text":"ok, can aabhash work on site in short","intent":"location","source":"third_person+aug"}
+{"text":"Can you tell me do you talk to clients thanks","intent":"communication","source":"seed+aug"}
+{"text":"Tell me, tell me about the client applications thanks","intent":"apps","source":"seed+aug"}
+{"text":"What practice tessting has Aabhash done","intent":"labs","source":"third_person+aug"}
+{"text":"years of professional experience","intent":"experience","source":"seed"}
+{"text":"ok, what's aabhaash's qa journey in short","intent":"experience","source":"third_person+aug"}
+{"text":"I'd like to know what kind of engineer are you please","intent":"summary","source":"seed+aug"}
+{"text":"i'm hiring for a qa role, any measurable resuts briefly","intent":"numbers","source":"seed+aug"}
+{"text":"Hey, is Aabbhash learning performance testing :)","intent":"learning","source":"third_person+aug"}
+{"text":"Hey, do you use Power BI??","intent":"hub","source":"seed+aug"}
+{"text":"JUST CURIOUS, HOW DO YOU TEST APIS THANKS","intent":"api","source":"seed+aug"}
+{"text":"one more thing: what's aabhash abotu please","intent":"summary","source":"seed+aug"}
+{"text":"I'D LIKE TO KNOW DOES AABHASH WANT TO SWITCH JOBS IN SHORT","intent":"hiring","source":"third_person+aug"}
+{"text":"So what projects has Aabhash worked on :)","intent":"apps","source":"third_person+aug"}
+{"text":"are you the sole tesetr","intent":"role","source":"seed+aug"}
+{"text":"HI! DOES AABHASH HAVE A TEST CASE LIBRARY!","intent":"process","source":"third_person+aug"}
+{"text":"what are Aabhash's proudest accomplishments","intent":"numbers","source":"third_person"}
+{"text":"does Aabhash write functional documentation","intent":"docs-agent","source":"third_person"}
+{"text":"Hi! how do I invest in crypto thanks","intent":"out_of_scope","source":"seed+aug"}
+{"text":"how did Aabhash get promoted","intent":"experience","source":"third_person"}
+{"text":"how does Aabhash check data integrity","intent":"api","source":"third_person"}
+{"text":"I'm hiring for a QA role, are you a mid-level engineer please","intent":"role","source":"seed+aug"}
+{"text":"i was wondering what do you bring to a team :)","intent":"summary","source":"seed+aug"}
+{"text":"please tell me are you willling to relocate?","intent":"location","source":"seed+aug"}
+{"text":"As a recruiter I want to know backend testing experieence please","intent":"api","source":"seed+aug"}
+{"text":"i'd like to know do you know docker!","intent":"learning","source":"seed+aug"}
+{"text":"do tests run on every commit","intent":"playwright","source":"seed"}
+{"text":"what are you working on learning","intent":"learning","source":"seed"}
+{"text":"please tell me what's aabhash's tech stack!","intent":"skills","source":"third_person+aug"}
+{"text":"where can I message you","intent":"contact","source":"seed"}
+{"text":"what's next for your skills","intent":"learning","source":"seed"}
+{"text":"So does Aabhash have a testing porrtfolio","intent":"labs","source":"third_person+aug"}
+{"text":"One more thing: how is Aabhash's Englsh...","intent":"communication","source":"third_person+aug"}
+{"text":"Do you know k6 for load tetss!","intent":"performance","source":"seed+aug"}
+{"text":"Could you explain list Aabhash's credentials?","intent":"certs","source":"third_person+aug"}
+{"text":"Could you explain what value do you add","intent":"summary","source":"seed+aug"}
+{"text":"how does Aabhash use LLMs for QA","intent":"ai-agent","source":"third_person"}
+{"text":"can you tell me do you use power bi please","intent":"hub","source":"seed+aug"}
+{"text":"Please tell me how do you manage bugs in short","intent":"process","source":"seed+aug"}
+{"text":"ok, are the gamees free please","intent":"games","source":"seed+aug"}
+{"text":"OK, ACADEMIC QUALLIFICATIONS!","intent":"education","source":"seed+aug"}
+{"text":"i'd like to know how did aabhash get the team to adopt standards briefly","intent":"process","source":"third_person+aug"}
+{"text":"i was wondering what are your proudest accomplishments!","intent":"numbers","source":"seed+aug"}
+{"text":"Tell me, what do you bring to a tema!","intent":"summary","source":"seed+aug"}
+{"text":"So what kind of work does Aabhash do now...","intent":"role","source":"third_person+aug"}
+{"text":"Tell me, how do you measure coverage??","intent":"hub","source":"seed+aug"}
+{"text":"Quick question: what's your opinion on politics?","intent":"out_of_scope","source":"seed+aug"}
+{"text":"please tell me impact metrics briefly","intent":"numbers","source":"seed+aug"}
+{"text":"I'm hiring for a QA role, how do you measure coverage??","intent":"hub","source":"seed+aug"}
+{"text":"ONE MORE THING: WHATS AABHASH'S TECH STACK :)","intent":"skills","source":"third_person+aug"}
+{"text":"tell me, what does aabhash beliieve about qa??","intent":"philosophy","source":"third_person+aug"}
+{"text":"just curious, how do i invest in crypto","intent":"out_of_scope","source":"seed+aug"}
+{"text":"Just curious, can you send me your email please","intent":"contact","source":"seed+aug"}
+{"text":"Tell me, how do I mesage you?","intent":"contact","source":"seed+aug"}
+{"text":"What's Aabhash about briefly","intent":"summary","source":"seed+aug"}
+{"text":"how much of Aabhash's testing is automated","intent":"playwright","source":"third_person"}
+{"text":"HOW DOES AABHASH MANAGE TEST CASSES THANKS","intent":"process","source":"third_person+aug"}
+{"text":"does aabhash do databbase testing","intent":"api","source":"third_person+aug"}
+{"text":"Cold you explain how does Aabhash handle stress??","intent":"challenges","source":"third_person+aug"}
+{"text":"I'm hiring for a QA role, what's the toughest thing Aabhash has faced in short","intent":"challenges","source":"third_person+aug"}
+{"text":"Hey, what skills are you still building briefly","intent":"learning","source":"seed+aug"}
+{"text":"pleaes tell me what's your career history briefly","intent":"experience","source":"seed+aug"}
+{"text":"ok, do you have a testing portfolio thanks","intent":"labs","source":"seed+aug"}
+{"text":"Nmaaste Aabhash","intent":"hello","source":"seed+aug"}
+{"text":"Tell me, can you join immeiately!","intent":"hiring","source":"seed+aug"}
+{"text":"which programming languages do you know","intent":"skills","source":"seed"}
+{"text":"one more thing: can we hire aabhash","intent":"hiring","source":"third_person+aug"}
+{"text":"I was wondering do you do exploratory testing...","intent":"skills","source":"seed+aug"}
+{"text":"I was wondering can you join immediately :)","intent":"hiring","source":"seed+aug"}
+{"text":"quick question: what's aabhash's biggest strength?","intent":"summary","source":"third_person+aug"}
+{"text":"I need Aabhash's CV","intent":"resume","source":"third_person"}
+{"text":"does aahash do freelance work please","intent":"hiring","source":"third_person+aug"}
+{"text":"i'd like to know how do you avoid false positives from the agent??","intent":"ai-reliability","source":"seed+aug"}
+{"text":"could you explain what city is aabhash in thanks","intent":"location","source":"third_person+aug"}
+{"text":"i'd like to know how long were you an associate!","intent":"experience","source":"seed+aug"}
+{"text":"cuold you explain are you a bot","intent":"bot","source":"seed+aug"}
+{"text":"As a recruitr I want to know do you automate the supplier portal?","intent":"playwright","source":"seed+aug"}
+{"text":"hey, proof of training??","intent":"certs","source":"seed+aug"}
+{"text":"As a recruiter I want to know any hobby projects?","intent":"games","source":"seed+aug"}
+{"text":"So what's your location briefly","intent":"location","source":"seed+aug"}
+{"text":"as a recruiter i want to know do you have a test case librayr briefly","intent":"process","source":"seed+aug"}
+{"text":"One more thing: how does Aabhash manage test casees please","intent":"process","source":"third_person+aug"}
+{"text":"do you use the Azure DevOps wiki","intent":"docs-agent","source":"seed"}
+{"text":"does Aabhash use Power BI","intent":"hub","source":"third_person"}
+{"text":"do you use the azure devops wiki...","intent":"docs-agent","source":"seed+aug"}
+{"text":"did Aabhash do data annotation","intent":"before","source":"third_person"}
+{"text":"examples of your automation code","intent":"labs","source":"seed"}
+{"text":"hi! how do you handle stress :)","intent":"challenges","source":"seed+aug"}
+{"text":"backend testing expreience!","intent":"api","source":"seed+aug"}
+{"text":"AS A RECRUITER I WANT TO KNOW WHAT'S IMPOSTER","intent":"games","source":"seed+aug"}
+{"text":"So how does Aahbash make AI testing safe briefly","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"are you certified","intent":"certs","source":"seed"}
+{"text":"Just curious, what city are you in!","intent":"location","source":"seed+aug"}
+{"text":"please tell me give me a quick summary of you","intent":"summary","source":"seed+aug"}
+{"text":"Hey, can you write jons?","intent":"api","source":"seed+aug"}
+{"text":"pelase tell me honest about aabhash's limits!","intent":"learning","source":"third_person+aug"}
+{"text":"are you learning performance testing","intent":"learning","source":"seed"}
+{"text":"Just curious, is Aabhash junior or senior thanks","intent":"experience","source":"third_person+aug"}
+{"text":"Hey, what is Aabhash's tetsing process!","intent":"process","source":"third_person+aug"}
+{"text":"As a recruiter I want to know is Aabhash certified :)","intent":"certs","source":"third_person+aug"}
+{"text":"just curious, what was hard about generating docs?","intent":"docs-agent","source":"seed+aug"}
+{"text":"so how many products does aabhash cover","intent":"apps","source":"third_person+aug"}
+{"text":"hi! what did you lern the hard way","intent":"challenges","source":"seed+aug"}
+{"text":"i'm hiring for a qa role, how does aabhash test apis thanks","intent":"api","source":"third_person+aug"}
+{"text":"hey, what's your tech stack thanks","intent":"skills","source":"seed+aug"}
+{"text":"Just curious, how does Aabhash validate AI output?","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"as a recruiteer i want to know impact metrics?","intent":"numbers","source":"seed+aug"}
+{"text":"Tell me, what level is Aabhash!","intent":"role","source":"third_person+aug"}
+{"text":"What kind of work does Aabhash do now??","intent":"role","source":"third_person+aug"}
+{"text":"what's a good name for a dog","intent":"out_of_scope","source":"seed"}
+{"text":"tell me, are you the sole tster thanks","intent":"role","source":"seed+aug"}
+{"text":"DO YOU ATTEND SCRUM CERREMONIES??","intent":"communication","source":"seed+aug"}
+{"text":"email address?","intent":"contact","source":"seed"}
+{"text":"JUST CURIOUS, SIDE PROJECTS IN QA THNAKS","intent":"labs","source":"seed+aug"}
+{"text":"what practice testing have you done","intent":"labs","source":"seed"}
+{"text":"what skills are you still building","intent":"learning","source":"seed"}
+{"text":"hi! describe your career progression thanks","intent":"experience","source":"seed+aug"}
+{"text":"COULD YOU EXPLAIN WHAT'S AABHASH'S TECH STACK PLEASE","intent":"skills","source":"third_person+aug"}
+{"text":"please tell me what's your location?","intent":"location","source":"seed+aug"}
+{"text":"do you build AI agents","intent":"ai-agent","source":"seed"}
+{"text":"I was wondering what practice testing have you done?","intent":"labs","source":"seed+aug"}
+{"text":"culd you explain do you do api testing??","intent":"api","source":"seed+aug"}
+{"text":"Ok, how did you get the team to adopt standaards","intent":"process","source":"seed+aug"}
+{"text":"hey, years of professional experience in short","intent":"experience","source":"seed+aug"}
+{"text":"what skills is Aabhash still building","intent":"learning","source":"third_person"}
+{"text":"what's Aabhash's hourly rate","intent":"hiring","source":"third_person"}
+{"text":"SO DO YOU KNOW DOCKER :)","intent":"learning","source":"seed+aug"}
+{"text":"Please tell me does Aabhash do API testing :)","intent":"api","source":"third_person+aug"}
+{"text":"ok, does aabhash use poower bi in short","intent":"hub","source":"third_person+aug"}
+{"text":"How does Aabhash handle stress briefly","intent":"challenges","source":"third_person+aug"}
+{"text":"Can you tell me do you automate API teests briefly","intent":"api","source":"seed+aug"}
+{"text":"So we have an opeing??","intent":"hiring","source":"seed+aug"}
+{"text":"can you send me your email","intent":"contact","source":"seed"}
+{"text":"How do you make AI testing safe :)","intent":"ai-reliability","source":"seed+aug"}
+{"text":"i'm hiring for a qa role, what's aabhash's day job please","intent":"role","source":"third_person+aug"}
+{"text":"what's Aabhash's tech stack","intent":"skills","source":"third_person"}
+{"text":"hey, is aabhash open to offers?","intent":"hiring","source":"third_person+aug"}
+{"text":"So what is Aabhash's testing process please","intent":"process","source":"third_person+aug"}
+{"text":"tell me, what is the meaning of life please","intent":"out_of_scope","source":"seed+aug"}
+{"text":"what does Aabhash bring to a team","intent":"summary","source":"third_person"}
+{"text":"Please tell me what's Aabbhash's strongest skill?","intent":"skills","source":"third_person+aug"}
+{"text":"describe aabhash's career progression??","intent":"experience","source":"third_person+aug"}
+{"text":"just curious, can aabhash code thanks","intent":"skills","source":"third_person+aug"}
+{"text":"I was wondering can Aabhash overlap with UK hours please","intent":"location","source":"third_person+aug"}
+{"text":"please tell me how does aabhash use llms for qa...","intent":"ai-agent","source":"third_person+aug"}
+{"text":"so are you willing to relocate?","intent":"location","source":"seed+aug"}
+{"text":"As a recruiter I want to know what frameworks do you know?","intent":"skills","source":"seed+aug"}
+{"text":"TELL ME, CAN AABHASH OVERLAP WITH UK HOURS","intent":"location","source":"third_person+aug"}
+{"text":"I was wondering can I message you","intent":"contact","source":"seed+aug"}
+{"text":"Could you explain what is Abahash's testing philosophy please","intent":"philosophy","source":"third_person+aug"}
+{"text":"are you looking for a job in short","intent":"hiring","source":"seed+aug"}
+{"text":"could you explain do you do localisation testing??","intent":"skills","source":"seed+aug"}
+{"text":"proof of training","intent":"certs","source":"seed"}
+{"text":"one more thing: what testing types does aabhash do...","intent":"skills","source":"third_person+aug"}
+{"text":"Tell me, does Aabhash do freelance work in short","intent":"hiring","source":"third_person+aug"}
+{"text":"SO WHAT DOES AABBHASH DO AT PROSHORE?","intent":"role","source":"third_person+aug"}
+{"text":"did Aabhash label AI training data","intent":"before","source":"third_person"}
+{"text":"i'd like to know what testing types does aabhash do","intent":"skills","source":"third_person+aug"}
+{"text":"Tell me about your Playwright framework!","intent":"playwright","source":"seed+aug"}
+{"text":"Hey, do you build AI agents?","intent":"ai-agent","source":"seed+aug"}
+{"text":"tell me, can you trust ai written test cases??","intent":"ai-reliability","source":"seed+aug"}
+{"text":"what do you believe about QA","intent":"philosophy","source":"seed"}
+{"text":"hey, do you use the azure deovps wiki...","intent":"docs-agent","source":"seed+aug"}
+{"text":"hey, what does aabhash do for fun in short","intent":"games","source":"third_person+aug"}
+{"text":"i was wondering are you learning performance testing briefly","intent":"learning","source":"seed+aug"}
+{"text":"could you explain does aabhash test pricing systems in short","intent":"apps","source":"third_person+aug"}
+{"text":"which programming languages does Aabhash know","intent":"skills","source":"third_person"}
+{"text":"one more thing: how do you hndle an untested backlog...","intent":"process","source":"seed+aug"}
+{"text":"do you talk to clients","intent":"communication","source":"seed"}
+{"text":"I'm hiring for a QA role, how long was Aaabhash an associate :)","intent":"experience","source":"third_person+aug"}
+{"text":"tell me, what is khel??","intent":"games","source":"seed+aug"}
+{"text":"what frameworks do you know","intent":"skills","source":"seed"}
+{"text":"Can you tell me does Aabhash wite functional documentation :)","intent":"docs-agent","source":"third_person+aug"}
+{"text":"i'm hiring for a qa role, what's aabhash's biggest strength","intent":"summary","source":"third_person+aug"}
+{"text":"One more thing: what were your previous titles plese","intent":"experience","source":"seed+aug"}
+{"text":"Ok, professional summary thanks","intent":"summary","source":"seed+aug"}
+{"text":"hi! honest abot your limits...","intent":"learning","source":"seed+aug"}
+{"text":"As a recruuiter I want to know what kind of engineer are you :)","intent":"summary","source":"seed+aug"}
+{"text":"i was wondering what's the toughest thing aabhash has faced","intent":"challenges","source":"third_person+aug"}
+{"text":"as a recruiter i want to know i need aabhash's cv!","intent":"resume","source":"third_person+aug"}
+{"text":"is Aabhash a mid-level engineer","intent":"role","source":"third_person"}
+{"text":"i'm hiring for a qa role, what's your current workplace...","intent":"role","source":"seed+aug"}
+{"text":"can aabhash's agent write playwright scripts?","intent":"ai-agent","source":"third_person+aug"}
+{"text":"could you exlpain do you use power bi thanks","intent":"hub","source":"seed+aug"}
+{"text":"Is Aabhash a mid-level engineer??","intent":"role","source":"third_person+aug"}
+{"text":"as a recruiter i want to know list your credentials?","intent":"certs","source":"seed+aug"}
+{"text":"describe your responsibilities","intent":"role","source":"seed"}
+{"text":"ok, what does aabhahs do at proshore!","intent":"role","source":"third_person+aug"}
+{"text":"hey, how do you handle an untested backlog","intent":"process","source":"seed+aug"}
+{"text":"how do you manage bugs","intent":"process","source":"seed"}
+{"text":"i'm hiring for a qa role, what is aabhash's testing process brielfy","intent":"process","source":"third_person+aug"}
+{"text":"JUST CRUIOUS, TELL ME A JOKE BRIEFLY","intent":"out_of_scope","source":"seed+aug"}
+{"text":"I'M HIRING FOR A QA ROLE, HOW MANY LABS DOES AABHASH HAVE THANKS","intent":"labs","source":"third_person+aug"}
+{"text":"quick qestion: what's aabhash's home base briefly","intent":"location","source":"third_person+aug"}
+{"text":"what did Aabhash learn the hard way","intent":"challenges","source":"third_person"}
+{"text":"Ok, what's your current workplace in short","intent":"role","source":"seed+aug"}
+{"text":"just curious, how do you use llms for qa","intent":"ai-agent","source":"seed+aug"}
+{"text":"How many labs do you have in shhort","intent":"labs","source":"seed+aug"}
+{"text":"AS A RECRUITER I WANT TO KNOW CAN AABHASH WRITE JOINS BRIEFLY","intent":"api","source":"third_person+aug"}
+{"text":"Tell me, how did you get promotted","intent":"experience","source":"seed+aug"}
+{"text":"could you explain educational background","intent":"education","source":"seed+aug"}
+{"text":"Namatse Aabhash","intent":"hello","source":"seed+aug"}
+{"text":"Can you tell me what skillls is Aabhash still building?","intent":"learning","source":"third_person+aug"}
+{"text":"Ok, how is generation constrained?","intent":"ai-reliability","source":"seed+aug"}
+{"text":"test automation experience","intent":"playwright","source":"seed"}
+{"text":"HOW MANY LABS DOES AABHASH HAVE...","intent":"labs","source":"third_person+aug"}
+{"text":"hi! do you test pricing systems","intent":"apps","source":"seed+aug"}
+{"text":"So how do you make QA scale..","intent":"process","source":"seed+aug"}
+{"text":"are the games free","intent":"games","source":"seed"}
+{"text":"how does Aabhash handle bad AI output","intent":"ai-reliability","source":"third_person"}
+{"text":"can you tell me tell me a bit about aabhash thanks","intent":"summary","source":"third_person+aug"}
+{"text":"Please tell me strss testing experience briefly","intent":"performance","source":"seed+aug"}
+{"text":"Hi! do you have a test case library...","intent":"process","source":"seed+aug"}
+{"text":"One more thing: what is your testing philosophy...","intent":"philosophy","source":"seed+aug"}
+{"text":"Hey, we have an opening","intent":"hiring","source":"seed+aug"}
+{"text":"as a recruiter i want to know are you a mid-level engineer","intent":"role","source":"seed+aug"}
+{"text":"So can you send me your email?","intent":"contact","source":"seed+aug"}
+{"text":"hey, what problems did you run into??","intent":"challenges","source":"seed+aug"}
+{"text":"could you explain what's aabhash's location!","intent":"location","source":"third_person+aug"}
+{"text":"I'd like to know how do you handle stress!","intent":"challenges","source":"seed+aug"}
+{"text":"can Aabhash overlap with UK hours","intent":"location","source":"third_person"}
+{"text":"So can Aabhash trust AI written test cases??","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"I was wondering what pactice testing has Aabhash done??","intent":"labs","source":"third_person+aug"}
+{"text":"could you explain what is aabhash developing??","intent":"learning","source":"third_person+aug"}
+{"text":"Please tell me how fast was Aabhash promoted...","intent":"experience","source":"third_person+aug"}
+{"text":"As a recruiter I want to know how long were you an associat?","intent":"experience","source":"seed+aug"}
+{"text":"can you tell me how do i message you...","intent":"contact","source":"seed+aug"}
+{"text":"just curious, write an essay on climate change briefly","intent":"out_of_scope","source":"seed+aug"}
+{"text":"just curious, give me a quick summary of aabhash please","intent":"summary","source":"third_person+aug"}
+{"text":"Can you tell me how much time does the agent save in short","intent":"ai-agent","source":"seed+aug"}
+{"text":"quick question: how does the agent create azure devops tickets","intent":"ai-agent","source":"seed+aug"}
+{"text":"Can you tell me what is the traceability hub...","intent":"hub","source":"seed+aug"}
+{"text":"can you overlap with UK hours","intent":"location","source":"seed"}
+{"text":"Could you epxlain how accurate is the AI agent briefly","intent":"ai-reliability","source":"seed+aug"}
+{"text":"I'd like to know can you trust AI written test cases briefly","intent":"ai-reliability","source":"seed+aug"}
+{"text":"Ok, what are Aabhash's proudest accomplishments?","intent":"numbers","source":"third_person+aug"}
+{"text":"One more thing: how do you test APIs?","intent":"api","source":"seed+aug"}
+{"text":"Ok, which programming languages does Aabhash know!","intent":"skills","source":"third_person+aug"}
+{"text":"so does aabhash have a testing portoflio?","intent":"labs","source":"third_person+aug"}
+{"text":"ok, do you use the azure devops wiki :)","intent":"docs-agent","source":"seed+aug"}
+{"text":"DO YOU DO LOCALISATION TESTING IN SHORT","intent":"skills","source":"seed+aug"}
+{"text":"can I reach you by phone","intent":"contact","source":"seed"}
+{"text":"one more thing: do you have a testing portfolio thanks","intent":"labs","source":"seed+aug"}
+{"text":"Please tell me what's next for Aabhash's skills?","intent":"learning","source":"third_person+aug"}
+{"text":"can you tell me what's the news today?","intent":"out_of_scope","source":"seed+aug"}
+{"text":"share your résumé","intent":"resume","source":"seed"}
+{"text":"what do you do at Proshore","intent":"role","source":"seed"}
+{"text":"i'm hiring for a qa role, how fast was aabhash promoted please","intent":"experience","source":"third_person+aug"}
+{"text":"describe your career progression","intent":"experience","source":"seed"}
+{"text":"i'm hiring for a qa role, what is your testing phliosophy thanks","intent":"philosophy","source":"seed+aug"}
+{"text":"can you tell me how do you hndle bad ai output thanks","intent":"ai-reliability","source":"seed+aug"}
+{"text":"TELL ME ABOUT YOUR PLAYWRIGHT FRAMEWORK IN SHORT","intent":"playwright","source":"seed+aug"}
+{"text":"what does the Timesheet app do","intent":"apps","source":"seed"}
+{"text":"what is your most impressive project","intent":"ai-agent","source":"seed"}
+{"text":"write an essay on climate change","intent":"out_of_scope","source":"seed"}
+{"text":"please tell me did aabhash lbael ai training data briefly","intent":"before","source":"third_person+aug"}
+{"text":"Just curious, do tests run on every commit :)","intent":"playwright","source":"seed+aug"}
+{"text":"Could you explain which test management tools","intent":"skills","source":"seed+aug"}
+{"text":"What do you do for fun brriefly","intent":"games","source":"seed+aug"}
+{"text":"one more thing: who does aabhash test for?","intent":"role","source":"third_person+aug"}
+{"text":"Can you tell me can I message Aabhash...","intent":"contact","source":"third_person+aug"}
+{"text":"i'm hiring for a qa role, tell me a bit about you briefly","intent":"summary","source":"seed+aug"}
+{"text":"what's Aabhash about","intent":"summary","source":"seed"}
+{"text":"I was wondering portfolio projects :)","intent":"labs","source":"seed+aug"}
+{"text":"pllease tell me how does aabhash handle an untested backlog thanks","intent":"process","source":"third_person+aug"}
+{"text":"one more thing: are you junior or senior in shrt","intent":"experience","source":"seed+aug"}
+{"text":"what does Aabhash believe about QA","intent":"philosophy","source":"third_person"}
+{"text":"years in the industry","intent":"experience","source":"seed"}
+{"text":"Hey, contact information pleaes","intent":"contact","source":"seed+aug"}
+{"text":"ok, can you work on site in short","intent":"location","source":"seed+aug"}
+{"text":"Hey, do you automate the supplier portal??","intent":"playwright","source":"seed+aug"}
+{"text":"hey, how many prdoucts is aabhash responsible for :)","intent":"role","source":"third_person+aug"}
+{"text":"what's your day job","intent":"role","source":"seed"}
+{"text":"hi! how do you manaeg bugs...","intent":"process","source":"seed+aug"}
+{"text":"is Aabhash learning performance testing","intent":"learning","source":"third_person"}
+{"text":"How do you use LLMs for QA?","intent":"ai-agent","source":"seed+aug"}
+{"text":"hi! did you do any apprenticeship...","intent":"education","source":"seed+aug"}
+{"text":"could you explain does aabhash use power bi","intent":"hub","source":"third_person+aug"}
+{"text":"Can you tell me can you overlap with UK hours in short","intent":"location","source":"seed+aug"}
+{"text":"JUST CURIOUS, ANY HOBBY PROJECTS?","intent":"games","source":"seed+aug"}
+{"text":"namaste Aabhash","intent":"hello","source":"seed"}
+{"text":"can you tell me how does aabhash write documentation","intent":"docs-agent","source":"third_person+aug"}
+{"text":"Tell me a bit about Aabhash?","intent":"summary","source":"third_person+aug"}
+{"text":"do you attend scrum ceremonies","intent":"communication","source":"seed"}
+{"text":"CAN YOU TELL ME WHO DOES AABHASH REPOTR TO??","intent":"role","source":"third_person+aug"}
+{"text":"give me a quick smumary of you briefly","intent":"summary","source":"seed+aug"}
+{"text":"what are Aabhash's achievements","intent":"numbers","source":"third_person"}
+{"text":"what's Aabhash's current workplace","intent":"role","source":"third_person"}
+{"text":"So share Aabhash's résmé please","intent":"resume","source":"third_person+aug"}
+{"text":"hi! are you junnior or senior??","intent":"experience","source":"seed+aug"}
+{"text":"one more thing: did you do any apprenticeship?","intent":"education","source":"seed+aug"}
+{"text":"What's your biggest strength :)","intent":"summary","source":"seed+aug"}
+{"text":"Hey, what are you developing...","intent":"learning","source":"seed+aug"}
+{"text":"can you tell me what is aabhash's testing philosopphy","intent":"philosophy","source":"third_person+aug"}
+{"text":"I'd like to know educational backgrond?","intent":"education","source":"seed+aug"}
+{"text":"AS A RECRUITER I WANT TO KNOW WHAT'S NEXT FOR AABHASH'S SKILLS...","intent":"learning","source":"third_person+aug"}
+{"text":"what problems did Aabhash run into","intent":"challenges","source":"third_person"}
+{"text":"i'd like to know is aabhash junior or senior thanks","intent":"experience","source":"third_person+aug"}
+{"text":"so is aabahsh certified??","intent":"certs","source":"third_person+aug"}
+{"text":"hi! does aabhash have a test case library please","intent":"process","source":"third_person+aug"}
+{"text":"one more thing: what value do you add thanks","intent":"summary","source":"seed+aug"}
+{"text":"So does Aabhash test business unit access briefly","intent":"security","source":"third_person+aug"}
+{"text":"I WAS WONDERING STRESS TESTING EXPERIENCE THANKS","intent":"performance","source":"seed+aug"}
+{"text":"what projects have you worked on","intent":"apps","source":"seed"}
+{"text":"so share aabhash's résumé","intent":"resume","source":"third_person+aug"}
+{"text":"please tell me what level is aabhash in short","intent":"role","source":"third_person+aug"}
+{"text":"QUICK QUESTION: SHOW ME YOUR PSTMAN COLLECTION","intent":"labs","source":"seed+aug"}
+{"text":"I was wondering do you test permissions thanks","intent":"security","source":"seed+aug"}
+{"text":"How does Aabhash define severity!","intent":"process","source":"third_person+aug"}
+{"text":"so what is this portfolio about?","intent":"summary","source":"seed+aug"}
+{"text":"can you tell me what do you bring to a tea...","intent":"summary","source":"seed+aug"}
+{"text":"One more thing: does Aabhash test permissions...","intent":"security","source":"third_person+aug"}
+{"text":"Hi! does Aabhash do localisation testing!","intent":"skills","source":"third_person+aug"}
+{"text":"do you program in Python","intent":"skills","source":"seed"}
+{"text":"what's Aabhash's day job","intent":"role","source":"third_person"}
+{"text":"i was wondering what problems did you run into...","intent":"challenges","source":"seed+aug"}
+{"text":"Could you explain does Aabhash know Docker please","intent":"learning","source":"third_person+aug"}
+{"text":"please tell me do you have a test case library thanks","intent":"process","source":"seed+aug"}
+{"text":"Ok, what's Aabhash about...","intent":"summary","source":"seed+aug"}
+{"text":"I was wondering how do you write documentation thanks","intent":"docs-agent","source":"seed+aug"}
+{"text":"AS A RECRUITER I WANT TO KNOW ARE YOU THE SOLE TESTER","intent":"role","source":"seed+aug"}
+{"text":"as a recruiter i want to know what's aabhash's home base in shrot","intent":"location","source":"third_person+aug"}
+{"text":"What are you developing brifely","intent":"learning","source":"seed+aug"}
+{"text":"hi! do you do api testing","intent":"api","source":"seed+aug"}
+{"text":"hi! do you know k6 for load tess","intent":"performance","source":"seed+aug"}
+{"text":"tell me a jooke!","intent":"out_of_scope","source":"seed+aug"}
+{"text":"What's Aabhash's minsdet on quality please","intent":"philosophy","source":"third_person+aug"}
+{"text":"TELL ME, WHO DOES AABHAH REPORT TO?","intent":"role","source":"third_person+aug"}
+{"text":"what practice testing has Aabhash done","intent":"labs","source":"third_person"}
+{"text":"I'm hiring for a QA role, how do you check data integrity","intent":"api","source":"seed+aug"}
+{"text":"i'm hiring for a qa role, who do you report to!","intent":"role","source":"seed+aug"}
+{"text":"hi! what did you learn the hard way?","intent":"challenges","source":"seed+aug"}
+{"text":"Coud you explain what kind of work does Aabhash do now?","intent":"role","source":"third_person+aug"}
+{"text":"Does Aabhash do freelance work thanks","intent":"hiring","source":"third_person+aug"}
+{"text":"can Aabhash join immediately","intent":"hiring","source":"third_person"}
+{"text":"professional summary","intent":"summary","source":"seed"}
+{"text":"has aabhash worked on upwork briefly","intent":"before","source":"third_person+aug"}
+{"text":"what's your strongest skill","intent":"skills","source":"seed"}
+{"text":"HI! CAN YOU CDE...","intent":"skills","source":"seed+aug"}
+{"text":"quick question: what's a good name for a dog","intent":"out_of_scope","source":"seed+aug"}
+{"text":"i'd like to know how does aabhash organise test cases please","intent":"process","source":"third_person+aug"}
+{"text":"examples of Aabhash's automation code","intent":"labs","source":"third_person"}
+{"text":"how do you handle bad AI output","intent":"ai-reliability","source":"seed"}
+{"text":"I'M HIRING FOR A QA ROEL, DOES AABHASH AUTOMATE THE SUPPLIER PORTAL :)","intent":"playwright","source":"third_person+aug"}
+{"text":"please tell me how do you define severity :)","intent":"process","source":"seed+aug"}
+{"text":"what's Aabhash's home base","intent":"location","source":"third_person"}
+{"text":"I was wondernig what is a requirement traceability matrix thanks","intent":"hub","source":"seed+aug"}
+{"text":"Hey, is Aabhash open to offers thanks","intent":"hiring","source":"third_person+aug"}
+{"text":"As a recruiter I want to know does Aabhash use the Azure DevOps wiki please","intent":"docs-agent","source":"third_person+aug"}
+{"text":"what's your headline","intent":"summary","source":"seed"}
+{"text":"what's the weather today","intent":"out_of_scope","source":"seed"}
+{"text":"How does Aabhash validate AI output thaanks","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"One more thing: whats your biggest strength :)","intent":"summary","source":"seed+aug"}
+{"text":"hi! what is the gdp of india in shot","intent":"out_of_scope","source":"seed+aug"}
+{"text":"does Aabhash do localisation testing","intent":"skills","source":"third_person"}
+{"text":"i was wondering what's your mindsset on quality","intent":"philosophy","source":"seed+aug"}
+{"text":"side projects in QA","intent":"labs","source":"seed"}
+{"text":"I was wondering can you work on site briefly","intent":"location","source":"seed+aug"}
+{"text":"Ok, how many labs do you have?","intent":"labs","source":"seed+aug"}
+{"text":"what software do you test at work","intent":"apps","source":"seed"}
+{"text":"I was wondering how do you validate AI output :)","intent":"ai-reliability","source":"seed+aug"}
+{"text":"Could you explain what projects have you worked on please","intent":"apps","source":"seed+aug"}
+{"text":"hi! what's imposter briefly","intent":"games","source":"seed+aug"}
+{"text":"I'd like to know which programming languages do you know?","intent":"skills","source":"seed+aug"}
+{"text":"can you tell me who do you report to please","intent":"role","source":"seed+aug"}
+{"text":"Hi! can I message you thanks","intent":"contact","source":"seed+aug"}
+{"text":"show me your Postman collection","intent":"labs","source":"seed"}
+{"text":"What software does Aabhash test at work?","intent":"apps","source":"third_person+aug"}
+{"text":"Quick question: how does Aabhash avoid false positives from the agent?","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"I was wondering how do you manage test cases??","intent":"process","source":"seed+aug"}
+{"text":"are you the sole tester","intent":"role","source":"seed"}
+{"text":"I was wondering what are your proudesst accomplishments","intent":"numbers","source":"seed+aug"}
+{"text":"i was wondering what does aabhash do for fun?","intent":"games","source":"third_person+aug"}
+{"text":"what value do you add","intent":"summary","source":"seed"}
+{"text":"Hey, who does Aabhash test for?","intent":"role","source":"third_person+aug"}
+{"text":"One more thing: what's your current workplaace!","intent":"role","source":"seed+aug"}
+{"text":"one more thing: how long were you an associate?","intent":"experience","source":"seed+aug"}
+{"text":"OK, IS THIS AN AUTOMATED REPLY!","intent":"bot","source":"seed+aug"}
+{"text":"one more thing: what's aabhash's strongest skill","intent":"skills","source":"third_person+aug"}
+{"text":"how do you test APIs","intent":"api","source":"seed"}
+{"text":"HEY, ARE YOU WILLING TO RELOCATE BRIEFLY","intent":"location","source":"seed+aug"}
+{"text":"ok, what are aabhashs achievements!","intent":"numbers","source":"third_person+aug"}
+{"text":"What's your QA to developer ratio!","intent":"numbers","source":"seed+aug"}
+{"text":"hey, how do you organise test cases please","intent":"process","source":"seed+aug"}
+{"text":"good evening","intent":"hello","source":"seed"}
+{"text":"could you expalin did you do any apprenticeship","intent":"education","source":"seed+aug"}
+{"text":"Just curiosu, give me your bio thanks","intent":"summary","source":"seed+aug"}
+{"text":"quick question: how does aabahsh handle authentication in tests please","intent":"playwright","source":"third_person+aug"}
+{"text":"Tell me about Aabhash's Playwright framewwork briefly","intent":"playwright","source":"third_person+aug"}
+{"text":"What's Aabhash's designation?","intent":"role","source":"third_person+aug"}
+{"text":"one more thing: does aabhash attend scrum ceremoniies briefly","intent":"communication","source":"third_person+aug"}
+{"text":"can you tell me do you do freelannce work thanks","intent":"hiring","source":"seed+aug"}
+{"text":"could you explain how were you made thanks","intent":"bot","source":"seed+aug"}
+{"text":"does Aabhash know k6 for load tests","intent":"performance","source":"third_person"}
+{"text":"I was wondering mobile automation experience in short","intent":"mobile","source":"seed+aug"}
+{"text":"could you explain what's aabhash's location?","intent":"location","source":"third_person+aug"}
+{"text":"CAN ABHASH JOIN IMMEDIATELY!","intent":"hiring","source":"third_person+aug"}
+{"text":"As a recruiter I want to know how many labs do you have pleease","intent":"labs","source":"seed+aug"}
+{"text":"Hi! proof of training??","intent":"certs","source":"seed+aug"}
+{"text":"i'm hiring for a qa role, are the games free...","intent":"games","source":"seed+aug"}
+{"text":"i'd like to know can aabhash wrtie joins","intent":"api","source":"third_person+aug"}
+{"text":"One more thing: do you do database testting briefly","intent":"api","source":"seed+aug"}
+{"text":"what's Aabhash's strongest skill","intent":"skills","source":"third_person"}
+{"text":"OK, CAN YOUR AGENT WRITE PLAYWRIGHT SCRIPTS?","intent":"ai-agent","source":"seed+aug"}
+{"text":"what do you bring to a team :)","intent":"summary","source":"seed+aug"}
+{"text":"Could you explain what practice testing have you done please","intent":"labs","source":"seed+aug"}
+{"text":"What's a good name for a dog??","intent":"out_of_scope","source":"seed+aug"}
+{"text":"ok, what's aabhash's current workplace briefly","intent":"role","source":"third_person+aug"}
+{"text":"Qick question: do you test business unit access?","intent":"security","source":"seed+aug"}
+{"text":"So what does Aabhash bring to a team in short","intent":"summary","source":"third_person+aug"}
+{"text":"i was wondering does aabhash use the azure devops wiki??","intent":"docs-agent","source":"third_person+aug"}
+{"text":"As a recruiter I want to know show me your Postman collection...","intent":"labs","source":"seed+aug"}
+{"text":"could you explain how does aabhash handle too much work","intent":"challenges","source":"third_person+aug"}
+{"text":"quick question: is this really aabhash in short","intent":"bot","source":"seed+aug"}
+{"text":"please tell me how were you made...","intent":"bot","source":"seed+aug"}
+{"text":"what problems did aabhash run into briefly","intent":"challenges","source":"third_person+aug"}
+{"text":"does Aabhash automate the supplier portal","intent":"playwright","source":"third_person"}
+{"text":"Hey, which programming languages does Aabhash know :)","intent":"skills","source":"third_person+aug"}
+{"text":"Can you code please","intent":"skills","source":"seed+aug"}
+{"text":"what are your proudest accomplishments","intent":"numbers","source":"seed"}
+{"text":"hi! how does aaabhash manage bugs :)","intent":"process","source":"third_person+aug"}
+{"text":"How do you validatte AI output!","intent":"ai-reliability","source":"seed+aug"}
+{"text":"what's Aabhash's headline","intent":"summary","source":"third_person"}
+{"text":"so how fast were you promoted pleaes","intent":"experience","source":"seed+aug"}
+{"text":"has Aabhash worked on Upwork","intent":"before","source":"third_person"}
+{"text":"what is the traceability hub","intent":"hub","source":"seed"}
+{"text":"what's your QA to developer ratio","intent":"numbers","source":"seed"}
+{"text":"Good aternoon","intent":"hello","source":"seed+aug"}
+{"text":"hey, what is khel?","intent":"games","source":"seed+aug"}
+{"text":"how do you manage test cases","intent":"process","source":"seed"}
+{"text":"what's the toughest thing you've faced","intent":"challenges","source":"seed"}
+{"text":"so how does aabhash check data integrity please","intent":"api","source":"third_person+aug"}
+{"text":"Can you tell me can Aabhash write joins thanks","intent":"api","source":"third_person+aug"}
+{"text":"could you explain what's aabhash's day job thanks","intent":"role","source":"third_person+aug"}
+{"text":"i'm hiring for a qa role, did aabhash do data annotation","intent":"before","source":"third_person+aug"}
+{"text":"How do you organise test cases??","intent":"process","source":"seed+aug"}
+{"text":"hi! how does aabhash define severity in short","intent":"process","source":"third_person+aug"}
+{"text":"did you do data annotation","intent":"before","source":"seed"}
+{"text":"what problems did aabhash run into thanks","intent":"challenges","source":"third_person+aug"}
+{"text":"One more thing: how many products are you responsible for","intent":"role","source":"seed+aug"}
+{"text":"Can you tell me do you do exploratory testing?","intent":"skills","source":"seed+aug"}
+{"text":"Could you explain tell me a bit aboout you","intent":"summary","source":"seed+aug"}
+{"text":"what were your previous titles","intent":"experience","source":"seed"}
+{"text":"what kind of work do you do now","intent":"role","source":"seed"}
+{"text":"One more thing: does Aabhash program in Python briefly","intent":"skills","source":"third_person+aug"}
+{"text":"what is Aabhash working on learning","intent":"learning","source":"third_person"}
+{"text":"i'm hiring for a qa role, do you do freelacne work...","intent":"hiring","source":"seed+aug"}
+{"text":"One more thing: test auomation experience please","intent":"playwright","source":"seed+aug"}
+{"text":"how do you organise test caases?","intent":"process","source":"seed+aug"}
+{"text":"ok, how do i message you","intent":"contact","source":"seed+aug"}
+{"text":"Tell me, how does Aabhash organise test cases","intent":"process","source":"third_person+aug"}
+{"text":"i'd like to know does aabhash do database testing please","intent":"api","source":"third_person+aug"}
+{"text":"educational background","intent":"education","source":"seed"}
+{"text":"please tell me does aabhash do exploratory testing :)","intent":"skills","source":"third_person+aug"}
+{"text":"quick question: what's aabhash's home base","intent":"location","source":"third_person+aug"}
+{"text":"who does Aabhash test for","intent":"role","source":"third_person"}
+{"text":"what's the toughest thing Aabhash has faced","intent":"challenges","source":"third_person"}
+{"text":"How is generation constrained???","intent":"ai-reliability","source":"seed+aug"}
+{"text":"ok, api regression briefly","intent":"api","source":"seed+aug"}
+{"text":"hi! can your agent wrtie playwright scripts??","intent":"ai-agent","source":"seed+aug"}
+{"text":"can you tell me who do you test for...","intent":"role","source":"seed+aug"}
+{"text":"Tell me, what frameworks do you know","intent":"skills","source":"seed+aug"}
+{"text":"I'm hiriing for a QA role, how do you test APIs :)","intent":"api","source":"seed+aug"}
+{"text":"how is generation constrained","intent":"ai-reliability","source":"seed"}
+{"text":"hi! how does aabhash measure coverage :)","intent":"hub","source":"third_person+aug"}
+{"text":"one more thing: what's aabhsh's hourly rate??","intent":"hiring","source":"third_person+aug"}
+{"text":"Quick question: does Aabhash attend scrum ceremonies","intent":"communication","source":"third_person+aug"}
+{"text":"how do you handle authentication in tests","intent":"playwright","source":"seed"}
+{"text":"I was wondering how do you define severity","intent":"process","source":"seed+aug"}
+{"text":"do you test business unit access!","intent":"security","source":"seed+aug"}
+{"text":"I'D LIKE TO KNOW WHO WON THE WORLD CUP...","intent":"out_of_scope","source":"seed+aug"}
+{"text":"Tell me about the clinet applications","intent":"apps","source":"seed+aug"}
+{"text":"Hey, do you write functionl documentation?","intent":"docs-agent","source":"seed+aug"}
+{"text":"can you tell me is aabhash loooking for a job?","intent":"hiring","source":"third_person+aug"}
+{"text":"one more thing: how do you check data integrity in short","intent":"api","source":"seed+aug"}
+{"text":"I'm hiring for a QA role, time overlap with Europe?","intent":"location","source":"seed+aug"}
+{"text":"quick question: what does aabhash brign to a team?","intent":"summary","source":"third_person+aug"}
+{"text":"what's Imposter","intent":"games","source":"seed"}
+{"text":"what's your day job!","intent":"role","source":"seed+aug"}
+{"text":"does Aabhash use the Azure DevOps wiki","intent":"docs-agent","source":"third_person"}
+{"text":"hi! show me aabhash's postmaan collection?","intent":"labs","source":"third_person+aug"}
+{"text":"just curious, does aabhash talk to clients?","intent":"communication","source":"third_person+aug"}
+{"text":"I'd like to know how do you handle authentication in tests?","intent":"playwright","source":"seed+aug"}
+{"text":"Tell me, years of professional experience thanks","intent":"experience","source":"seed+aug"}
+{"text":"how does aabhash use llms for qa in short","intent":"ai-agent","source":"third_person+aug"}
+{"text":"as a recruiter i want to know did you label ai training data??","intent":"before","source":"seed+aug"}
+{"text":"what's next for Aabhash's skills","intent":"learning","source":"third_person"}
+{"text":"can you tell me wat's your opinion on politics please","intent":"out_of_scope","source":"seed+aug"}
+{"text":"Ok, do you pogram in Python in short","intent":"skills","source":"seed+aug"}
+{"text":"what does Aabhash do for fun","intent":"games","source":"third_person"}
+{"text":"who do you report to","intent":"role","source":"seed"}
+{"text":"who does aabhash report to briefly","intent":"role","source":"third_person+aug"}
+{"text":"hey, honest about your limits briefly","intent":"learning","source":"seed+aug"}
+{"text":"i was wondering what frameworks does aabhash know thanks","intent":"skills","source":"third_person+aug"}
+{"text":"i was wondering what is the traceability hub in short","intent":"hub","source":"seed+aug"}
+{"text":"I'm hiring for a QA role, what testing types do you do please","intent":"skills","source":"seed+aug"}
+{"text":"hey, what is aabhash's most impressive project please","intent":"ai-agent","source":"third_person+aug"}
+{"text":"i was wondering what's the toughest thing you've faced?","intent":"challenges","source":"seed+aug"}
+{"text":"Hey, contact information?","intent":"contact","source":"seed+aug"}
+{"text":"describe Aabhash's responsibilities","intent":"role","source":"third_person"}
+{"text":"Quick question: time overlap with Europe thakns","intent":"location","source":"seed+aug"}
+{"text":"please tell me does aabhash program in python in sohrt","intent":"skills","source":"third_person+aug"}
+{"text":"as a recruiter i want to know have you worked on upwork thanks","intent":"before","source":"seed+aug"}
+{"text":"as a recruiter i want to know how many products does aabhash cover","intent":"apps","source":"third_person+aug"}
+{"text":"i was wondering professional summary!","intent":"summary","source":"seed+aug"}
+{"text":"I'D LIKE TO KNOW WHAT SOFTWARE DO YOU TEST AT WORK :)","intent":"apps","source":"seed+aug"}
+{"text":"Can you tell me how do I message Aabhash in short","intent":"contact","source":"third_person+aug"}
+{"text":"as a recruiter i want to know how does aabhash avoid false positives from the agennt briefly","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"Can you tell me what were your previous titles :)","intent":"experience","source":"seed+aug"}
+{"text":"i'm hiring for a qa role, does aabhaash build ai agents?","intent":"ai-agent","source":"third_person+aug"}
+{"text":"how much of your testing is automated","intent":"playwright","source":"seed"}
+{"text":"One more thing: how long was Aabhash an associate","intent":"experience","source":"third_person+aug"}
+{"text":"Could you explain test automation experience...","intent":"playwright","source":"seed+aug"}
+{"text":"quick question: how do you handle authentication in tests breifly","intent":"playwright","source":"seed+aug"}
+{"text":"how many products is Aabhash responsible for","intent":"role","source":"third_person"}
+{"text":"tell me about Aabhash's Playwright framework","intent":"playwright","source":"third_person"}
+{"text":"How does Aabhash write documentatiion briefly","intent":"docs-agent","source":"third_person+aug"}
+{"text":"I was wondering academic qualifications in short","intent":"education","source":"seed+aug"}
+{"text":"is Aabhash junior or senior","intent":"experience","source":"third_person"}
+{"text":"hi! are you open to offers please","intent":"hiring","source":"seed+aug"}
+{"text":"What problems did you run into...","intent":"challenges","source":"seed+aug"}
+{"text":"Tell me, how does Aabhhash measure coverage","intent":"hub","source":"third_person+aug"}
+{"text":"hi! portfloio projects :)","intent":"labs","source":"seed+aug"}
+{"text":"can we hire you","intent":"hiring","source":"seed"}
+{"text":"One more thing: what checks the AI's work thaanks","intent":"ai-reliability","source":"seed+aug"}
+{"text":"can you trust AI written test cases","intent":"ai-reliability","source":"seed"}
+{"text":"as a recruiter i want to know how do you use llms for qa thakns","intent":"ai-agent","source":"seed+aug"}
+{"text":"Hi! what projects have you worked on :)","intent":"apps","source":"seed+aug"}
+{"text":"could you explain how do you handle bad ai output briefly","intent":"ai-reliability","source":"seed+aug"}
+{"text":"quick question: are you learnng performance testing?","intent":"learning","source":"seed+aug"}
+{"text":"I'd like to know who built you","intent":"bot","source":"seed+aug"}
+{"text":"I'd like to know what does Aabhash bring to a team","intent":"summary","source":"third_person+aug"}
+{"text":"COULD YOU EXPLAIN WRRITE ME A POEM","intent":"out_of_scope","source":"seed+aug"}
+{"text":"what's Aabhash's QA journey","intent":"experience","source":"third_person"}
+{"text":"how much of your testing is autoated...","intent":"playwright","source":"seed+aug"}
+{"text":"as a recruiter i want to know what problems did aabhash run into :)","intent":"challenges","source":"third_person+aug"}
+{"text":"quick question: are you open to offesr??","intent":"hiring","source":"seed+aug"}
+{"text":"so do you know docker in short","intent":"learning","source":"seed+aug"}
+{"text":"as a recruiter i want to know how do you validate ai output in short","intent":"ai-reliability","source":"seed+aug"}
+{"text":"could you explain write me a poem?","intent":"out_of_scope","source":"seed+aug"}
+{"text":"backend testing experience...","intent":"api","source":"seed+aug"}
+{"text":"tell me, tell me about aabhash's playwright framework...","intent":"playwright","source":"third_person+aug"}
+{"text":"Could you explain what software does Aabhash test at work","intent":"apps","source":"third_person+aug"}
+{"text":"Do you do exploratory testing?","intent":"skills","source":"seed+aug"}
+{"text":"ok, how is your english thankks","intent":"communication","source":"seed+aug"}
+{"text":"just curious, how do you test apis!","intent":"api","source":"seed+aug"}
+{"text":"quick question: what kind of engineer is aabhash briefly","intent":"summary","source":"third_person+aug"}
+{"text":"what's your designation","intent":"role","source":"seed"}
+{"text":"hi! what is the meaning of life!","intent":"out_of_scope","source":"seed+aug"}
+{"text":"can you tell me do you have a testing portfolio in short","intent":"labs","source":"seed+aug"}
+{"text":"do you test permissions","intent":"security","source":"seed"}
+{"text":"so stress testing experience!","intent":"performance","source":"seed+aug"}
+{"text":"i'd like to know what city is aabhassh in :)","intent":"location","source":"third_person+aug"}
+{"text":"As a recruiter I want to know how many test cases in total?","intent":"numbers","source":"seed+aug"}
+{"text":"just curious, proof of training please","intent":"certs","source":"seed+aug"}
+{"text":"Quick question: what's Aabhash's mindset on quaity :)","intent":"philosophy","source":"third_person+aug"}
+{"text":"tell me, what is a requirement traceability matrix","intent":"hub","source":"seed+aug"}
+{"text":"Just curious, what's your home base!","intent":"location","source":"seed+aug"}
+{"text":"Could you explain does Aabhash automate the supplier portal in short","intent":"playwright","source":"third_person+aug"}
+{"text":"what practice testing has aabhash done in short","intent":"labs","source":"third_person+aug"}
+{"text":"Just curious, what testing types does Aabhassh do?","intent":"skills","source":"third_person+aug"}
+{"text":"Could you explani what does Aabhash do for fun please","intent":"games","source":"third_person+aug"}
+{"text":"Could you explain what's your day job?","intent":"role","source":"seed+aug"}
+{"text":"CAN AABHASH'S AGENT WRITE PLAYWRIGHT SCRIPTS PLEASE","intent":"ai-agent","source":"third_person+aug"}
+{"text":"Hi! can we hire you...","intent":"hiring","source":"seed+aug"}
+{"text":"Please tell me how do I invest in crypto brielfy","intent":"out_of_scope","source":"seed+aug"}
+{"text":"did you do data annotation please","intent":"before","source":"seed+aug"}
+{"text":"what is the meaning of life","intent":"out_of_scope","source":"seed"}
+{"text":"Ok, can you overlap with UK hours...","intent":"location","source":"seed+aug"}
+{"text":"just curious, what's the news todya!","intent":"out_of_scope","source":"seed+aug"}
+{"text":"what's the news today","intent":"out_of_scope","source":"seed"}
+{"text":"i was wondering is aabhash certified?","intent":"certs","source":"third_person+aug"}
+{"text":"do you automate API tests","intent":"api","source":"seed"}
+{"text":"Could you explain is this really Aabhash :)","intent":"bot","source":"seed+aug"}
+{"text":"just curious, can aabhash trust ai written test cases?","intent":"ai-reliability","source":"third_person+aug"}
+{"text":"could you explain does aabhash write functional documentation please","intent":"docs-agent","source":"third_person+aug"}
+{"text":"Tell me, does Aabhash test pricing systems","intent":"apps","source":"third_person+aug"}
+{"text":"ok, did you label ai training data...","intent":"before","source":"seed+aug"}
+{"text":"Ok, what's your home base in short","intent":"location","source":"seed+aug"}
+{"text":"what was hard about generating docs","intent":"docs-agent","source":"seed"}
+{"text":"how fast was Aabhash promoted","intent":"experience","source":"third_person"}
+{"text":"can Aabhash trust AI written test cases","intent":"ai-reliability","source":"third_person"}
+{"text":"give me Aabhash's bio","intent":"summary","source":"third_person"}
+{"text":"what is a requirement traceability matrix","intent":"hub","source":"seed"}
+{"text":"TELL ME, WHA'TS NEXT FOR YOUR SKILLS","intent":"learning","source":"seed+aug"}
+{"text":"what were Aabhash's previous titles","intent":"experience","source":"third_person"}
+{"text":"I'M HIRING FOR A QA ROLE, HOW DOES THE AGENT CREATE AZURE DEVOPS TICKETS THANKS","intent":"ai-agent","source":"seed+aug"}
+{"text":"i'd like to know do you want to switch jobs in short","intent":"hiring","source":"seed+aug"}
+{"text":"can you trust ai written test cases :)","intent":"ai-reliability","source":"seed+aug"}
+{"text":"Tell me, are you open to offers....","intent":"hiring","source":"seed+aug"}
+{"text":"Does Aabhhash test pricing systems","intent":"apps","source":"third_person+aug"}
+{"text":"what is your testing philosophy","intent":"philosophy","source":"seed"}
+{"text":"how many bugs has Aabhash found","intent":"numbers","source":"third_person"}
+{"text":"Ok, impact metrics...","intent":"numbers","source":"seed+aug"}
+{"text":"how does Aabhash organise test cases","intent":"process","source":"third_person"}
+{"text":"hey, who built you??","intent":"bot","source":"seed+aug"}
+{"text":"I'm hiring for a QA role, do you build AI agnts","intent":"ai-agent","source":"seed+aug"}
+{"text":"what did aabhash learn the hard way??","intent":"challenges","source":"third_person+aug"}
+{"text":"Who do you test for in sort","intent":"role","source":"seed+aug"}
+{"text":"tell me a bit about you","intent":"summary","source":"seed"}
+{"text":"i'd like to know can aabhash's agent write playwright scripts?","intent":"ai-agent","source":"third_person+aug"}
+{"text":"are Aabhash's games in Nepali","intent":"games","source":"third_person"}
+{"text":"Hello thee friend","intent":"hello","source":"seed+aug"}
+{"text":"is Aabhash looking for a job","intent":"hiring","source":"third_person"}
+{"text":"one more thin:g what kind of engineer are you in short","intent":"summary","source":"seed+aug"}
+{"text":"how many test cases in total","intent":"numbers","source":"seed"}
+{"text":"Could you explain what's Aabhahs's career history!","intent":"experience","source":"third_person+aug"}
+{"text":"Hi! which programming languages does Aabhash know?","intent":"skills","source":"third_person+aug"}
+{"text":"Tell me, what do you believe about QA please","intent":"philosophy","source":"seed+aug"}
+{"text":"Hey, what checks the AI's work briefly","intent":"ai-reliability","source":"seed+aug"}
+{"text":"cross device testing","intent":"mobile","source":"seed"}
+{"text":"i was wondering cross device testing","intent":"mobile","source":"seed+aug"}
+{"text":"can you join immediately","intent":"hiring","source":"seed"}
+{"text":"I'd like to know what are you developing briefly","intent":"learning","source":"seed+aug"}
+{"text":"So can your agent write Playwright scripts briely","intent":"ai-agent","source":"seed+aug"}
+{"text":"I WAS WONDERING DID YOU DO DATA ANNOTATION?","intent":"before","source":"seed+aug"}
+{"text":"how does aabhash measure coverage!","intent":"hub","source":"third_person+aug"}
+{"text":"how does Aabhash make QA scale","intent":"process","source":"third_person"}
+{"text":"Hey, what software do you use for testing","intent":"skills","source":"seed+aug"}
+{"text":"i was wondering what were aabhash's previous titls :)","intent":"experience","source":"third_person+aug"}
+{"text":"I'm hiring for a QA role, can Aabhash join immediately...","intent":"hiring","source":"third_person+aug"}
+{"text":"one more thing: what kind of work does aabhash do now??","intent":"role","source":"third_person+aug"}
+{"text":"HEY, HOW DID YOU GET PROMOTED??","intent":"experience","source":"seed+aug"}
+{"text":"projects outside of work","intent":"labs","source":"seed"}
+{"text":"Can you tell me how does Aabhash make QA scael?","intent":"process","source":"third_person+aug"}
+{"text":"what's Aabhash's QA to developer ratio","intent":"numbers","source":"third_person"}
+{"text":"Just curious, describe your responsibilities please","intent":"role","source":"seed+aug"}
+{"text":"how do you check data integrity","intent":"api","source":"seed"}
+{"text":"i'm hiring for a qa role, does aabhash do exploratory testing :)","intent":"skills","source":"third_person+aug"}
+{"text":"SO HOW MANY LABS DOES AABHASH HAVE IN SHORT","intent":"labs","source":"third_person+aug"}
+{"text":"HEY, CAN AABHASH WORK ON SITE?","intent":"location","source":"third_person+aug"}
+{"text":"what kind of work do you do now thnaks","intent":"role","source":"seed+aug"}
+{"text":"could you explain does aabhash test permissions...","intent":"security","source":"third_person+aug"}
+{"text":"what city are you in?","intent":"location","source":"seed+aug"}
+{"text":"Tribhuvan University?","intent":"education","source":"seed"}
+{"text":"Ok, how fast were you promoed","intent":"experience","source":"seed+aug"}
+{"text":"what is the GDP of India","intent":"out_of_scope","source":"seed"}
+{"text":"what does Aabhash do at Proshore","intent":"role","source":"third_person"}
+{"text":"HEY, HOW MANY TEST CAES IN TOTAL BRIEFLY","intent":"numbers","source":"seed+aug"}
+{"text":"I was wondering what is Aabhash developing...","intent":"learning","source":"third_person+aug"}
+{"text":"what is this portfolio about in short","intent":"summary","source":"seed+aug"}
+{"text":"Is this really Aabhash please","intent":"bot","source":"seed+aug"}
+{"text":"ok, does aabhash write fuctional documentation...","intent":"docs-agent","source":"third_person+aug"}
+{"text":"Just curious, what does the Timseheet app do :)","intent":"apps","source":"seed+aug"}
+{"text":"years in the industry in short","intent":"experience","source":"seed+aug"}
+{"text":"hi! what is aabhash working on learning??","intent":"learning","source":"third_person+aug"}
+{"text":"Could you explain what's Aabhash's designation!","intent":"role","source":"third_person+aug"}
+{"text":"hi, how's it going","intent":"hello","source":"seed"}
+{"text":"can I message you","intent":"contact","source":"seed"}
+{"text":"can you tell me what kind of engineer is aabhash thanks","intent":"summary","source":"third_person+aug"}
+{"text":"are your games in nepali!","intent":"games","source":"seed+aug"}
+{"text":"How is Aabhash's English??","intent":"communication","source":"third_person+aug"}
+{"text":"pllease tell me what are your proudest accomplishments!","intent":"numbers","source":"seed+aug"}
+{"text":"hey, what practice testing have you done :)","intent":"labs","source":"seed+aug"}
+{"text":"can you tell me does aabhash program in python!","intent":"skills","source":"third_person+aug"}
+{"text":"hi! does aabhash do localisation tseting?","intent":"skills","source":"third_person+aug"}
+{"text":"CAN AABHASH WRITE JOINS?","intent":"api","source":"third_person+aug"}
+{"text":"Tell me, what's the weather today in short","intent":"out_of_scope","source":"seed+aug"}
+{"text":"Do you test pricing systems?","intent":"apps","source":"seed+aug"}
+{"text":"Ok, how did Aabhassh get the team to adopt standards","intent":"process","source":"third_person+aug"}
+{"text":"Just curious, which test management tools","intent":"skills","source":"seed+aug"}
+{"text":"so how did you get promotd?","intent":"experience","source":"seed+aug"}
+{"text":"Could you explain do you do API testing","intent":"api","source":"seed+aug"}
+{"text":"do you have a testing portfolio","intent":"labs","source":"seed"}
+{"text":"one more thing: give me your bio?","intent":"summary","source":"seed+aug"}
+{"text":"how does Aabhash define severity","intent":"process","source":"third_person"}
+{"text":"does Aabhash talk to clients","intent":"communication","source":"third_person"}

@@ -1,0 +1,11 @@
+# Local Claude preferences
+.claude/*.local.md
+
+# Design review working files (screenshots)
+.playwright-mcp/
+.impeccable/review/
+
+# Chat worker
+worker/node_modules/
+worker/.dev.vars
+worker/.wrangler/
