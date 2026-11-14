@@ -129,7 +129,7 @@
   /* ══════════════════════════════════════════════════════
      CASE STUDIES
      One object per project. Edit the text here — the markup
-     is generated. [brackets] are placeholders for real numbers.
+     is generated.
      ══════════════════════════════════════════════════════ */
   var CASES = {
     agentic: {
@@ -151,9 +151,6 @@
       ],
       challenges: "A wrong generated case is worse than no case, because it creates false confidence. Constraining generation to observed application state, and reviewing every batch before it lands, is what made the output trustworthy. Duplicate tickets were the other risk \u2014 an automated reporter that files the same bug twice loses the team's trust immediately.",
       results: [
-        "Authoring time per module fell from <strong>[X] hours to [Y] minutes</strong>.",
-        "<strong>[N] test cases</strong> generated and reviewed into the Azure DevOps library.",
-        "<strong>[N] defects</strong> found and filed through the flow.",
         "Manual copy-paste transfer removed from the cycle entirely."
       ],
       flow: ["Feature", "Test cases", "Scripts", "Execution", "Bug report", "ADO ticket"],
@@ -179,8 +176,6 @@
       ],
       challenges: "Generated documentation drifts toward describing code rather than explaining behaviour. Getting the functional register right \u2014 written for someone who does not read the repository \u2014 took more iteration than the technical one.",
       results: [
-        "Documentation for <strong>[N] applications</strong> generated rather than hand-written.",
-        "Turnaround per document down from <strong>[X] to [Y]</strong>.",
         "Docs now refreshed on change instead of going stale between releases."
       ],
       flow: ["Codebase", "Agent pass", "Technical docs", "Functional docs", "Wiki"],
@@ -206,9 +201,7 @@
       ],
       challenges: "Choosing what not to show. The first version exposed too much detail and stakeholders ignored it; the useful version answers one question \u2014 is this release safe \u2014 and links to detail for anyone who wants it.",
       results: [
-        "Run history retained across <strong>[N] sprints</strong>.",
-        "Release-risk questions answerable from one screen.",
-        "Test data and documentation consolidated from <strong>[N] separate places</strong> into one."
+        "Release-risk questions answerable from one screen."
       ],
       flow: ["Test runs", "Ingest", "History store", "Trends", "Client view"],
       stack: ["Node.js", "SQLite", "Azure DevOps API", "Playwright reporter", "Power BI"]
@@ -233,9 +226,7 @@
       ],
       challenges: "Flaky specs undermine an automated suite faster than missing coverage does. Stabilising waits and authentication state, and triaging flake as its own class of defect, was most of the real work after the first version shipped.",
       results: [
-        "Full regression from <strong>[X] hours manual to [Y] minutes automated</strong>.",
-        "Regression now runs on <strong>every commit</strong> instead of on request.",
-        "Coverage across <strong>[N] products</strong> from one pipeline definition."
+        "Regression now runs on <strong>every commit</strong> instead of on request."
       ],
       flow: ["Commit", "Azure Pipeline", "Playwright", "JUnit + HTML", "Sign-off"],
       stack: ["Playwright", "TypeScript", "Azure Pipelines", "JUnit", "Azure AD", "Page Object Model"]
@@ -260,7 +251,6 @@
       ],
       challenges: "Test data. API assertions are only as good as the state they run against, so building repeatable data setup mattered more than the assertions themselves.",
       results: [
-        "<strong>[N] endpoints</strong> under automated coverage.",
         "API regression now runs automatically rather than on demand.",
         "Contract and validation defects caught before reaching the interface."
       ],
@@ -288,7 +278,6 @@
       challenges: "Standards only work if the team uses them, and a process written by one person is easy to ignore. Keeping it light enough to follow \u2014 and applying it visibly to my own work first \u2014 was what got it adopted.",
       results: [
         "<strong>Every</strong> backlog application brought under documented coverage.",
-        "First traceable test case library at the company, now <strong>[N] cases</strong>.",
         "Entry and exit criteria and a defect workflow the whole team works to."
       ],
       flow: ["Requirements", "Test plan", "Case library", "Execution", "Exit criteria"],

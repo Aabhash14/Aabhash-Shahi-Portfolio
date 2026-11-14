@@ -18,17 +18,29 @@
   <meta name="theme-color" content="#F8F9FB" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#0B0D10" media="(prefers-color-scheme: dark)" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23111111'/%3E%3Ctext x='16' y='22' font-family='Inter,sans-serif' font-size='15' font-weight='600' fill='%23F8F9FB' text-anchor='middle'%3EAS%3C/text%3E%3C/svg%3E" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&display=swap" />
+  <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
   <script>
     (function () {
-      var t = null;
+      var d = document.documentElement, t = null;
       try { t = localStorage.getItem("theme"); } catch (e) {}
-      document.documentElement.setAttribute("data-theme", t || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"));
+      d.setAttribute("data-theme", t || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"));
+      // the hero agent animates in: hold it in its start state from the first paint
+      if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) d.classList.add("agent-intro");
     })();
   </script>
   <style>
+/* Inter, self-hosted (variable weight), so the first paint waits on no third party */
+@font-face{
+  font-family:"Inter"; font-style:normal; font-weight:400 600; font-display:swap;
+  src:url(fonts/inter-latin.woff2) format("woff2");
+  unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face{
+  font-family:"Inter"; font-style:normal; font-weight:400 600; font-display:swap;
+  src:url(fonts/inter-latin-ext.woff2) format("woff2");
+  unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
 /* ============================================================
    Option 2 — Trajectory
    Same tokens as styles.css; new structure. The page is told as
@@ -351,6 +363,11 @@ html[data-theme="dark"] .agent{ box-shadow:var(--shadow-1), var(--shadow-3); }
 @keyframes as-spin{ to{ transform:rotate(360deg); } }
 .agent-step.is-done .as-ring{ fill:var(--accent); stroke:var(--accent); }
 .agent-step.is-done .as-check{ stroke-dashoffset:0; }
+/* before the intro plays: the pending look, painted from the start so nothing un-draws on load */
+html.agent-intro .agent-step .as-text{ opacity:.45; }
+html.agent-intro .agent-step .as-ring{ fill:transparent; stroke:var(--border-strong); stroke-dasharray:2.6 3; }
+html.agent-intro .agent-step .as-check{ stroke-dashoffset:13; }
+html.agent-intro .agent-step::after{ transform:scaleY(0); }
 .agent-foot{
   display:flex; align-items:center; justify-content:space-between; gap:var(--s-3);
   margin-top:var(--s-5); padding-top:var(--s-4); border-top:1px solid var(--border); font-size:.875rem;
@@ -1163,7 +1180,7 @@ html[data-theme="dark"] .knob{ background:var(--surface-2); border-color:var(--t
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8"/></svg>
           </button>
         </div>
-        <video class="vid-player" controls playsinline preload="none" poster="videos/qa-agent-poster.jpg" width="1920" height="1080"
+        <video class="vid-player" controls playsinline preload="none" data-poster="videos/qa-agent-poster.jpg" width="1920" height="1080"
           data-src="videos/qa-agent-intro.mp4" aria-describedby="agent-video-desc"></video>
         <p class="vid-desc" id="agent-video-desc">30-second walkthrough of the six steps: explore, design, generate, heal, visual and accessibility checks, dashboard. Shown on a demo app with sample data.</p>
       </dialog>
@@ -1839,6 +1856,12 @@ html[data-theme="dark"] .knob{ background:var(--surface-2); border-color:var(--t
       });
     }
     aReplay.addEventListener("click", aRun);
+    if (root.classList.contains("agent-intro")) {
+      // hand the start state from the <html> class to the steps; the look does not change
+      aSteps.forEach(function (s) { aState(s, "pending"); });
+      aReplay.disabled = true;
+      root.classList.remove("agent-intro");
+    }
     if ("IntersectionObserver" in window && !aCalm.matches) {
       var aIo = new IntersectionObserver(function (es) {
         if (es[0].isIntersecting) { aIo.disconnect(); aRun(); }
@@ -1852,7 +1875,7 @@ html[data-theme="dark"] .knob{ background:var(--surface-2); border-color:var(--t
   if (vBtn && vDlg && typeof vDlg.showModal === "function") {
     var vPlayer = vDlg.querySelector("video");
     vBtn.addEventListener("click", function () {
-      if (!vPlayer.getAttribute("src")) vPlayer.src = vPlayer.getAttribute("data-src");
+      if (!vPlayer.getAttribute("src")) { vPlayer.poster = vPlayer.getAttribute("data-poster"); vPlayer.src = vPlayer.getAttribute("data-src"); }
       vDlg.showModal();
       var p = vPlayer.play();
       if (p && p.catch) p.catch(function () {});
@@ -2064,27 +2087,32 @@ html[data-theme="dark"] .knob{ background:var(--surface-2); border-color:var(--t
   var chapters = [].slice.call(document.querySelectorAll(".chapter"));
   var navLinks = [].slice.call(document.querySelectorAll(".nav-links a"));
   var spySections = navLinks.map(function (a) { return document.querySelector(a.getAttribute("href")); });
-  var stripEra = -1, queued = false;
+  var stripEra = -1, stripOn = null, scrolled = null, activeLink = -2, queued = false;
   function onScroll() {
     queued = false;
-    nav.classList.toggle("is-scrolled", scrollY > 8);
-    var line = innerHeight * 0.38, cur = -1;
-    chapters.forEach(function (c, i) {
-      var r = c.getBoundingClientRect();
+    // read everything first, then write only what changed: no forced layout mid-frame
+    var y = scrollY, line = innerHeight * 0.38, cur = -1, active = -1, i, r;
+    for (i = 0; i < chapters.length; i++) {
+      r = chapters[i].getBoundingClientRect();
       if (r.top <= line && r.bottom > line) cur = i;
-    });
-    strip.classList.toggle("is-on", cur > -1);
+    }
+    for (i = 0; i < spySections.length; i++) {
+      if (spySections[i] && spySections[i].getBoundingClientRect().top <= line) active = i;
+    }
+    if ((y > 8) !== scrolled) { scrolled = y > 8; nav.classList.toggle("is-scrolled", scrolled); }
+    if ((cur > -1) !== stripOn) { stripOn = cur > -1; strip.classList.toggle("is-on", stripOn); }
     if (cur > -1 && cur !== stripEra) {
       stripEra = cur;
       strip.setAttribute("data-era", String(cur));
       stripRole.textContent = ERAS[cur].role;
       stripDates.textContent = ERAS[cur].dates;
     }
-    var active = -1;
-    spySections.forEach(function (s, i) { if (s && s.getBoundingClientRect().top <= line) active = i; });
-    navLinks.forEach(function (a, i) {
-      if (i === active) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current");
-    });
+    if (active !== activeLink) {
+      activeLink = active;
+      navLinks.forEach(function (a, n) {
+        if (n === active) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current");
+      });
+    }
   }
   addEventListener("scroll", function () { if (!queued) { queued = true; requestAnimationFrame(onScroll); } }, { passive: true });
   onScroll();
